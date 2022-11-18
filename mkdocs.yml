@@ -1,1 +1,16 @@
-site_name: My Docs
+site_name: Moodle
+
+theme:
+  name: material
+  language: pt
+  palette:
+    scheme: slate
+    primary: deep orange
+
+nav:
+  - Inicio: index.md
+  
+  - Planejamento:
+    - Escolha do app: planejamento/escolha_site.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
