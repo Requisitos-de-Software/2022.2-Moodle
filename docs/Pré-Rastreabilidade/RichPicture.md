@@ -35,6 +35,6 @@ Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira fei
 
 | Versão | Alteração | Responsável | Revisor | Data |
 |:------:|:---------:|:-----------:|:-------:|:----:|
-| 1.0    |Rich Picture versão 1| Rodolfo |         |      |
+| 1.0    |Rich Picture versão 1| Rodolfo |         |  17/11/2022    |
 | 1.1   |Rich Picture versão 2| Marcos e Pablo  |         |   17/11/2022   |
 | 1.2   |Construção da página| Marcos  |         |   19/11/2022   |        
