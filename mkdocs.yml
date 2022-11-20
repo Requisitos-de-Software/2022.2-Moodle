@@ -15,13 +15,14 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 nav:
-  - Inicio: index.md
-  
+  - Inicio: 
+    - Projeto: Inicio/index.md
+    - Aplicativos avaliados: apps_avaliados.md
   - Planejamento:
-    - Cronograma de reuniões: planejamento/escolha_site.md
-    - Cronograma de atividades: planejamento/cronograma.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Medotologia: planejamento/escolha_site.md
-    - Reuniões: planejamento/cronograma.md
+    - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
+    - Cronograma de atividades: Planejamento/cronograma_atividades.md
+    - Ferramentas: Planejamento/ferramentas.md
+    - Medotologia: Planejamento/metodologia.md
+    - Reuniões: Planejamento/reunioes.md
   - Pré-Rastreabilidade:
-    - RichPicture: Pré-Rastreabilidade/RichPicture.md
+    - RichPicture: Pré-Rastreabilidade/rich_picture.md
