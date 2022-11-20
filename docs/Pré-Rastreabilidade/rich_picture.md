@@ -8,7 +8,7 @@ Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira fei
 
 ### 2.1 Rich Picture versão 1 aplicativo do Moodle
 
-![Rich Picture versão 1](../assets/RichPicture/RichPictureV1.jpg)
+![Rich Picture versão 1](../Assets/RichPicture/RichPictureV1.jpg)
 
 <figcaption align='center'>
     <b>Figura 2: Versão inicial Rich Picture</b>

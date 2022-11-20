@@ -17,7 +17,7 @@ theme:
 nav:
   - Inicio: 
     - Projeto: Inicio/index.md
-    - Aplicativos avaliados: apps_avaliados.md
+    - Aplicativos avaliados: Inicio/apps_avaliados.md
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
