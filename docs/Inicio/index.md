@@ -20,12 +20,12 @@
 
 |                                                                    |      Membro       |      Github      |
 | :----------------------------------------------------------------: | :---------------: | :--------------: |
-|  <img src="./assets/integrantes/arthur-vinicius.png" width="100">  |  Arthur Vinicius  |  ArturVinicius   |
-|     <img src="./assets/integrantes/davi-lima.png" width="100">     |     Davi Lima     |   DaviSilva25    |
-|   <img src="./assets/integrantes/delziron-braz.jpg" width="100">   |   Delziron Braz   |   DelzironBraz   |
-|  <img src="./assets/integrantes/marcos-vinicius.png" width="100">  |  Marcos Vinicius  |    Marcos574     |
-|  <img src="./assets/integrantes/rodolfo-cabral.jpg" width="100">   |  Rodolfo Cabral   |      roddas      |
-| <img src="./assets/integrantes/pablo-christianno.png" width="100"> | Pablo Christianno | PabloChristianno |
+|  <img src="../Assets/integrantes/arthur-vinicius.png" width="100">  |  Arthur Vinicius  |  ArturVinicius   |
+|     <img src="../Assets/integrantes/davi-lima.png" width="100">     |     Davi Lima     |   DaviSilva25    |
+|   <img src="../Assets/integrantes/delziron-braz.jpg" width="100">   |   Delziron Braz   |   DelzironBraz   |
+|  <img src="../Assets/integrantes/marcos-vinicius.png" width="100">  |  Marcos Vinicius  |    Marcos574     |
+|  <img src="../Assets/integrantes/rodolfo-cabral.jpg" width="100">   |  Rodolfo Cabral   |      roddas      |
+| <img src="../Assets/integrantes/pablo-christianno.png" width="100"> | Pablo Christianno | PabloChristianno |
 
 </center>
 
