@@ -1,28 +1,29 @@
 # Rich Picture
 
-## 1.Introdução
-&emsp;&emsp; Rich Picture é uma modelagem cuja notação permite analisar problemas e analisar idéias [3].</br>
-Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira feita à mão, menos complexa que a segunda, que foi feito no aplicativo Figma, após uma melhor análise do aplicativo.
+## 1. Introdução
+
+<p align = "justify"> &emsp;&emsp; Rich Picture é uma modelagem cuja notação permite analisar problemas e analisar idéias.   
+Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira feita à mão, menos complexa que a segunda, que foi feito no aplicativo Figma, após uma melhor análise do aplicativo. </p>
 
 ## 2. Rich Pictures
 
 ### 2.1 Rich Picture versão 1 aplicativo do Moodle
 
-![Rich Picture versão 1](../Assets/RichPicture/RichPictureV1.jpg)
+<center> ![Rich Picture versão 1](../Assets/RichPicture/RichPictureV1.jpg)
 
 <figcaption align='center'>
-    <b>Figura 2: Versão inicial Rich Picture</b>
+    <b>Figura 1: Versão inicial Rich Picture</b>
     <br><small>Fonte: Elaboração Própria</small>
-</figcaption>
+</figcaption> </center>
 
 ### 2.2 Rich Picture Versão 2 do aplicativo Moodle
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FSONlcNwUINYMjN1iUN06wE%2FRich-Picture-moodle%3Fnode-id%3D0%253A1%26t%3DOLTJwlgB5vXjbkJP-1" allowfullscreen></iframe>
 
-<figcaption align='center'>
+<center> <figcaption align='center'>
     <b>Figura 2: Segunda versão Rich Picture</b>
     <br><small>Fonte: Elaboração Própria</small>
-</figcaption>
+</figcaption> </center>
 
 ## 3.Referências
 - [1] "Introducing Rich Pictures - Picture Drawing Guidelines" - Software Development Project
@@ -33,8 +34,13 @@ Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira fei
 
 ## 4.Histórico de versão
 
-| Versão | Alteração | Responsável | Revisor | Data |
-|:------:|:---------:|:-----------:|:-------:|:----:|
-| 1.0    |Rich Picture versão 1| Rodolfo |  Arthur  |  17/11/2022    |
-| 1.1   |Rich Picture versão 2| Marcos e Pablo  |  Davi  |   17/11/2022   |
-| 1.2   |Construção da página| Marcos  | Delziron  |   19/11/2022   |        
+| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
+|--------|------|------|-----------|-------|---------|
+| 1.0    | 19/11/2022 | 20/11/2022 | Criação da página Rich Picture | Marcos Vinicius | Davi Lima |
+| 1.1    | 19/11/2022 | 20/11/2022 | Adição do Rich Picture versão 1 | Rodolfo Cabral | Davi Lima |
+| 1.2    | 19/11/2022 | 20/11/2022 | Adição do Rich Picture versão 2 | Marcos Vinícus e Pablo Christiano | Davi Lima |
+| 1.3    | 19/11/2022 | 20/11/2022 | Adição das referencias | Marcos Vinícius | Davi Lima |
+| 2.0    | 20/11/2022 | 21/11/2022 | Correção legenda figura 1 | Davi Lima | Marcos Vinícius |
+| 2.1    | 20/11/2022 | 21/11/2022 | Formatação dos textos | Davi Lima | Marcos Vinícius |
+| 2.3    | 20/11/2022 | 21/11/2022 | Correção versionamento | Davi Lima | Marcos Vinícius |
+| 2.3    | 20/11/2022 | 21/11/2022 | Revisão finalizada | Davi Lima | Marcos Vinícius |
