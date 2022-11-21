@@ -12,57 +12,73 @@
 
 &emsp;&emsp; Utilizando da ferramenta online "Google Sheets" o mapa de calor dos integrantes foi criado pelo integrante Artur Vinicius.
 
-![Screenshot 2022-11-20 at 15-38-01 Horário disponível](https://user-images.githubusercontent.com/79341819/202919888-e0242b53-7f5b-4996-9d8d-dbeed6a144bb.png)
 <center>
+
+![Horário disponível](https://user-images.githubusercontent.com/79341819/202919888-e0242b53-7f5b-4996-9d8d-dbeed6a144bb.png)
+
 *Figura 1: Modelo do mapa de calor*   
 <small>Fonte: Autoria própia</small></center>
 
 &emsp;&emsp; Ele foi composto seguindo a tabela de cores (Figura 2) para a representação da disponibilidade dos integrantes.
 
-![Htabel](https://user-images.githubusercontent.com/79341819/202874226-5501a0d1-c75e-427d-8a07-7b4da028d519.png)
 <center>
+
+![Htabel](https://user-images.githubusercontent.com/79341819/202874226-5501a0d1-c75e-427d-8a07-7b4da028d519.png)
+
 *Figura 2: Legenda do mapa de calor*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.1. Mapa de calor (Artur Vinicius)
 
-![Hartur](https://user-images.githubusercontent.com/79341819/202874223-10fc7d1f-a959-4359-8546-3a4f98ffd493.png)
 <center>
+
+![Hartur](https://user-images.githubusercontent.com/79341819/202874223-10fc7d1f-a959-4359-8546-3a4f98ffd493.png)
+
 *Figura 3: Mapa de calor Artur Vinicius*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.2. Mapa de calor (Davi Lima)
 
-![Hdavi](https://user-images.githubusercontent.com/79341819/202874231-6ab063a1-fe60-432d-b173-ce3d17835690.png)
 <center>
+
+![Hdavi](https://user-images.githubusercontent.com/79341819/202874231-6ab063a1-fe60-432d-b173-ce3d17835690.png)
+
 *Figura 4: Mapa de calor Davi Lima*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.3. Mapa de calor (Delziron Braz)
 
-![Hdelziron](https://user-images.githubusercontent.com/79341819/202874234-e0d10064-b761-4d94-84fe-6221929230fd.png)
 <center>
+
+![Hdelziron](https://user-images.githubusercontent.com/79341819/202874234-e0d10064-b761-4d94-84fe-6221929230fd.png)
+
 *Figura 5: Mapa de calor Delziron Braz*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.4. Mapa de calor (Marcos Vinícius)
 
-![Hmarcos](https://user-images.githubusercontent.com/79341819/202874228-c2dd18f0-8e8f-4b9c-8747-386ecb840648.png)
 <center>
+
+![Hmarcos](https://user-images.githubusercontent.com/79341819/202874228-c2dd18f0-8e8f-4b9c-8747-386ecb840648.png)
+
 *Figura 6: Mapa de calor Marcos Vinícius*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.5. Mapa de calor (Pablo Christiano)
 
-![Hpablo](https://user-images.githubusercontent.com/79341819/202874224-e79b13f5-8cb8-4bc6-a0f3-bde93e5581ba.png)
 <center>
+
+![Hpablo](https://user-images.githubusercontent.com/79341819/202874224-e79b13f5-8cb8-4bc6-a0f3-bde93e5581ba.png)
+
 *Figura 7: Mapa de calor Pablo Chistiano*   
 <small>Fonte: Autoria própia</small></center>
 
 ### 3.6. Mapa de calor (Rodolfo Cabral)
 
-![Hrodolfo](https://user-images.githubusercontent.com/79341819/202874227-0fcaa89c-78db-4cbc-9520-141448c3432d.png)
 <center>
+
+![Hrodolfo](https://user-images.githubusercontent.com/79341819/202874227-0fcaa89c-78db-4cbc-9520-141448c3432d.png)
+
 *Figura 8: Mapa de calor Rodolfo Cabral*   
 <small>Fonte: Autoria própia</small></center>
 
