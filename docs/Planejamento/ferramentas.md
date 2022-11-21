@@ -25,7 +25,7 @@
 
 ## 3. Referência Bibliográfica
 
-https://github.com/Interacao-Humano-Computador/2022.1-CIEE/blob/main/docs/planejamento/ferramentas.md
+Link para repositorio CIEE: <https://github.com/Interacao-Humano-Computador/2022.1-CIEE/blob/main/docs/planejamento/ferramentas.md> (Acesso 20 de novembro de 2022).
 
 ## 4. Versionamento
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |

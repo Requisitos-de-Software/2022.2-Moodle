@@ -31,9 +31,9 @@
 
 ## 4. Referências
 
-Link para a pagina da comunidade do app moodle: https://moodle.org/
+Link para a pagina da comunidade do app moodle: <https://moodle.org/> (Acesso 20 de novembro de 2022).
 
-Link para a pagina de desenvolvimento do app moodle: https://moodledev.io/
+Link para a pagina de desenvolvimento do app moodle: <https://moodledev.io/> (Acesso 20 de novembro de 2022).
 
 ## 5. Versionamento
 

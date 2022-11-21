@@ -22,9 +22,9 @@ Utilizaremos o quadro Kanban no projeto para gerir as atividades a sereme inicia
 
 ## 3. Referências:
 
-http://www.desenvolvimentoagil.com.br/scrum/
+Link para estudo sobre Scrum: <http://www.desenvolvimentoagil.com.br/scrum/> (Acesso 20 de novembro de 2022).
 
-https://www.totvs.com/blog/negocios/kanban/
+Link para estudo sobre kanban: <https://www.totvs.com/blog/negocios/kanban/> (Acesso 20 de novembro de 2022).
 
 ## 4. Versionamento
 

@@ -36,7 +36,6 @@ theme:
 nav:
   - Inicio: 
     - Projeto: index.md
-    - Aplicativos avaliados: apps_avaliados.md
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
@@ -44,4 +43,5 @@ nav:
     - Medotologia: Planejamento/metodologia.md
     - Reuniões: Planejamento/reunioes.md
   - Pré-Rastreabilidade:
+    - Aplicativos avaliados: Pré-Rastreabilidade/apps_avaliados.md
     - RichPicture: Pré-Rastreabilidade/rich_picture.md
