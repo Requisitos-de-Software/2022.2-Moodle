@@ -120,7 +120,7 @@ Ponto de controle do projeto etapa 7: Pós-Rastreabilidade: Gerência II
 | ----------------------------------     | ------------------------ |---------------------- |-----| -------|
 | Organização da equipe                  | 22/11/2022 | 22/11/2022  | Todos os integrantes    | Todos os integrantes       |
 
-### Etapa final: Data da apresentação (02/02 ou 07/02 ou 09/02 de 2022)
+### Etapa final: Data da apresentação (02/02 ou 07/02 ou 09/02 de 2023)
 
 Ponto de controle do projeto etapa final: Projeto final
 

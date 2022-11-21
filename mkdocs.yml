@@ -36,6 +36,7 @@ theme:
 nav:
   - Inicio: 
     - Projeto: index.md
+    - Apresentações: apresentacoes.md
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
