@@ -20,7 +20,7 @@
 
 |                                                                    |      Membro       |      Github      |
 | :----------------------------------------------------------------: | :---------------: | :--------------: |
-|  <img src="./assets/integrantes/arthur-vinicius.png" width="100">  |  Arthur Vinicius  |  ArturVinicius   |
+|  <img src="./assets/integrantes/arthur-vinicius.png" width="100">  |  Artur Vinicius   |  ArturVinicius   |
 |     <img src="./assets/integrantes/davi-lima.png" width="100">     |     Davi Lima     |   DaviSilva25    |
 |   <img src="./assets/integrantes/delziron-braz.jpg" width="100">   |   Delziron Braz   |   DelzironBraz   |
 |  <img src="./assets/integrantes/marcos-vinicius.png" width="100">  |  Marcos Vinicius  |    Marcos574     |
