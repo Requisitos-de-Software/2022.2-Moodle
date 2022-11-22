@@ -16,13 +16,13 @@ O Moodle é uma plataforma online voltada para produção de cursos. Ela fornece
 opacity: 1;" src="https://avatars.githubusercontent.com/ArturVinicius" alt="" width="200px;"><br><sub><b>Artur Vinicius Dias Nunes</b></sub></a><br><a 
 href="https://github.com/ArturVinicius"></a></td>
         <td align="center"><a href="https://github.com/DaviSilva25"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-
-radius: 50%; opacity: 1;" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/assets/integrantes/davi-lima.png" alt="" width="200px;"><br><sub><b>Davi Lima da Silva
+radius: 50%; opacity: 1;" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/Assets/integrantes/davi-lima.png" alt="" width="200px;"><br><sub><b>Davi Lima da Silva
 </b></sub></a><br><a href="https://github.com/DaviSilva25"></a></td>
         <td align="center"><a href="https://github.com/DelzironBraz"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;
-" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/assets/integrantes/delziron-braz.jpg " alt="" width="250px;"><br><sub><b>Delziron Braz de Lima</b></sub></a><br><a 
+" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/Assets/integrantes/delziron-braz.jpg " alt="" width="250px;"><br><sub><b>Delziron Braz de Lima</b></sub></a><br><a 
 href="https://github.com/DelzironBraz"></a></td>
         <td align="center"><a href="https://github.com/Marcos574"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; 
-opacity: 1;" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/assets/integrantes/marcos-vinicius.png" alt="" width="200px;"><br><sub><b>Marcos Vinícius de Deus</b></sub></a><br><a 
+opacity: 1;" src="https://github.com/Requisitos-de-Software/2022.2-Moodle/blob/main/docs/Assets/integrantes/marcos-vinicius.png" alt="" width="200px;"><br><sub><b>Marcos Vinícius de Deus</b></sub></a><br><a 
 href="https://github.com/Marcos574"></a></td>
         <td align="center"><a href="https://github.com/PabloChristianno"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;"
 src="https://avatars.githubusercontent.com/PabloChristianno" alt="" width="250px;"><br><sub><b>Pablo Christianno Silva Guedes</b></sub></a><br><a 
