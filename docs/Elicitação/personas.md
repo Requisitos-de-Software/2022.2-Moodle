@@ -15,7 +15,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.1 Persona 1
 
-![Persona primária 1](..\Assets\personas\Persona1.png)
+<img src = ..\Assets\personas\Persona1.png>
 
 <figcaption align='center'>
     <b>Figura 1: Primeira persona, primária</b>
@@ -25,7 +25,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.2 Persona 2
 
-![Persona primária 2](..\Assets\personas\Persona2.png)
+<img src = ..\Assets\personas\Persona2.png>
 
 <figcaption align='center'>
     <b>Figura 2: Segunda persona, primária</b>
@@ -35,7 +35,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.3 Persona 3
 
-![Persona primária 1](..\Assets\personas\Persona3.png)
+<img src = ..\Assets\personas\Persona3.png>
 
 <figcaption align='center'>
     <b>Figura 1: Terceira persona, secundária</b>
@@ -45,7 +45,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.4 Antipersona
 
-![Persona primária 1](..\Assets\personas\Persona4.png)
+<img src = ..\Assets\personas\Persona4.png>
 
 <figcaption align='center'>
     <b>Figura 1: Quarta persona, antipersona</b>
