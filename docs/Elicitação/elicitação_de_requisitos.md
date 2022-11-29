@@ -19,3 +19,13 @@
 * È uma atividade fundamentalmente humana onde os stakeholders são identificados e são estabelecidas relações entre equipe de desenvolvimento e o cliente.
 * Pode ser conhecida por outros nomes: “captura de requisitos”, “descoberta de requisitos” ou “aquisição de requisitos”.
 * Um princípio fundamental da boa Engenharia de software: boa comunicação entre usuários do software e os engenheiros de software. Deve-se esforçar para isso. Analistas devem mediar entre o domínio do usuário e o domínio técnico. 
+
+## 4. Referências
+
+[1] Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: <http://www.computer.org/web/swebok/v3>
+
+## 5.Histórico de versão
+
+| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
+|--------|------|------|-----------|-------|---------|
+| 1.0    | 29/11/2022 | 29/11/2022 | Introdução e desenvolvimento de introspecção | Delziron Braz | Pablo Christianno e Davi Lima|
