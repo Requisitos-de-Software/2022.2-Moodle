@@ -94,6 +94,10 @@
 | ST24 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | RF |
 | ST25 | O aluno deve permanecer logado no app até fazer logout | RNF |
 
+<center>
+    *Tabela 01 - Elicitação de Requisitos usando StoryTelling*
+</center>
+
 ## 6. Referências
 
 [1] Serrano; Milene, Serrano; Mauricio - Requisitos aula 07. Disponível em: <https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>
