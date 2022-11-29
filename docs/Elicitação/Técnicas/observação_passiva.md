@@ -8,7 +8,7 @@
 
 ## 2. Participantes
 
-* Delziron Braz
+* Pablo Christianno
 
 ## 3. Preparação
 
