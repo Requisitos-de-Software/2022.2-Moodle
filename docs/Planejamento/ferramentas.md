@@ -21,6 +21,8 @@
 | <img src="https://user-images.githubusercontent.com/78215376/189770979-28eff2a9-5208-4b88-aa50-d54d39021a4b.png" alt="drawing" width="140"/> | Youtube - Para Guardar os videos                                                                       |
 | <img src="https://user-images.githubusercontent.com/78215376/189770950-42125190-ff28-4bf3-bb72-978d3c75d1a4.png" alt="drawing" width="140"/> | OBS Studio -Para gravação de entrevistas e das apresentações                                           |
 | <img src="https://user-images.githubusercontent.com/79341819/189669875-417daefe-bfd0-4579-a781-8baaf368e143.png" alt="drawing" width="140"/> | Figma - Ferramenta online de prototipagem                                                              |
+| <img src="https://user-images.githubusercontent.com/58870950/204564265-de54ba10-df6d-4a71-9267-b84697cf7f03.png" alt="drawing" width="140"/> | Mondays - Ferramenta de gestão de projeto, para organizar o quadro kanban                                  |
+
 
 ## 3. Referência Bibliográfica
 
