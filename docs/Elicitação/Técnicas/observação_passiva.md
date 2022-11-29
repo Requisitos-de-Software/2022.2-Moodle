@@ -2,8 +2,9 @@
 
 ## 1. Introdução
 
-<p aling= justify> &emsp;&emsp; A observação passiva consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente,
-é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. </p>
+<p aling= justify> &emsp;&emsp; 
+    A observação passiva consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente, é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. 
+</p>
 
 ## 2. Preparação
 - Foi obeservado um aluno da univerdade de Brasília que utiliza o sistema há mais de dois anos

@@ -49,5 +49,6 @@ nav:
   - Elicitação:
     - Elicitação de Requisitos: Elicitação/elicitação_de_requisitos.md
     - Técnicas:
+        - StoryTelling: Elicitação/Técnicas/storytelling.md
         - Introspecção: Elicitação/Técnicas/introspecção.md
         - Observação Passiva: Elicitação/Técnicas/observação_passiva.md
