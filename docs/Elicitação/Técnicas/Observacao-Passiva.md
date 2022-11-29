@@ -55,6 +55,10 @@
 | OP32 | O aluno deve ser capaz de fazer o download de um curso | RF31 |
 | OP33 | O aluno deve poder ver informações gerais sobre o curso | RF32 |
 
+<center>
+    *Tabela 01 - Elicitação de Requisitos usando Observação-Passiva*
+</center>
+
 ## 4. Referências
 - [1] VAZQUEZ, Carlos; SIMÕES, Guilherme. **Engenharia de Requisitos: software orientado ao negócio**. Brasport, 2016.
 
