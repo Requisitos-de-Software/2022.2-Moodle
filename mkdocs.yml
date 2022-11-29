@@ -46,3 +46,6 @@ nav:
   - Pré-Rastreabilidade:
     - Aplicativos avaliados: Pré-Rastreabilidade/apps_avaliados.md
     - RichPicture: Pré-Rastreabilidade/rich_picture.md
+  - Elicitação:
+    - Técnicas:
+        Introspecção: Elicitação/Técnicas/introspecção.md
