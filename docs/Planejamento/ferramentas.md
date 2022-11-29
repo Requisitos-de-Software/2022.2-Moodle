@@ -21,6 +21,9 @@
 | ![1384060 (1) (2)](https://user-images.githubusercontent.com/78215376/189770979-28eff2a9-5208-4b88-aa50-d54d39021a4b.png) | Youtube - Para Guardar os videos 
 | ![images](https://user-images.githubusercontent.com/78215376/189770950-42125190-ff28-4bf3-bb72-978d3c75d1a4.png) | OBS Studio -Para gravação de entrevistas e das apresentações
 | ![figma](https://user-images.githubusercontent.com/79341819/189669875-417daefe-bfd0-4579-a781-8baaf368e143.png)| Figma - Ferramenta online de prototipagem|
+|![this person does not exist](https://user-images.githubusercontent.com/87666623/204418432-953e0995-5ea7-4b9c-b198-5769ed46d153.png)| This person does not exist - Ferramenta online para obter as imagens de perfil das personas
+|![xtensio](https://user-images.githubusercontent.com/87666623/204418911-a9484fc4-c9fd-4e32-9ed3-35a16bca5586.png)| Xtensio - Ferramenta online de design 
+
 
 
 ## 3. Referência Bibliográfica
