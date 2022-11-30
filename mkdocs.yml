@@ -22,7 +22,7 @@ nav:
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
-    - Gerenciamento de riscos: Planejamento/gerenciamento-de-riscos.md
+    - Gerenciamento de riscos: Planejamento/gerenciamento_de_riscos.md
     - Ferramentas: Planejamento/ferramentas.md
     - Medotologia: Planejamento/metodologia.md
     - Reuniões: Planejamento/reunioes.md
@@ -36,4 +36,4 @@ nav:
     - Elicitação de Requisitos: Elicitação/elicitação_de_requisitos.md
     - StoryTelling: Elicitação/storytelling.md
     - Introspecção: Elicitação/introspecção.md
-    - Observação: Elicitação/observação(etnografia).md
+    - Observação: Elicitação/observação_etnografia.md
