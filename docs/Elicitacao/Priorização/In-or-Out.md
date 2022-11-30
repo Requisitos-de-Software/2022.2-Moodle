@@ -45,41 +45,41 @@ In or Out é um dos metódos mais simples que consistes em uma decisão binária
 | RF30 | O sistema deve permitir enviar mensagem direta para um aluno/professor | Introspecção<br>Storytelling | Out |
 | RF31 | O sistema deve permitir o aluno/professor fazer login | Introspecção<br>Observação<br>Storytelling | In |
 | RF32 | O sistema deve permitir o aluno/professor fazer logout | Introspecção | In |
-| RF35 | O aluno deve ser capaz de ver a senha digitada | Observação | Out |
-| RF36 | O aluno deve ser capaz de recuperar a senha | Observação | In |
-| RF37 | O sistema deverá emitir um email de recuperação de senha | Observação | In |
-| RF38 | O aluno deve poder visualizar seus dados pessoais | Observação | In |
-| RF42 | O aluno deve poder visualizar o resumo dos cursos em que está cadastrado | Observação | Out |
-| RF43 | O sistema deve emitir notificações ao aluno quando o prazo de alguma atividade estiver próximo | Observação<br>Storytelling | Out |
-| RF44 | O aluno deve ser capaz de marcar atividades como concluída | Observação | Out |
-| RF45 | O sistema deve atualizar o progresso do aluno no curso | Observação | Out |
-| RF46 | O aluno deve ser capaz de retroceder e avançar uma seção do curso | Observação | Out |
-| RF47 | O sistema deve mostrar o nome das seções anterior e posterior a seção em que o aluno se encontra | Observação | Out |
-| RF48 | O sistema deve mostrar o índice do curso completa | Observação | Out |
-| RF52 | O aluno deve ser capaz de visualizar o status de um arquivo enviado | Observação | In |
-| RF53 | O aluno deve ser capaz de visualizar o comentários de um arquivo enviado | Observação | In |
-| RF55 | O aluno deve ser capaz de ver as restrições de envio de um arquivo | Observação | Out |
-| RF56 | O aluno deve poder baixar diferentes tipos de arquivo disponibilizados pelo professor | Observação<br>Storytelling | In |
-| RF57 | O aluno deve poder visualizar a descrição de cada arquivo | Observação | In |
-| RF58 | O sistema deve ter diferentes ícones para diferentes tipos de atividades de um curso | Observação | Out |
-| RF59 | O sistema deve deixar claro quando o aluno estiver saindo do aplicativo para acessar uma URL no navegador | Observação | Out |
-| RF60 | O aluno deve poder ver os próximos eventos de um curso | Observação | In |
-| RF61 | O aluno deve ser capaz de ver todos os participantes do curso | Observação | Out |
-| RF63 | O aluno deve poder favoritar um curso | Observação | Out |
-| RF64 | O aluno deve poder arquivar um curso | Observação | Out |
-| RF65 | O aluno deve ser capaz de fazer o download de um curso | Observação | In |
-| RF66 | O aluno deve poder ver informações gerais sobre o curso | Observação | Out |
-| RF68 | O aluno deve ser capaz de encontrar por cursos que esteja matriculado | Storytelling | Out |
-| RF71 | O sistema deve mostrar os cursos mais recentes primeiro | Storytelling | Out |
-| RF72 | O professor deve ser capaz de disponibilizar materiais do curso | Storytelling | In |
-| RF74 | O professor deve ser capaz de organizar o curso em módulos | Storytelling | In |
-| RF75 | O aluno deve ser capaz de visualizar as próximas tarefas do curso | Storytelling | Out |
-| RF76 | O aluno deve ser capaz de visualizar a data das tarefas de um curso | Storytelling | Out |
-| RF78 | O professor deve ser capaz de cadastrar alunos na disciplina | Storytelling | Out |
-| RF79 | O professor deve ser capaz de cadastrar uma disciplina | Storytelling | Out |
-| RF86 | O professor deve ser capaz de criar restrições de entrega para as atividades | Storytelling | Out |
-| RF87 | O professor deve ser capaz de criar restrições de envio para as atividades | Storytelling | Out |
-| RF89 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | Storytelling | Out |
+| RF33 | O aluno deve ser capaz de ver a senha digitada | Observação | Out |
+| RF34 | O aluno deve ser capaz de recuperar a senha | Observação | In |
+| RF35 | O sistema deverá emitir um email de recuperação de senha | Observação | In |
+| RF36 | O aluno deve poder visualizar seus dados pessoais | Observação | In |
+| RF37 | O aluno deve poder visualizar o resumo dos cursos em que está cadastrado | Observação | Out |
+| RF38 | O sistema deve emitir notificações ao aluno quando o prazo de alguma atividade estiver próximo | Observação<br>Storytelling | Out |
+| RF39 | O aluno deve ser capaz de marcar atividades como concluída | Observação | Out |
+| RF40 | O sistema deve atualizar o progresso do aluno no curso | Observação | Out |
+| RF41 | O aluno deve ser capaz de retroceder e avançar uma seção do curso | Observação | Out |
+| RF42 | O sistema deve mostrar o nome das seções anterior e posterior a seção em que o aluno se encontra | Observação | Out |
+| RF43 | O sistema deve mostrar o índice do curso completa | Observação | Out |
+| RF44 | O aluno deve ser capaz de visualizar o status de um arquivo enviado | Observação | In |
+| RF45 | O aluno deve ser capaz de visualizar o comentários de um arquivo enviado | Observação | In |
+| RF46 | O aluno deve ser capaz de ver as restrições de envio de um arquivo | Observação | Out |
+| RF47 | O aluno deve poder baixar diferentes tipos de arquivo disponibilizados pelo professor | Observação<br>Storytelling | In |
+| RF48 | O aluno deve poder visualizar a descrição de cada arquivo | Observação | In |
+| RF49 | O sistema deve ter diferentes ícones para diferentes tipos de atividades de um curso | Observação | Out |
+| RF50 | O sistema deve deixar claro quando o aluno estiver saindo do aplicativo para acessar uma URL no navegador | Observação | Out |
+| RF51 | O aluno deve poder ver os próximos eventos de um curso | Observação | In |
+| RF52 | O aluno deve ser capaz de ver todos os participantes do curso | Observação | Out |
+| RF53 | O aluno deve poder favoritar um curso | Observação | Out |
+| RF54 | O aluno deve poder arquivar um curso | Observação | Out |
+| RF55 | O aluno deve ser capaz de fazer o download de um curso | Observação | In |
+| RF56 | O aluno deve poder ver informações gerais sobre o curso | Observação | Out |
+| RF57 | O aluno deve ser capaz de encontrar por cursos que esteja matriculado | Storytelling | Out |
+| RF58 | O sistema deve mostrar os cursos mais recentes primeiro | Storytelling | Out |
+| RF59 | O professor deve ser capaz de disponibilizar materiais do curso | Storytelling | In |
+| RF60 | O professor deve ser capaz de organizar o curso em módulos | Storytelling | In |
+| RF61 | O aluno deve ser capaz de visualizar as próximas tarefas do curso | Storytelling | Out |
+| RF62 | O aluno deve ser capaz de visualizar a data das tarefas de um curso | Storytelling | Out |
+| RF63 | O professor deve ser capaz de cadastrar alunos na disciplina | Storytelling | Out |
+| RF64 | O professor deve ser capaz de cadastrar uma disciplina | Storytelling | Out |
+| RF65 | O professor deve ser capaz de criar restrições de entrega para as atividades | Storytelling | Out |
+| RF66 | O professor deve ser capaz de criar restrições de envio para as atividades | Storytelling | Out |
+| RF67 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | Storytelling | Out |
 
 ### 3.2 Requisitos Não Funcionais
 | ID  | Requisito | Técnica | Prioridade |
