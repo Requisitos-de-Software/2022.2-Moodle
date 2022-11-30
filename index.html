@@ -1,0 +1,910 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Modular Object-Oriented Dynamic Learning Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#inicio" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="." title="Modular Object-Oriented Dynamic Learning Environment" class="md-header__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Modular Object-Oriented Dynamic Learning Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inicio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="apresentacoes/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Planejamento/cronograma_reunioes/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Pre_Rastreabilidade/apps_avaliados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Elicitacao/personas/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Modular Object-Oriented Dynamic Learning Environment" class="md-nav__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    Modular Object-Oriented Dynamic Learning Environment
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Inicio
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Inicio
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sobre-esse-projeto" class="md-nav__link">
+    1. Sobre esse projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sobre-o-aplicativo" class="md-nav__link">
+    2. Sobre o aplicativo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-equipe" class="md-nav__link">
+    3. Equipe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-versionamento" class="md-nav__link">
+    5. Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="apresentacoes/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/cronograma_reunioes/" class="md-nav__link">
+        Cronograma de reuniões
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/cronograma_atividades/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        Gerenciamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/metodologia/" class="md-nav__link">
+        Medotologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Planejamento/reunioes/" class="md-nav__link">
+        Reuniões
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Pre_Rastreabilidade/apps_avaliados/" class="md-nav__link">
+        Aplicativos avaliados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Pre_Rastreabilidade/rich_picture/" class="md-nav__link">
+        RichPicture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Elicitacao/elicitacao_de_requisitos/" class="md-nav__link">
+        Elicitação de Requisitos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Elicitacao/storytelling/" class="md-nav__link">
+        StoryTelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Elicitacao/observacao_etnografia/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sobre-esse-projeto" class="md-nav__link">
+    1. Sobre esse projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sobre-o-aplicativo" class="md-nav__link">
+    2. Sobre o aplicativo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-equipe" class="md-nav__link">
+    3. Equipe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-versionamento" class="md-nav__link">
+    5. Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="inicio">INICIO</h1>
+<p><center>
+<img alt="logomoodle" src="https://user-images.githubusercontent.com/79341819/202910667-cc9fde0e-a707-4f27-8758-a37a1d2d4774.png" /></p>
+<p><em>Figura 1: Logotipo moodle</em> <br />
+<small>Fonte: https://worknow.com.br/explorando-o-moodle/</small></center></p>
+<h2 id="1-sobre-esse-projeto">1. Sobre esse projeto</h2>
+<p align = "justify"> &emsp;&emsp; Esse documento tem como intuito documentar os requisitos essenciais (funções, desempenho, restrições de projeto e atributos), do software selecionado pelo grupo 07, da disciplina de requisitos de software, ministrada pelo professor Andre Barros de Sales, do curso de engenharia de software, da Universidade de Brasília, campus FGA-Gama. Esse projeto apresenta a construção da investigação e elicitação de artefatos para o desenvolvimento do estudo da disciplina de requisitos de software.</p>
+
+<h2 id="2-sobre-o-aplicativo">2. Sobre o aplicativo</h2>
+<p align = "justify"> &emsp;&emsp; Moodle é uma plataforma de aprendizagem projetada para fornecer a educadores, administradores e alunos um único sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados.Capacitando centenas de milhares de ambientes de aprendizagem globalmente, o Moodle tem a confiança de instituições e organizações grandes e pequenas, incluindo Shell, London School of Economics, State University of New York, Microsoft and the Open University. Os números globais do Moodle, mais de 213 milhões de usuários em nível acadêmico e empresarial, tornam a plataforma de aprendizagem a mais usada do mundo.Com mais de 10 anos de desenvolvimento orientado pela pedagogia construcionista social, o Moodle oferece um poderoso conjunto de ferramentas centradas no aluno e ambientes de aprendizagem colaborativos que capacitam tanto o ensino quanto a aprendizagem. Uma interface simples, funcionalidade de arrastar e soltar e recursos bem documentados junto com melhorias contínuas de usabilidade tornam o Moodle fácil de aprender e usar. O Moodle é fornecido gratuitamente como software Open Source, sob a GNU General Public License. Qualquer pessoa pode adaptar, estender ou modificar o Moodle para projetos comerciais e não comerciais sem nenhuma taxa de licenciamento e se beneficiar da economia, flexibilidade e outras vantagens de usar o Moodle.</p>
+
+<h2 id="3-equipe">3. Equipe</h2>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">Membro</th>
+<th align="center">Github</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="./Assets/integrantes/arthur-vinicius.png" width="100"></td>
+<td align="center">Artur Vinicius</td>
+<td align="center">ArturVinicius</td>
+</tr>
+<tr>
+<td align="center"><img src="./Assets/integrantes/davi-lima.png" width="100"></td>
+<td align="center">Davi Lima</td>
+<td align="center">DaviSilva25</td>
+</tr>
+<tr>
+<td align="center"><img src="./Assets/integrantes/delziron-braz.jpg" width="100"></td>
+<td align="center">Delziron Braz</td>
+<td align="center">DelzironBraz</td>
+</tr>
+<tr>
+<td align="center"><img src="./Assets/integrantes/marcos-vinicius.png" width="100"></td>
+<td align="center">Marcos Vinicius</td>
+<td align="center">Marcos574</td>
+</tr>
+<tr>
+<td align="center"><img src="./Assets/integrantes/rodolfo-cabral.jpg" width="100"></td>
+<td align="center">Rodolfo Cabral</td>
+<td align="center">roddas</td>
+</tr>
+<tr>
+<td align="center"><img src="./Assets/integrantes/pablo-christianno.png" width="100"></td>
+<td align="center">Pablo Christianno</td>
+<td align="center">PabloChristianno</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h2 id="4-referencias">4. Referências</h2>
+<p>Link para a pagina da comunidade do app moodle: <a href="https://moodle.org/">https://moodle.org/</a> (Acesso 20 de novembro de 2022).</p>
+<p>Link para a pagina de desenvolvimento do app moodle: <a href="https://moodledev.io/">https://moodledev.io/</a> (Acesso 20 de novembro de 2022).</p>
+<h2 id="5-versionamento">5. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data da realização</th>
+<th>Data prevista revisão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>18/11/2022</td>
+<td>19/11/2022</td>
+<td>Criação da página Inicio</td>
+<td>Delziron Braz</td>
+<td>Davi Lima</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>18/11/2022</td>
+<td>19/11/2022</td>
+<td>Adição do tópico projeto, app, descrições e fotos dos integrantes</td>
+<td>Delziron Braz</td>
+<td>Davi Lima</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>20/11/2022</td>
+<td>21/11/2022</td>
+<td>Adição das referencias, versionamento, logo do projeto</td>
+<td>Davi Lima</td>
+<td>Delziron Braz</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>20/11/2022</td>
+<td>21/11/2022</td>
+<td>Formatação dos textos</td>
+<td>Davi Lima</td>
+<td>Delziron Braz</td>
+</tr>
+<tr>
+<td>2.1</td>
+<td>20/11/2022</td>
+<td>21/11/2022</td>
+<td>Revisão finalizada</td>
+<td>Davi Lima</td>
+<td>Delziron Braz</td>
+</tr>
+<tr>
+<td>3.0</td>
+<td>27/11/2022</td>
+<td>28/11/2022</td>
+<td>Correções pós feedback do professor</td>
+<td>Davi Lima</td>
+<td>Delziron Braz</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+      
+        
+        <a href="apresentacoes/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Apresentações" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Apresentações
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "navigation.tabs", "navigation.tabs.sticky"], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

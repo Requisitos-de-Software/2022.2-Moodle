@@ -1,0 +1,1110 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>StoryTelling - Modular Object-Oriented Dynamic Learning Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#storytelling" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-header__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Modular Object-Oriented Dynamic Learning Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              StoryTelling
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../apresentacoes/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../personas/" class="md-tabs__link md-tabs__link--active">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-nav__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    Modular Object-Oriented Dynamic Learning Environment
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-nav__link">
+        Cronograma de reuniões
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_atividades/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        Gerenciamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/metodologia/" class="md-nav__link">
+        Medotologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/reunioes/" class="md-nav__link">
+        Reuniões
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-nav__link">
+        Aplicativos avaliados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/rich_picture/" class="md-nav__link">
+        RichPicture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elicitacao_de_requisitos/" class="md-nav__link">
+        Elicitação de Requisitos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          StoryTelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        StoryTelling
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-definicao" class="md-nav__link">
+    1. Definição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-participantes" class="md-nav__link">
+    2. Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-storytelling" class="md-nav__link">
+    4. StoryTelling
+  </a>
+  
+    <nav class="md-nav" aria-label="4. StoryTelling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-alexandre-oliveira" class="md-nav__link">
+    4.1 Alexandre Oliveira
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-fernanda-vaz" class="md-nav__link">
+    4.2 Fernanda Vaz
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-resultados" class="md-nav__link">
+    5. Resultados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias" class="md-nav__link">
+    6. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7historico-de-versao" class="md-nav__link">
+    7.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observacao_etnografia/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-definicao" class="md-nav__link">
+    1. Definição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-participantes" class="md-nav__link">
+    2. Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-storytelling" class="md-nav__link">
+    4. StoryTelling
+  </a>
+  
+    <nav class="md-nav" aria-label="4. StoryTelling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-alexandre-oliveira" class="md-nav__link">
+    4.1 Alexandre Oliveira
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-fernanda-vaz" class="md-nav__link">
+    4.2 Fernanda Vaz
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-resultados" class="md-nav__link">
+    5. Resultados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias" class="md-nav__link">
+    6. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7historico-de-versao" class="md-nav__link">
+    7.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="storytelling">StoryTelling</h1>
+<h2 id="1-definicao">1. Definição</h2>
+<p align="justify"> &emsp;&emsp; 
+    StoryTelling é uma técnica que se baseia na utilização de histórias em grupos de pessoas, incluindo organizações, como um método de comunicação para que os envolvidos possam compartilhar conhecimento.
+</p>
+
+<h2 id="2-metodologia">2. Metodologia</h2>
+<p align="justify"> &emsp;&emsp; 
+   Os integrantes utilizaram as personas criadas nesse documento e as reutilizaram como entrevistados para a elicitação de requisitos por meio da técnica de storytelling.
+</p>
+
+<h2 id="2-participantes">2. Participantes</h2>
+<ul>
+<li>Pablo Christianno</li>
+<li>Delziron Braz</li>
+</ul>
+<h2 id="4-storytelling">4. StoryTelling</h2>
+<h3 id="41-alexandre-oliveira">4.1 Alexandre Oliveira</h3>
+<p align="justify">&emsp;&emsp; 
+    Alexandre tem 22 anos, é um estudante universitário de Ciências contábeis na Universidade de Brasília. Alexandre é um estudante esforçado que dá seu máximo para tirar boas notas em suas disciplinas, mas sua situação não é das melhores, isso porque não possui um computador que possa auxilia em seus estudos e em seu desempenho acadêmico. Porém Alexandre tem grande facilidade e familiaridade com tecnologia e procura alguma ferramenta para auxilia-lo em suas atividades.
+</p>
+
+<p><center> LEMBRETE E OTIMIZAÇÃO DE TEMPO </center></p>
+<p align="justify">&emsp;&emsp; 
+    Alexandre está voltando para casa frustrado por ter esquecido mais uma vez entregar uma tarefa, seu amigo tenta conforta-lo mas Alexandre se preocupa de mais com suas notas. Seu amigo, sem saber o que fazer, lembra da existência de um app que pode ser integrado ao sistema de sua universidade. Quando contou a seu amigo sobre o Moodle ele pareceu bastante interessado, mas um pouco irresoluto se esse aplicativo realmente poderia trazer alguma facilidade em sua via acadêmica
+</p>
+
+<p align="justify">&emsp;&emsp;
+    Depois de baixar o aplicativo e fazer login, sentiu bastante familiaridade já usava aquele sistema em sua universidade de forma web, mas achava muito problemático utilizar a versão web no celular. Animado ele decide entrar em um dos seus cursos e percebe que ele está separado em módulos. Logo ele baixa o material que o professor disponibilizou e ver as próximas entregas. Quando abre o Moodle novamente percebe que o curso que tinha entrado antes está em primeiro na lista de cursos, então decide enviar uma mensagem para o amigo do app mesmo agradecendo pela recomendação
+</p>
+
+<p align="justify">&emsp;&emsp;
+    No outro dia Alexandre estava estudando na universidade quando decide ver a hora em seu celular, ele percebe então uma notificação de uma atividade que está com prazo bastante apertado e que tinha esquecido. Aliviado por o moodle te-lo lembrado, assim qua acaba suas aulas ele foca em fazer essa tarefa pendente e entrega-la.
+ </p>
+
+<p align="justify">&emsp;&emsp; 
+    Ao final Alexandre, gostou bastante do aplicativo recomendando para outros amigos em situação parecida.
+</p>
+
+<h3 id="42-fernanda-vaz">4.2 Fernanda Vaz</h3>
+<p align="justify"> &emsp;&emsp; 
+    Fernanda nasceu e cresceu em Brasília - DF, é filha única e seus páis são casados até os dias de hoje. Ela estudou grande parte da sua vida em escola pública, decidiu cursar markenting e conseguiu ser aprovada na UnB. Tem 3 animais de estimação, 2 gatos e um cachorro. Sempre busca conhecer novas pessoas para aumentar seus amigos e seguidores. Tem sempre o celular de última geração, por causa isso, tenta sempre utiliza-lo ao máximo.
+</p>
+
+<p align="justify"> &emsp;&emsp; 
+    Ao entrar na faculdade, Fernanda se depara com uma lista de disciplinas, e diversas atividades apresentadas a ela no plano de ensino por seus(as) professores(as), como também a apresentação da plataforma Aprender3, onde seus professores colocavam as atividades para que os alunos terem acesso, alguns de seus professores já a cadastrava manualmente na disciplina dentro da plataforma Aprender3, mas já outros disponivilizavam apenas a senha de acesso à disciplina, nesse caso, Fernanda era a responsável por se cadastrar.
+</p>
+
+<p align="justify"> &emsp;&emsp; 
+    Ao utilizar o aprender pela primeira vez, Fernanda começou a se questionar sobre como as atividades seriam entregues, se tinha um padrão ou se dependia de algum termo imposto por seus professores, após algum tempo utilizando a plataforma, ele identificou que as atividades tinham diferentes configurações, algumas podiam ser feitas quando quiser, outras tinham prazo, tempo limite para ser feita ao inicia-la, formato de resposta especifico e a nota, assim como a revisão da atividade, poderia ou não aparecer após a realização da plataforma.
+</p>
+
+<p align="justify"> &emsp;&emsp; 
+    Fernanda não tem notebook, então quando tinha que acessar o Aprender3, usava seu celular, o que ela achava extremamente incomodo, pois a interface não a deixava confortável. Fernanda queria um app próprio para que tudo fosse pensado de maneira voltada ao usuário mobile, pois, quando ela queria responder ou fazer alguma pergunta nos forúns das disciplinas enquanto estudava, o fluxo que ela tinha que percorrer era muito grande e os componentes não facilitavam a vizualização, o que fazia sempre ser necessário a ampliação de tela, mas não só isso.
+</p>
+
+<h2 id="5-resultados">5. Resultados</h2>
+<p><strong>Legenda</strong>:</p>
+<ul>
+<li>ST: StoryTelling</li>
+<li>RF: Requisitos Funcionais</li>
+<li>RNF: Requisitos Não Funcionais</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Requisitos</th>
+<th align="center">Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">ST01</td>
+<td align="center">O aluno deve ser capaz de logar no sistema</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST02</td>
+<td align="center">O aluno deve ser capaz de encontrar por cursos que esteja matriculado</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST03</td>
+<td align="center">O aluno deve baixar arquivo disponível no curso</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST04</td>
+<td align="center">O sistema deve notificar tarefas que estão perto do vencimento</td>
+<td align="center">RN</td>
+</tr>
+<tr>
+<td align="center">ST05</td>
+<td align="center">O sistema deve mostrar os cursos mais recentes primeiro</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST06</td>
+<td align="center">O professor deve ser capaz de disponibilizar materiais do curso</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST07</td>
+<td align="center">O aluno deve ser capaz de enviar mensagem para outro aluno</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST08</td>
+<td align="center">O professor deve ser capaz de organizar o curso em módulos</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST09</td>
+<td align="center">O aluno deve ser capaz de visualizar as próximas tarefas do curso</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST10</td>
+<td align="center">O aluno deve ser capaz de visualizar a data das tarefas de um curso</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST11</td>
+<td align="center">O aluno deve ser capaz de se cadastrar na plataforma</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST12</td>
+<td align="center">O professor deve ser capaz de cadastrar alunos na disciplina</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST13</td>
+<td align="center">O professor deve ser capaz de cadastrar uma disciplina</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST14</td>
+<td align="center">O aluno deve ser capaz cadastrar uma pergunta no forúm</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST15</td>
+<td align="center">O aluno deve ser capaz de cadastrar uma resposta no forúm</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST16</td>
+<td align="center">O professor deve ser capaz de cadastrar uma pergunta no forúm</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST17</td>
+<td align="center">O professor deve ser capaz de cadastrar uma resposta no forúm</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST18</td>
+<td align="center">O professor deve ser capaz de cadastrar atividades na disciplina</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST19</td>
+<td align="center">O professor deve ser capaz de criar restrições de tempo para as atividades</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST20</td>
+<td align="center">O professor deve ser capaz de criar restrições de entrega para as atividades</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST21</td>
+<td align="center">O professor deve ser capaz de criar restrições de envio para as atividades</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST22</td>
+<td align="center">O sistema tem que ser disponibilizado como app mobile</td>
+<td align="center">RNF</td>
+</tr>
+<tr>
+<td align="center">ST23</td>
+<td align="center">O aluno deve ser capaz de listar as notas das atividades</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST24</td>
+<td align="center">O aluno deve ser capaz de fazer a revisão da atividade finalizada</td>
+<td align="center">RF</td>
+</tr>
+<tr>
+<td align="center">ST25</td>
+<td align="center">O aluno deve permanecer logado no app até fazer logout</td>
+<td align="center">RNF</td>
+</tr>
+</tbody>
+</table>
+<p><center>
+    <em>Tabela 01 - Elicitação de Requisitos usando StoryTelling</em>
+</center></p>
+<h2 id="6-referencias">6. Referências</h2>
+<p>[1] Serrano; Milene, Serrano; Mauricio - Requisitos aula 07. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf</a></p>
+<p>[2] Ferrari; Priscila - Como usar storytelling em projetos ?. Disponível em: <a href="https://programathor.com.br/blog/storytelling/">https://programathor.com.br/blog/storytelling/</a> </p>
+<h2 id="7historico-de-versao">7.Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data da realização</th>
+<th>Data prevista revisão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>29/11/2022</td>
+<td>29/11/2022</td>
+<td>Desenvolvimento da história da persona 1</td>
+<td>Pablo Christianno</td>
+<td>Delziron Braz</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>29/11/2022</td>
+<td>29/11/2022</td>
+<td>Desenvolvimento da história da persona 2</td>
+<td>Delziron Braz</td>
+<td>Pablo Christianno</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../elicitacao_de_requisitos/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Elicitação de Requisitos" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Elicitação de Requisitos
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../introspeccao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Introspecção" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Introspecção
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

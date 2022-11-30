@@ -1,0 +1,1047 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Observação - Modular Object-Oriented Dynamic Learning Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#observacaoetnografia" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-header__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Modular Object-Oriented Dynamic Learning Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Observação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../apresentacoes/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../personas/" class="md-tabs__link md-tabs__link--active">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-nav__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    Modular Object-Oriented Dynamic Learning Environment
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-nav__link">
+        Cronograma de reuniões
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_atividades/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        Gerenciamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/metodologia/" class="md-nav__link">
+        Medotologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/reunioes/" class="md-nav__link">
+        Reuniões
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-nav__link">
+        Aplicativos avaliados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/rich_picture/" class="md-nav__link">
+        RichPicture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elicitacao_de_requisitos/" class="md-nav__link">
+        Elicitação de Requisitos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storytelling/" class="md-nav__link">
+        StoryTelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Observação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Observação
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-participantes" class="md-nav__link">
+    2. Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-preparacao" class="md-nav__link">
+    3. Preparação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-requisitos-elicitados" class="md-nav__link">
+    4. Requisitos Elicitados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias" class="md-nav__link">
+    5. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6historico-de-versao" class="md-nav__link">
+    6.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-participantes" class="md-nav__link">
+    2. Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-preparacao" class="md-nav__link">
+    3. Preparação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-requisitos-elicitados" class="md-nav__link">
+    4. Requisitos Elicitados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias" class="md-nav__link">
+    5. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6historico-de-versao" class="md-nav__link">
+    6.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="observacaoetnografia">Observação(etnografia)</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p align= justify> &emsp;&emsp; 
+    A observação consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente, é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. 
+</p>
+
+<h2 id="2-participantes">2. Participantes</h2>
+<ul>
+<li>Pablo Christianno</li>
+</ul>
+<h2 id="3-preparacao">3. Preparação</h2>
+<ul>
+<li>Postura do observador: Passiva</li>
+<li>Foi observado um aluno da universidade de Brasília que utiliza o sistema há mais de dois anos</li>
+<li>Data de Realização da observação: 25/11/2022</li>
+<li>Horário da observação: 10h</li>
+<li>Local: Universidade de Brasília Campus Gama</li>
+<li>Versão do aplicativo: Moddle Mobile 4.0.2</li>
+</ul>
+<h2 id="4-requisitos-elicitados">4. Requisitos Elicitados</h2>
+<p><strong>Legenda</strong>:</p>
+<ul>
+<li>OP: Observação Passiva</li>
+<li>RF: Requisitos Funcionais</li>
+<li>RNF: Requisitos Não Funcionais</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OP01</td>
+<td>O aluno somente poderá vincular o sistema com sua instituição de ensino através de um endereço eletrônico</td>
+<td>RNF01</td>
+</tr>
+<tr>
+<td>OP02</td>
+<td>O aluno deve ser capaz de fazer login utilizando os dados cadastrados pelo administrador do sistema</td>
+<td>RF01</td>
+</tr>
+<tr>
+<td>OP03</td>
+<td>O aluno deve ser capaz de ver a senha digitada</td>
+<td>RF02</td>
+</tr>
+<tr>
+<td>OP04</td>
+<td>O aluno deve ser capaz de recuperar a senha</td>
+<td>RF03</td>
+</tr>
+<tr>
+<td>OP05</td>
+<td>O sistema deverá emitir um email de recuperação de senha</td>
+<td>RF04</td>
+</tr>
+<tr>
+<td>OP06</td>
+<td>O aluno deve poder visualizar seus dados pessoais</td>
+<td>RF05</td>
+</tr>
+<tr>
+<td>OP07</td>
+<td>O aluno deve ser capaz de alterar sua imagem de perfil</td>
+<td>RF06</td>
+</tr>
+<tr>
+<td>OP08</td>
+<td>O aluno deve ser capaz de pesquisar por cursos disponíveis</td>
+<td>RF07</td>
+</tr>
+<tr>
+<td>OP09</td>
+<td>O aluno deve ser capaz de ingressar em um curo utilizando uma chave de acesso</td>
+<td>RF08</td>
+</tr>
+<tr>
+<td>OP10</td>
+<td>O aluno deve poder visualizar o resumo dos cursos em que está cadastrado</td>
+<td>RF09</td>
+</tr>
+<tr>
+<td>OP11</td>
+<td>O sistema deve emitir notificações ao aluno quando o prazo de alguma atividade estiver próximo</td>
+<td>RF 10</td>
+</tr>
+<tr>
+<td>OP12</td>
+<td>O aluno deve ser capaz de marcar atividades como concluída</td>
+<td>RF11</td>
+</tr>
+<tr>
+<td>OP13</td>
+<td>O sistema deve atualizar o progresso do aluno no curso</td>
+<td>RF12</td>
+</tr>
+<tr>
+<td>OP14</td>
+<td>O aluno deve ser capaz de retroceder e avançar uma seção do curso</td>
+<td>RF13</td>
+</tr>
+<tr>
+<td>OP15</td>
+<td>O sistema deve mostrar o nome das seções anterior e posterior a seção em que o aluno se encontra</td>
+<td>RF14</td>
+</tr>
+<tr>
+<td>OP16</td>
+<td>O sistema deve mostrar o índice do curso completa</td>
+<td>RF15</td>
+</tr>
+<tr>
+<td>OP17</td>
+<td>O aluno deve ser capaz de cadastrar um novo tópico em um fórum</td>
+<td>RF16</td>
+</tr>
+<tr>
+<td>OP18</td>
+<td>O aluno deve poder responder mensagens do fórum</td>
+<td>RF17</td>
+</tr>
+<tr>
+<td>OP18</td>
+<td>O aluno deve poder enviar um arquivos em uma tarefa</td>
+<td>RF17</td>
+</tr>
+<tr>
+<td>OP19</td>
+<td>O aluno deve ser capaz de visualizar o status de um arquivo enviado</td>
+<td>RF18</td>
+</tr>
+<tr>
+<td>OP20</td>
+<td>O aluno deve ser capaz de visualizar o comentários de um arquivo enviado</td>
+<td>RF19</td>
+</tr>
+<tr>
+<td>OP21</td>
+<td>O aluno deve ser capaz de visualizar o comentários de um arquivo enviado</td>
+<td>RF20</td>
+</tr>
+<tr>
+<td>OP22</td>
+<td>O aluno deve ser capaz de ver as restrições de envio de um arquivo</td>
+<td>RF21</td>
+</tr>
+<tr>
+<td>OP23</td>
+<td>O aluno deve poder baixar diferentes tipos de arquivo disponibilizados pelo professor</td>
+<td>RF22</td>
+</tr>
+<tr>
+<td>OP24</td>
+<td>O aluno deve poder visualizar a descrição de cada arquivo</td>
+<td>RF23</td>
+</tr>
+<tr>
+<td>OP25</td>
+<td>O sistema deve ter diferentes ícones para diferentes tipos de atividades de um curso</td>
+<td>RF24</td>
+</tr>
+<tr>
+<td>OP26</td>
+<td>O sistema deve deixar claro quando o aluno estiver saindo do aplicativo para acessar uma URL no navegador</td>
+<td>RF25</td>
+</tr>
+<tr>
+<td>OP27</td>
+<td>O aluno deve poder ver os próximos eventos de um curso</td>
+<td>RF26</td>
+</tr>
+<tr>
+<td>OP28</td>
+<td>O aluno deve ser capaz de ver todos os participantes do curso</td>
+<td>RF27</td>
+</tr>
+<tr>
+<td>OP29</td>
+<td>O aluno deve ser capaz de ver suas notas em cada atividade</td>
+<td>RF28</td>
+</tr>
+<tr>
+<td>OP30</td>
+<td>O aluno deve poder favoritar um curso</td>
+<td>RF29</td>
+</tr>
+<tr>
+<td>OP31</td>
+<td>O aluno deve poder arquivar um curso</td>
+<td>RF30</td>
+</tr>
+<tr>
+<td>OP32</td>
+<td>O aluno deve ser capaz de fazer o download de um curso</td>
+<td>RF31</td>
+</tr>
+<tr>
+<td>OP33</td>
+<td>O aluno deve poder ver informações gerais sobre o curso</td>
+<td>RF32</td>
+</tr>
+</tbody>
+</table>
+<p><center>
+    <em>Tabela 01 - Elicitação de Requisitos usando Observação</em>
+</center></p>
+<h2 id="5-referencias">5. Referências</h2>
+<ul>
+<li>
+<p>[1] VAZQUEZ, Carlos; SIMÕES, Guilherme. <strong>Engenharia de Requisitos: software orientado ao negócio</strong>. Brasport, 2016.</p>
+</li>
+<li>
+<p>[2] Observação direta. <strong>REtraining Requirements Engineering</strong>. Disponível em: &lt;<a href="https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta/">https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta/</a>&gt;. Acesso em: 23 nov. 2022.</p>
+</li>
+</ul>
+<h2 id="6historico-de-versao">6.Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data da realização</th>
+<th>Data prevista revisão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>26/11/2022</td>
+<td>27/11/2022</td>
+<td>Estruturação e criação da página</td>
+<td>Pablo Christianno</td>
+<td>Delziron Braz</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../introspeccao/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Introspecção" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Introspecção
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
