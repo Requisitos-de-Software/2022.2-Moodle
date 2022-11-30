@@ -1,33 +1,13 @@
-site_name: Modular Object-Oriented Dynamic Learning Environment
+site_name: Moodle
 
 theme:
   name: material
-  language: pt
-  logo: https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png
-  favicon: https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png
+
   palette:
     scheme: slate
-    primary: orange
-    accent: orange
+    primary: deep orange
 
-  markdown_extensions:
-  - admonition
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  language: pt
 
   features:
     - navigation.sections
@@ -35,20 +15,8 @@ theme:
     - navigation.tabs.sticky
 nav:
   - Inicio: index.md
-  - Apresentações: apresentacoes.md
+
   - Planejamento:
-    - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
-    - Cronograma de atividades: Planejamento/cronograma_atividades.md
-    - Gerenciamento de riscos: Planejamento/gerenciamento_de_riscos.md
-    - Ferramentas: Planejamento/ferramentas.md
-    - Medotologia: Planejamento/metodologia.md
-    - Reuniões: Planejamento/reunioes.md
-  - Pré-Rastreabilidade:
-    - Aplicativos avaliados: Pre_Rastreabilidade/apps_avaliados.md
-    - RichPicture: Pre_Rastreabilidade/rich_picture.md
-  - Elicitação:
-    - Personas: Elicitacao/personas.md
-    - Elicitação de Requisitos: Elicitacao/elicitacao_de_requisitos.md
-    - StoryTelling: Elicitacao/storytelling.md
-    - Introspecção: Elicitacao/introspeccao.md
-    - Observação: Elicitacao/observacao_etnografia.md
+    - Escolha do app: planejamento/escolha_site.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
