@@ -9,26 +9,6 @@ theme:
     scheme: slate
     primary: orange
     accent: orange
-
-  markdown_extensions:
-  - attr_list
-  - admonition
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
   
   features:
     - navigation.sections
@@ -38,19 +18,22 @@ nav:
   - Inicio:
     - Projeto: index.md
     - Apresentações: apresentacoes.md
+  
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
+    - Gerenciamento de riscos: Planejamento/gerenciamento-de-riscos.md
     - Ferramentas: Planejamento/ferramentas.md
     - Medotologia: Planejamento/metodologia.md
     - Reuniões: Planejamento/reunioes.md
+  
   - Pré-Rastreabilidade:
     - Aplicativos avaliados: Pré-Rastreabilidade/apps_avaliados.md
     - RichPicture: Pré-Rastreabilidade/rich_picture.md
+  
   - Elicitação:
     - Personas: Elicitação/personas.md
     - Elicitação de Requisitos: Elicitação/elicitação_de_requisitos.md
-    - Técnicas:
-        - StoryTelling: Elicitação/Técnicas/storytelling.md
-        - Introspecção: Elicitação/Técnicas/introspecção.md
-        - Observação: Elicitação/Técnicas/observação(etnografia).md
+    - StoryTelling: Elicitação/storytelling.md
+    - Introspecção: Elicitação/introspecção.md
+    - Observação: Elicitação/observação(etnografia).md
