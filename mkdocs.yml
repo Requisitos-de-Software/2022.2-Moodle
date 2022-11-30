@@ -1,4 +1,5 @@
 site_name: Modular Object-Oriented Dynamic Learning Environment
+site_url: ""
 
 theme:
   name: material
@@ -9,15 +10,14 @@ theme:
     scheme: slate
     primary: orange
     accent: orange
-  
   features:
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+
 nav:
   - Inicio: index.md
   - Apresentações: apresentacoes.md
-  
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
     - Cronograma de atividades: Planejamento/cronograma_atividades.md
@@ -25,11 +25,9 @@ nav:
     - Ferramentas: Planejamento/ferramentas.md
     - Medotologia: Planejamento/metodologia.md
     - Reuniões: Planejamento/reunioes.md
-  
   - Pré-Rastreabilidade:
     - Aplicativos avaliados: Pre_Rastreabilidade/apps_avaliados.md
     - RichPicture: Pre_Rastreabilidade/rich_picture.md
-  
   - Elicitação:
     - Personas: Elicitacao/personas.md
     - Elicitação de Requisitos: Elicitacao/elicitacao_de_requisitos.md
