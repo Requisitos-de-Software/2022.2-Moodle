@@ -28,12 +28,12 @@ nav:
     - Reuniões: Planejamento/reunioes.md
   
   - Pré-Rastreabilidade:
-    - Aplicativos avaliados: Pré-Rastreabilidade/apps_avaliados.md
-    - RichPicture: Pré-Rastreabilidade/rich_picture.md
+    - Aplicativos avaliados: Pre_Rastreabilidade/apps_avaliados.md
+    - RichPicture: Pre_Rastreabilidade/rich_picture.md
   
   - Elicitação:
-    - Personas: Elicitação/personas.md
-    - Elicitação de Requisitos: Elicitação/elicitação_de_requisitos.md
-    - StoryTelling: Elicitação/storytelling.md
-    - Introspecção: Elicitação/introspecção.md
-    - Observação: Elicitação/observação_etnografia.md
+    - Personas: Elicitacao/personas.md
+    - Elicitação de Requisitos: Elicitacao/elicitacao_de_requisitos.md
+    - StoryTelling: Elicitacao/storytelling.md
+    - Introspecção: Elicitacao/introspeccao.md
+    - Observação: Elicitacao/observacao_etnografia.md
