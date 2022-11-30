@@ -3,7 +3,7 @@
 ## 1. Introdução
 
 <p align = "justify"> &emsp;&emsp; Rich Picture é uma modelagem cuja notação permite analisar problemas e analisar idéias.   
-Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira feita à mão, menos complexa que a segunda, que foi feito no aplicativo Figma, após uma melhor análise do aplicativo. </p>
+Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira feita à mão(Figura 1), menos complexa que a segunda(Figura 2), que foi feito no aplicativo Figma, após uma melhor análise do aplicativo. </p>
 
 ## 2. Rich Pictures
 
@@ -38,13 +38,13 @@ Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira fei
 
 ## 4.Histórico de versão
 
-| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
-|--------|------|------|-----------|-------|---------|
-| 1.0    | 19/11/2022 | 20/11/2022 | Criação da página Rich Picture | Marcos Vinicius | Davi Lima |
-| 1.1    | 19/11/2022 | 20/11/2022 | Adição do Rich Picture versão 1 | Rodolfo Cabral | Davi Lima |
-| 1.2    | 19/11/2022 | 20/11/2022 | Adição do Rich Picture versão 2 | Marcos Vinícus e Pablo Christiano | Davi Lima |
-| 1.3    | 19/11/2022 | 20/11/2022 | Adição das referencias | Marcos Vinícius | Davi Lima |
-| 2.0    | 20/11/2022 | 21/11/2022 | Correção legenda figura 1 | Davi Lima | Marcos Vinícius |
-| 2.1    | 20/11/2022 | 21/11/2022 | Formatação dos textos | Davi Lima | Marcos Vinícius |
-| 2.3    | 20/11/2022 | 21/11/2022 | Correção versionamento | Davi Lima | Marcos Vinícius |
-| 2.3    | 20/11/2022 | 21/11/2022 | Revisão finalizada | Davi Lima | Marcos Vinícius |
+| Versão | Data da realização | Data prevista revisão | Descrição                                | Autor                             | Revisor         |
+| ------ | ------------------ | --------------------- | ---------------------------------------- | --------------------------------- | --------------- |
+| 1.0    | 19/11/2022         | 20/11/2022            | Criação da página Rich Picture           | Marcos Vinicius                   | Davi Lima       |
+| 1.1    | 19/11/2022         | 20/11/2022            | Adição do Rich Picture versão 1          | Rodolfo Cabral                    | Davi Lima       |
+| 1.2    | 19/11/2022         | 20/11/2022            | Adição do Rich Picture versão 2          | Marcos Vinícus e Pablo Christiano | Davi Lima       |
+| 1.3    | 19/11/2022         | 20/11/2022            | Adição das referencias                   | Marcos Vinícius                   | Davi Lima       |
+| 2.0    | 20/11/2022         | 21/11/2022            | Correção legenda figura 1, versionamento | Davi Lima                         | Marcos Vinícius |
+| 2.1    | 20/11/2022         | 21/11/2022            | Formatação dos textos                    | Davi Lima                         | Marcos Vinícius |
+| 2.2    | 20/11/2022         | 21/11/2022            | Revisão finalizada                       | Davi Lima                         | Marcos Vinícius |
+| 2.3    | 27/11/2022         | 27/11/2022            | Correções pós feedback do professor      | Davi Lima                         | Marcos Vinícius |

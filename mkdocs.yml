@@ -11,6 +11,7 @@ theme:
     accent: orange
 
   markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.arithmatex
   - pymdownx.betterem:
@@ -34,7 +35,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 nav:
-  - Inicio: 
+  - Inicio:
     - Projeto: index.md
     - Apresentações: apresentacoes.md
   - Planejamento:
@@ -48,3 +49,8 @@ nav:
     - RichPicture: Pré-Rastreabilidade/rich_picture.md
   - Elicitação:
     - Personas: Elicitação/personas.md
+    - Elicitação de Requisitos: Elicitação/elicitação_de_requisitos.md
+    - Técnicas:
+        - StoryTelling: Elicitação/Técnicas/storytelling.md
+        - Introspecção: Elicitação/Técnicas/introspecção.md
+        - Observação: Elicitação/Técnicas/observação(etnografia).md
