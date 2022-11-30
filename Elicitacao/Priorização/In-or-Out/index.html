@@ -1,0 +1,1224 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>In or Out - Modular Object-Oriented Dynamic Learning Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#in-or-out" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-header__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Modular Object-Oriented Dynamic Learning Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              In or Out
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../apresentacoes/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Planejamento/cronograma_reunioes/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Pre_Rastreabilidade/apps_avaliados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../personas/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-nav__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    Modular Object-Oriented Dynamic Learning Environment
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/cronograma_reunioes/" class="md-nav__link">
+        Cronograma de reuniões
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/cronograma_atividades/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        Gerenciamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/metodologia/" class="md-nav__link">
+        Medotologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/reunioes/" class="md-nav__link">
+        Reuniões
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pre_Rastreabilidade/apps_avaliados/" class="md-nav__link">
+        Aplicativos avaliados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pre_Rastreabilidade/rich_picture/" class="md-nav__link">
+        RichPicture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao_de_requisitos/" class="md-nav__link">
+        Elicitação de Requisitos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../storytelling/" class="md-nav__link">
+        StoryTelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../observacao_etnografia/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-in-or-out" class="md-nav__link">
+    3. In or Out
+  </a>
+  
+    <nav class="md-nav" aria-label="3. In or Out">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-requisitos-funcionais" class="md-nav__link">
+    3.1 Requisitos Funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-requisitos-nao-funcionais" class="md-nav__link">
+    3.2 Requisitos Não Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-versionamento" class="md-nav__link">
+    5. Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="in-or-out">In or Out</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Priorização de requisitos é um processo realizado após elicitar os requisitos, com o intuito de organizar o escopo do projeto e definir um ponto de partida de forma a gerar valor ao cliente desde o inicio do desenvolvimento.
+Nessa seção vai ser apresentado a técnica In or Out de priorização de requisitos.</p>
+<h2 id="2-metodologia">2. Metodologia</h2>
+<p>In or Out é um dos metódos mais simples que consistes em uma decisão binária com relação a cada requisito se ele entra ou sai. Essa decisão é feita por release definindo quais são os requsitos que serão implementados por release.</p>
+<p>A priorização foi realizada com o aulixio de um usuário da plataforma fazendo o papel de cliente, onde foi apresentado os requisitos elicitado, e o cliente foi indicando se deveria entrar ou sair conforme manda o método. </p>
+<div style="text-align: center">
+<p>Tabela 1: Dados do usuário</p>
+</div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Idade</th>
+<th>Ocupação</th>
+<th>Cidade/Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lucas Oliveira</td>
+<td>24 anos</td>
+<td>Estudante</td>
+<td>Brasília/DF</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Fonte: Artur Vinicius</p>
+</div>
+
+<h2 id="3-in-or-out">3. In or Out</h2>
+<h3 id="31-requisitos-funcionais">3.1 Requisitos Funcionais</h3>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="left">Requisito</th>
+<th align="center">Técnica</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RF01</td>
+<td align="left">O sistema deve permitir cadastrar um aluno</td>
+<td align="center">Introspecção<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF02</td>
+<td align="left">O sistema deve permitir cadastrar um professor</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF03</td>
+<td align="left">O sistema deve permitir cadastrar uma disciplina</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF04</td>
+<td align="left">O sistema deve permitir cadastrar login e senha para entrar nas disciplinas</td>
+<td align="center">Introspecção<br>Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF05</td>
+<td align="left">O sistema deve permitir cadastrar novas atividades</td>
+<td align="center">Introspecção<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF06</td>
+<td align="left">O sistema deve permitir listar os alunos cadastrados</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF07</td>
+<td align="left">O sistema deve permitir listar as disciplinas cadastradas</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF08</td>
+<td align="left">O sistema deve permitir pesquisar por uma disciplina a partir do nome do professor</td>
+<td align="center">Introspecção<br>Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF09</td>
+<td align="left">O sistema deve permitir pesquisar disciplina por nome</td>
+<td align="center">Introspecção<br>Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF10</td>
+<td align="left">O sistema deve permitir pesquisar aluno por nome</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF11</td>
+<td align="left">O sistema deve permitir a consulta de notas das atividades</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF12</td>
+<td align="left">O sistema deve permitir a inserção de arquivos para envio das atividades</td>
+<td align="center">Introspecção<br>Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF13</td>
+<td align="left">O sistema deve permitir retirar um aluno ou todos os alunos da disciplina</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF14</td>
+<td align="left">O sistema deve permitir criar restrições de acesso para as atividades</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF15</td>
+<td align="left">O sistema deve permitir criar limite de tentativas para as atividades</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF16</td>
+<td align="left">O sistema deve permitir criar limite de data de envio para as atividades</td>
+<td align="center">Introspecção<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF17</td>
+<td align="left">O sistema deve permitir que o professor crie um forúm</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF18</td>
+<td align="left">O sistema deve permitir que um aluno/professor cadastre uma pergunta no forúm</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF19</td>
+<td align="left">O sistema deve permitir a inserção de arquivos nas perguntas</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF20</td>
+<td align="left">O sistema deve permitir que um aluno/professor cadastre uma resposta no forúm</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF21</td>
+<td align="left">O sistema deve permitir a inserção de arquivos nas respostas do forúm</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF22</td>
+<td align="left">O sistema deve permitir alterar respostas/perguntas cadastradas feita pelo mesmo nos forúns</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF23</td>
+<td align="left">O sistema deve permitir o professor a alterar as restrições de data, tentativas e acesso</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF24</td>
+<td align="left">O sistema deve permitir o professor a alterar o cargo de um aluno inscrito em sua disciplina</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF25</td>
+<td align="left">O sistema deve permitir listar as disciplinas que o aluno se cadastrou</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF26</td>
+<td align="left">O sistema deve permitir listar as atividades do aluno por data</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF27</td>
+<td align="left">O sistema deve notificar aos usuários cadastrados na disciplina quando uma pergunta no forúm é cadastrada</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF28</td>
+<td align="left">O sistema deve permitir fazer alteração nas informações do usuário cadastrado</td>
+<td align="center">Introspecção<br>Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF29</td>
+<td align="left">O sistema deve permitir que o professor visualize o tempo que os alunos utilizaram para a realização das atividades</td>
+<td align="center">Introspecção</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF30</td>
+<td align="left">O sistema deve permitir enviar mensagem direta para um aluno/professor</td>
+<td align="center">Introspecção<br>Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF31</td>
+<td align="left">O sistema deve permitir o aluno/professor fazer login</td>
+<td align="center">Introspecção<br>Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF32</td>
+<td align="left">O sistema deve permitir o aluno/professor fazer logout</td>
+<td align="center">Introspecção</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF33</td>
+<td align="left">O aluno deve ser capaz de ver a senha digitada</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF34</td>
+<td align="left">O aluno deve ser capaz de recuperar a senha</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF35</td>
+<td align="left">O sistema deverá emitir um email de recuperação de senha</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF36</td>
+<td align="left">O aluno deve poder visualizar seus dados pessoais</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF37</td>
+<td align="left">O aluno deve poder visualizar o resumo dos cursos em que está cadastrado</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF38</td>
+<td align="left">O sistema deve emitir notificações ao aluno quando o prazo de alguma atividade estiver próximo</td>
+<td align="center">Observação<br>Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF39</td>
+<td align="left">O aluno deve ser capaz de marcar atividades como concluída</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF40</td>
+<td align="left">O sistema deve atualizar o progresso do aluno no curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF41</td>
+<td align="left">O aluno deve ser capaz de retroceder e avançar uma seção do curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF42</td>
+<td align="left">O sistema deve mostrar o nome das seções anterior e posterior a seção em que o aluno se encontra</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF43</td>
+<td align="left">O sistema deve mostrar o índice do curso completa</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF44</td>
+<td align="left">O aluno deve ser capaz de visualizar o status de um arquivo enviado</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF45</td>
+<td align="left">O aluno deve ser capaz de visualizar o comentários de um arquivo enviado</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF46</td>
+<td align="left">O aluno deve ser capaz de ver as restrições de envio de um arquivo</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF47</td>
+<td align="left">O aluno deve poder baixar diferentes tipos de arquivo disponibilizados pelo professor</td>
+<td align="center">Observação<br>Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF48</td>
+<td align="left">O aluno deve poder visualizar a descrição de cada arquivo</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF49</td>
+<td align="left">O sistema deve ter diferentes ícones para diferentes tipos de atividades de um curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF50</td>
+<td align="left">O sistema deve deixar claro quando o aluno estiver saindo do aplicativo para acessar uma URL no navegador</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF51</td>
+<td align="left">O aluno deve poder ver os próximos eventos de um curso</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF52</td>
+<td align="left">O aluno deve ser capaz de ver todos os participantes do curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF53</td>
+<td align="left">O aluno deve poder favoritar um curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF54</td>
+<td align="left">O aluno deve poder arquivar um curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF55</td>
+<td align="left">O aluno deve ser capaz de fazer o download de um curso</td>
+<td align="center">Observação</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF56</td>
+<td align="left">O aluno deve poder ver informações gerais sobre o curso</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF57</td>
+<td align="left">O aluno deve ser capaz de encontrar por cursos que esteja matriculado</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF58</td>
+<td align="left">O sistema deve mostrar os cursos mais recentes primeiro</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF59</td>
+<td align="left">O professor deve ser capaz de disponibilizar materiais do curso</td>
+<td align="center">Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF60</td>
+<td align="left">O professor deve ser capaz de organizar o curso em módulos</td>
+<td align="center">Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RF61</td>
+<td align="left">O aluno deve ser capaz de visualizar as próximas tarefas do curso</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF62</td>
+<td align="left">O aluno deve ser capaz de visualizar a data das tarefas de um curso</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF63</td>
+<td align="left">O professor deve ser capaz de cadastrar alunos na disciplina</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF64</td>
+<td align="left">O professor deve ser capaz de cadastrar uma disciplina</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF65</td>
+<td align="left">O professor deve ser capaz de criar restrições de entrega para as atividades</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF66</td>
+<td align="left">O professor deve ser capaz de criar restrições de envio para as atividades</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RF67</td>
+<td align="left">O aluno deve ser capaz de fazer a revisão da atividade finalizada</td>
+<td align="center">Storytelling</td>
+<td align="center">Out</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-requisitos-nao-funcionais">3.2 Requisitos Não Funcionais</h3>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="left">Requisito</th>
+<th align="center">Técnica</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RNF01</td>
+<td align="left">O aluno somente poderá vincular o sistema com sua instituição de ensino através de um endereço eletrônico</td>
+<td align="center">Observação</td>
+<td align="center">Out</td>
+</tr>
+<tr>
+<td align="center">RNF02</td>
+<td align="left">O sistema tem que ser disponibilizado como app mobile</td>
+<td align="center">Storytelling</td>
+<td align="center">In</td>
+</tr>
+<tr>
+<td align="center">RNF03</td>
+<td align="left">O aluno deve permanecer logado no app até fazer logout</td>
+<td align="center">Storytelling</td>
+<td align="center">In</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-referencias">4. Referências</h2>
+<blockquote>
+<p>WIEGERS, Karl; BEATTY, Joy. Software Requirements, Third Edition. [S.L.]: Microsoft, [20--]. 9 slides, P&amp;B. Disponível em: https://aprender3.unb.br/pluginfile.php/2124455/mod_resource/content/1/Priorização%20de%20Req.pdf. Acesso em: 30 nov. 2022.</p>
+</blockquote>
+<h2 id="5-versionamento">5. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data da realização</th>
+<th>Data prevista revisão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>30/11/2022</td>
+<td>30/11/2022</td>
+<td>Adição técnica In or Out de priorização de requisitos</td>
+<td>Artur Vinicius</td>
+<td>Rodolfo Cabral</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
