@@ -10,7 +10,7 @@
 
 ## 3. Mapa de calor dos integrantres
 
-&emsp;&emsp; Utilizando da ferramenta online "Google Sheets" o mapa de calor dos integrantes foi criado pelo integrante Artur Vinicius.
+&emsp;&emsp; Utilizando da ferramenta online "Google Sheets" o mapa de calor dos integrantes (Figura 1) foi criado pelo integrante Artur Vinicius.
 
 <center>
 
@@ -93,11 +93,9 @@ Link para estudo sobre heatmap: <https://neilpatel.com/br/blog/heatmap-o-que-e/>
 
 ## 6. Versionamento
 
-| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
-|--------|------|------|-----------|-------|---------|
-| 1.0    | 20/11/2022 | 21/11/2022 | Criação da página cronograma de reuniões | Davi Lima | Artur Vinicius |
-| 1.1    | 20/11/2022 | 21/11/2022 | Adição da introdução | Davi Lima | Artur Vinicius |
-| 1.2    | 20/11/2022 | 21/11/2022 | Adição do topico mapa de calor| Davi Lima | Artur Vinicius |
-| 1.3    | 20/11/2022 | 21/11/2022 | Adição dos mapas dos integrantes | Davi Lima | Artur Vinicius |
-| 1.4    | 20/11/2022 | 21/11/2022 | Adição da conclusão | Davi Lima | Artur Vinicius |
-| 1.5    | 20/11/2022 | 21/11/2022 | Adição das referências | Davi Lima | Artur Vinicius |
+| Versão | Data da realização | Data prevista revisão | Descrição                                                                            | Autor          | Revisor        |
+| ------ | ------------------ | --------------------- | ------------------------------------------------------------------------------------ | -------------- | -------------- |
+| 1.0    | 20/11/2022         | 21/11/2022            | Criação da página cronograma de reuniões                                             | Davi Lima      | Artur Vinicius |
+| 1.1    | 20/11/2022         | 21/11/2022            | Adição da introdução, mapa de calor, mapas dos integrantes , conclusão , referências | Davi Lima      | Artur Vinicius |
+| 2.0    | 21/11/2022         | 21/11/2022            | Revisão finalizada                                                                   | Artur Vinicius | Davi Lima      |
+| 2.1    | 27/11/2022         | 27/11/2022            | Correções pós feedback do professor                                                  | Davi Lima      | Artur Vinicius |

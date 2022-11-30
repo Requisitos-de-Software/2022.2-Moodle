@@ -12,7 +12,7 @@
 | Davi Lima          | E-titulo             |
 | Delziron Braz      | Hemovida             |
 | Marcos Vinícius    | Pelando              |
-| Pablo Christiano   | CNH Digital          |  
+| Pablo Christiano   | CNH Digital          |
 | Rodolfo Cabral     | Meu imposto de renda |
 
 
@@ -82,9 +82,8 @@
   
 ## 5. Versionamento
 
-| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
-|--------|------|------|-----------|-------|---------|
-| 1.0    | 20/11/2022 | 21/11/2022 | Criação da página apps avaliados | Davi Lima | Pablo Christiano |
-| 1.1    | 21/11/2022 | 21/11/2022 | Adição dos Rich Pictures | Davi Lima | Pablo Christiano |
-| 1.2    | 21/11/2022 | 21/11/2022 | Adição da escolha do app | Davi Lima | Pablo Christiano |
-| 1.3    | 21/11/2022 | 21/11/2022 | Adição das referencias | Davi Lima | Pablo Christiano |
+| Versão | Data da realização | Data prevista revisão | Descrição                                             | Autor     | Revisor          |
+| ------ | ------------------ | --------------------- | ----------------------------------------------------- | --------- | ---------------- |
+| 1.0    | 20/11/2022         | 21/11/2022            | Criação da página apps avaliados                      | Davi Lima | Pablo Christiano |
+| 1.1    | 21/11/2022         | 21/11/2022            | Adição dos Rich Pictures, escolha do app, referencias | Davi Lima | Pablo Christiano |
+| 1.2    | 27/11/2022         | 27/11/2022            | Correções pós feedback do professor                   | Davi Lima | Pablo Christiano |
