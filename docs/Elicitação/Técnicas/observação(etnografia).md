@@ -1,9 +1,9 @@
-# Observação Passiva
+# Observação(etnografia)
 
 ## 1. Introdução
 
-<p aling= justify> &emsp;&emsp; 
-    A observação passiva consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente, é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. 
+<p align= justify> &emsp;&emsp; 
+    A observação consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente, é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. 
 </p>
 
 ## 2. Participantes
@@ -11,9 +11,11 @@
 * Pablo Christianno
 
 ## 3. Preparação
-
-- Foi obeservado um aluno da univerdade de Brasília que utiliza o sistema há mais de dois anos
+- Postura do observador: Passiva
+- Foi observado um aluno da universidade de Brasília que utiliza o sistema há mais de dois anos
 - Data de Realização da observação: 25/11/2022
+- Horário da observação: 10h
+- Local: Universidade de Brasília Campus Gama
 - Versão do aplicativo: Moddle Mobile 4.0.2
 
 ## 4. Requisitos Elicitados
@@ -62,7 +64,7 @@
 | OP33 | O aluno deve poder ver informações gerais sobre o curso | RF32 |
 
 <center>
-    *Tabela 01 - Elicitação de Requisitos usando Observação-Passiva*
+    *Tabela 01 - Elicitação de Requisitos usando Observação*
 </center>
 
 ## 5. Referências
