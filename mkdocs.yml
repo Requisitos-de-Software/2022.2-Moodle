@@ -15,9 +15,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 nav:
-  - Inicio:
-    - Projeto: index.md
-    - Apresentações: apresentacoes.md
+  - Inicio: index.md
+  - Apresentações: apresentacoes.md
   
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md
