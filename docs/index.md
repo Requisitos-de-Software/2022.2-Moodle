@@ -40,11 +40,8 @@ Link para a pagina de desenvolvimento do app moodle: <https://moodledev.io/> (Ac
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 18/11/2022 | 19/11/2022 | Criação da página Inicio | Delziron Braz | Davi Lima |
-| 1.1    | 18/11/2022 | 19/11/2022 | Adição do tópico sobre o projeto | Delziron Braz | Davi Lima |
-| 1.2    | 18/11/2022 | 19/11/2022 | Adição do tópico sobre o app | Delziron Braz | Davi Lima |
-| 1.3    | 18/11/2022 | 19/11/2022 | Adição de descrições e fotos dos integrantes | Delziron Braz | Davi Lima |
-| 2.0    | 20/11/2022 | 21/11/2022 | Adição das referencias | Davi Lima | Delziron Braz |
-| 2.1    | 20/11/2022 | 21/11/2022 | Adição do versionamento | Davi Lima | Delziron Braz |
-| 2.2    | 20/11/2022 | 21/11/2022 | Formatação dos textos | Davi Lima | Delziron Braz |
-| 2.3    | 20/11/2022 | 21/11/2022 | Adição do logo do projeto | Davi Lima | Delziron Braz |
-| 2.3    | 20/11/2022 | 21/11/2022 | Revisão finalizada | Davi Lima | Delziron Braz |
+| 1.1    | 18/11/2022 | 19/11/2022 | Adição do tópico projeto, app, descrições e fotos dos integrantes | Delziron Braz | Davi Lima |
+| 1.2    | 20/11/2022 | 21/11/2022 | Adição das referencias, versionamento, logo do projeto | Davi Lima | Delziron Braz |
+| 2.0    | 20/11/2022 | 21/11/2022 | Formatação dos textos | Davi Lima | Delziron Braz |
+| 2.1    | 20/11/2022 | 21/11/2022 | Revisão finalizada | Davi Lima | Delziron Braz |
+| 3.0    | 27/11/2022 | 28/11/2022 | Correções pós feedback do professor | Davi Lima | Delziron Braz |

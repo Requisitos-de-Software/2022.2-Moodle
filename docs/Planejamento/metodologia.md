@@ -6,7 +6,8 @@ Esse documento descreve de forma resumida as metodologias que serão utilizadas 
 
 ## 2. Metodologia Ágil
 
-### 2.1. Scrum: 
+### 2.1. Scrum:   
+
 Scrum é uma metodologia ágil para gestão e planejamento de projetos de software. O Scrum se baseia em ciclos ou como são chamados Sprints. No nosso projeto dividiremos em Sprints de 1 semana.
 
 ***Sprint Planning***: É uma reunião aonde acontece um planejamento de toda a Sprint, quais são as atividades a serem entregues e os responsáveis por cada uma delas. A Planning do grupo acontece as quarta das 20h às 22h, de forma remota.
@@ -28,6 +29,6 @@ Link para estudo sobre kanban: <https://www.totvs.com/blog/negocios/kanban/> (Ac
 
 ## 4. Versionamento
 
-| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
-|--------|------|------|-----------|-------|---------|
-| 1.0    | 20/11/2022 | 21/11/2022 | Criação da página Metodologia | Artur Vinicius | Marcos Vinicius |
+| Versão | Data da realização | Data prevista revisão | Descrição                     | Autor          | Revisor         |
+| ------ | ------------------ | --------------------- | ----------------------------- | -------------- | --------------- |
+| 1.0    | 20/11/2022         | 21/11/2022            | Criação da página Metodologia | Artur Vinicius | Marcos Vinicius |
