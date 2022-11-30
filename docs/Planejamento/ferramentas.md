@@ -7,6 +7,7 @@
 
 ## 2. Ferramentas utilizadas
 
+
 | Ferramentas                                                                                                                                  | Descrição                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | <img src="https://user-images.githubusercontent.com/57445188/180213267-b691fe40-8a48-4a84-9c06-9d3b968d7850.png" alt="drawing" width="140"/> | GitHub - Plataforma de versionamento em que iremos armazenar todos os arquivos relacionados ao projeto |
@@ -21,7 +22,9 @@
 | <img src="https://user-images.githubusercontent.com/78215376/189770979-28eff2a9-5208-4b88-aa50-d54d39021a4b.png" alt="drawing" width="140"/> | Youtube - Para Guardar os videos                                                                       |
 | <img src="https://user-images.githubusercontent.com/78215376/189770950-42125190-ff28-4bf3-bb72-978d3c75d1a4.png" alt="drawing" width="140"/> | OBS Studio -Para gravação de entrevistas e das apresentações                                           |
 | <img src="https://user-images.githubusercontent.com/79341819/189669875-417daefe-bfd0-4579-a781-8baaf368e143.png" alt="drawing" width="140"/> | Figma - Ferramenta online de prototipagem                                                              |
-| <img src="https://user-images.githubusercontent.com/58870950/204564265-de54ba10-df6d-4a71-9267-b84697cf7f03.png" alt="drawing" width="140"/> | Mondays - Ferramenta de gestão de projeto, para organizar o quadro kanban                                  |
+| <img src="https://user-images.githubusercontent.com/58870950/204564265-de54ba10-df6d-4a71-9267-b84697cf7f03.png" alt="drawing" width="140"/> | Mondays - Ferramenta de gestão de projeto, para organizar o quadro kanban                              |
+| <img src="https://user-images.githubusercontent.com/87666623/204418432-953e0995-5ea7-4b9c-b198-5769ed46d153.png" alt="drawing" width="140"/> | This person does not exist - Ferramenta online para obter as imagens de perfil das personas
+| <img src="https://user-images.githubusercontent.com/87666623/204418911-a9484fc4-c9fd-4e32-9ed3-35a16bca5586.png" alt="drawing" width="140"/> | Xtensio - Ferramenta online de design 
 
 
 ## 3. Referência Bibliográfica
