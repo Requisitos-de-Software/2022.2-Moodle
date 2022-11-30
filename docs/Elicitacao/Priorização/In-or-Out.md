@@ -8,6 +8,20 @@ Nessa seção vai ser apresentado a técnica In or Out de priorização de requi
 ## 2. Metodologia
 In or Out é um dos metódos mais simples que consistes em uma decisão binária com relação a cada requisito se ele entra ou sai. Essa decisão é feita por release definindo quais são os requsitos que serão implementados por release.
 
+A priorização foi realizada com o aulixio de um usuário da plataforma fazendo o papel de cliente, onde foi apresentado os requisitos elicitado, e o cliente foi indicando se deveria entrar ou sair conforme manda o método. 
+
+<div style="text-align: center">
+<p>Tabela 1: Dados do usuário</p>
+</div>
+
+| Nome            | Idade   | Ocupação  | Cidade/Estado |
+| --------------- | ------- | --------- | ------------- |
+| Lucas Oliveira | 24 anos | Estudante | Brasília/DF   |
+
+<div style="text-align: center">
+<p>Fonte: Artur Vinicius</p>
+</div>
+
 ## 3. In or Out
 
 ### 3.1 Requisitos Funcionais
