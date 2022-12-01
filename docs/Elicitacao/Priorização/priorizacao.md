@@ -28,7 +28,7 @@ Foi utilizada a técnica de escala de tês níveis para a priorização de requi
 | RF10 | O aluno deve ser capaz de visualizar a data das tarefas de um curso | Média |
 | RF19 | O professor deve ser capaz de criar restrições de tempo para as atividades | Média |
 | RF07 | O aluno deve ser capaz de enviar mensagem para outro aluno | Baixa |
-| RF23 | O aluno deve ser capaz de listar as notas das atividades | Alta |
+| RF23 | O aluno deve ser capaz de listar as notas das atividades | Baixa |
 | RF05 | O sistema deve mostrar os cursos mais recentes primeiro | Baixa |
 | RF03 | O aluno deve baixar arquivo disponível no curso | Baixa |
 | RF08 | O professor deve ser capaz de organizar o curso em módulos | Baixa |
