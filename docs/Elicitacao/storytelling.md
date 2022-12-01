@@ -22,7 +22,7 @@
     Alexandre tem 22 anos, é um estudante universitário de Ciências contábeis na Universidade de Brasília. Alexandre é um estudante esforçado que dá seu máximo para tirar boas notas em suas disciplinas, mas sua situação não é das melhores, isso porque não possui um computador que possa auxilia em seus estudos e em seu desempenho acadêmico. Porém Alexandre tem grande facilidade e familiaridade com tecnologia e procura alguma ferramenta para auxilia-lo em suas atividades.
 </p>
 
-<center><strong> LEMBRETE E OTIMIZAÇÃO DE TEMPO </strong></center>
+<center> LEMBRETE E OTIMIZAÇÃO DE TEMPO </center>
 
 <p align="justify">&emsp;&emsp; 
     Alexandre está voltando para casa frustrado por ter esquecido mais uma vez entregar uma tarefa, seu amigo tenta conforta-lo mas Alexandre se preocupa de mais com suas notas. Seu amigo, sem saber o que fazer, lembra da existência de um app que pode ser integrado ao sistema de sua universidade. Quando contou a seu amigo sobre o Moodle ele pareceu bastante interessado, mas um pouco irresoluto se esse aplicativo realmente poderia trazer alguma facilidade em sua via acadêmica
