@@ -15,7 +15,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.1 Persona 1
 
-<img src = ../Assets/personas/Persona1.png>
+![Persona1](../Assets/personas/Persona1.png)
 
 <figcaption align='center'>
     <b>Figura 1: Primeira persona, primária</b>
@@ -25,7 +25,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.2 Persona 2
 
-<img src = ../Assets/personas/Persona2.png>
+![Persona2](../Assets/personas/Persona2.png)
 
 <figcaption align='center'>
     <b>Figura 2: Segunda persona, primária</b>
@@ -35,7 +35,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.3 Persona 3
 
-<img src = ../Assets/personas/Persona3.png>
+![Persona3](../Assets/personas/Persona3.png)
 
 <figcaption align='center'>
     <b>Figura 1: Terceira persona, secundária</b>
@@ -45,7 +45,7 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 
 ### 2.4 Antipersona
 
-<img src = ../Assets/personas/Persona4.png>
+![Persona4](../Assets/personas/Persona4.png)
 
 <figcaption align='center'>
     <b>Figura 1: Quarta persona, antipersona</b>
@@ -67,4 +67,5 @@ criada para descrever um usuário típico. Desta forma, a análise de requisitos
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 27/11/2022 | 29/11/2022 | Criação da página Personas | Marcos Vinicius | Davi Lima |
 | 1.1    | 27/11/2022 | 29/11/2022 | Adição das personas | Marcos Vinicius | Davi Lima |
-| 1.2    | 28/11/2022 | 20/11/2022 | Adição da introdução e referências | Marcos Vinícus | Davi Lima |
+| 1.2    | 28/11/2022 | 29/11/2022 | Adição da introdução e referências | Marcos Vinícus | Davi Lima |
+
