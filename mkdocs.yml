@@ -1,10 +1,9 @@
 site_name: Modular Object-Oriented Dynamic Learning Environment
+site_url: https://Requisitos-de-Software.github.io/2022.2-Moodle/
 
 theme:
   name: material
   language: pt
-  logo: https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png
-  favicon: https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png
   palette:
     scheme: slate
     primary: orange
