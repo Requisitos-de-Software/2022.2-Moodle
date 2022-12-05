@@ -2,11 +2,15 @@
 
 ## 1ª Apresentação 
 
-<iframe width="800" height="400" src="https://www.youtube.com/embed/yamprZtio6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe 
+    width="800" height="400" src="https://www.youtube.com/embed/yamprZtio6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 ## 2ª Apresentação 
 
-*EM BREVE*
+<iframe 
+    width="800" height="400" src="https://www.youtube.com/embed/4okhlxAK0I0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 ## 3ª Apresentação 
 
