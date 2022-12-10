@@ -19,3 +19,20 @@ Existem cinco formas para a descrição de cenários:
  * Animações ou simulações
 
 Dentre elas a que será utilizada no nosso projeto será *a definir* .
+
+## Cenários
+
+**CENÁRIO 001:**
+ * **Título:** Entrega de tarefa
+ * **Objetivo:** Entregar um exercício na platforma
+ * **Contexto:** Quando o professor deixa exercícios
+ * **Recursos:** Documento que contém as respostas dos exercícios
+ * **Atores:** Alunos
+ * **Episódios:**
+    * O aluno faz login na plataforma
+    * O aluno abre o painel da plataforma
+    * O aluno seleciona a tarefa para enviar
+    * O aluno clica no botão de enviar a tarefa
+    * O aluno faz upload do documento
+    * O aluno clica em submeter para confirmar o envio do exercício.
+
