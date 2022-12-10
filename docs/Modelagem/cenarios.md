@@ -34,3 +34,15 @@ Existem cinco formas para a descrição de cenários:
     5. O aluno faz upload do documento
     6. O aluno clica em submeter para confirmar o envio do exercício.
 
+**CENÁRIO 002:**
+ * **Título:** Download do material do professor
+ * **Objetivo:** Realizar o download do material disponibilizado pelo professor
+ * **Contexto:** Quando o aluno pretende estudar um determinado tópico
+ * **Recursos:** Nenhum
+ * **Atores:** Alunos
+ * **Episódios:**
+    1. O aluno faz login na plataforma
+    2. O aluno abre o painel da plataforma
+    3. O aluno seleciona a matéria
+    4. O aluno seleciona o tópico ou o módulo da matéria
+    5. O aluno clica no material para realizar o download
