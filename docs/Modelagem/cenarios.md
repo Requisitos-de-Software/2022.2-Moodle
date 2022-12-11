@@ -30,39 +30,38 @@ Existem cinco formas para a descrição de cenários:
 |Episódios:|-|
 
 
-
 ## 2.Cenários
 
 ### Cenário 1
 
-|CENÁRIO 01| |
-|:------------:|:------------:|
-|</b>Título:</b>| Entrega de tarefa|
-|</b>Objetivo:</b>| Entregar um exercício na platforma|
-|</b>Contexto:</b>| Quando o professor deixa exercícios|
-|</b>Recursos:</b>| Documento que contém as respostas dos exercícios|
-|</b>Atores:</b>| Alunos|
-|</b>Episódios:</b>|- O aluno faz login na plataforma2.<br>- O aluno abre o painel da plataforma<br>- O aluno seleciona a tarefa para enviar<br>- O aluno clica no botão de enviar a tarefa<br>- O aluno faz upload do documento<br>- O aluno clica em submeter para confirmar o envio do exercício.|
+|CENÁRIO 01||
+|:----:|:----------|
+|<b>Título:</b> | - Entrega de tarefa | 
+|<b>Objetivo:</b> | Entregar um exercício na platforma | 
+|<b>Contexto:</b>| Quando o professor deixa exercícios | 
+|<b>Recursos:</b>| Documento que contém as respostas dos exercícios|
+|<b>Atores:</b>| Alunos/Usuário|
+|<b>Episódios:</b>| - Usuário faz login na plataforma. <br> - Usuário abre o painel da plataforma <br> - Usuário seleciona a tarefa para enviar<br> - Usuário clica no botão de enviar a tarefa <br> - Usuário faz upload do documento <br> - Usuário clica em submeter para confirmar o envio do exercício. |
 
 <figcaption align='center'>
     <b>Tabela cenário 1</b>
-        <br><small>Autor: Rodolfo</small>
+        <br><small>Autor: Rodolfo Cabral Neves</small>
 </figcaption> 
 
 ### Cenário 2
 
 |CENÁRIO 02||
-|:-------:|:--------:|
-|</b>Título:</b>| Download do material do professor|
-|</b>Objetivo:</b>| Realizar o download do material disponibilizado pelo professor|
-|</b>Contexto:</b>| Quando o aluno pretende estudar um determinado tópico|
+|:----:|:----------|
+|</b>Título:</b>| - Download do material do professor | 
+|</b>Objetivo:</b> | - Realizar o download do material disponibilizado pelo professor | 
+|</b>Contexto:</b>| Quando Usuário pretende estudar um determinado tópico|
 |</b>Recursos:</b>| Nenhum|
-|</b>Atores:</b>| Alunos|
-|</b>Episódios:</b>|- O aluno faz login na plataforma;<br>- O aluno abre o painel da plataforma<br>- O aluno seleciona a matéria;<br>- O aluno seleciona o tópico ou o módulo da matéria<br>- O aluno clica no material para realizar o download|
+|</b>Atores:</b>| Alunos/Usuário|
+|</b>Episódios:</b>|- Usuário faz login na plataforma;<br>- Usuário abre o painel da plataforma<br>- Usuário seleciona a matéria;<br>- Usuário seleciona o tópico ou o módulo da matéria<br>- O Usuário clica no material para realizar o download|
 
 <figcaption align='center'>
     <b>Tabela cenário 2</b>
-        <br><small>Autor: Rodolfo</small>
+        <br><small>Autor: Rodolfo Cabral Neves</small>
 </figcaption> 
 
 ### Cenário 3
@@ -382,5 +381,5 @@ Existem cinco formas para a descrição de cenários:
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
-| 1.0    | 09/12/2022 | 11/12/2022 | Criação da página Cenários e os 2 primeiros cenários | Rodolfo | Marcos Vinícius |
-| 1.1    | 10/12/2022 | 11/12/2022 | Adição de 18 cenários, referências e histórico de versão | Marcos Vinícius| Rodolfo |
+| 1.0    | 09/12/2022 | 11/12/2022 | Criação da página Cenários e os 2 primeiros cenários | Rodolfo Cabral Neves | Marcos Vinícius |
+| 1.1    | 10/12/2022 | 11/12/2022 | Adição de 18 cenários, referências e histórico de versão | Marcos Vinícius| Rodolfo Cabral Neves |
