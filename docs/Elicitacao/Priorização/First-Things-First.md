@@ -25,7 +25,23 @@ Esse processo é realizado através de 7 passos descritos a seguir:
 
 ***Passo 7***: Calcular a prioridade para cada requisito usando a fórmula: ***valor% / (custo% * pesoCusto + riscos% * pesoRisco)***
 
+A priorização foi realizada com o aulixio de um usuário da plataforma fazendo o papel de cliente, onde foi apresentado os requisitos elicitado, e o cliente foi indicando os valores do beneficio relativo e a penalidade relativa.
+
+<div style="text-align: center">
+<p>Tabela 1: Dados do usuário</p>
+</div>
+
+| Nome            | Idade   | Ocupação  | Cidade/Estado |
+| --------------- | ------- | --------- | ------------- |
+| Caio Felipe     | 24 anos | Engenheiro de Software | Brasília/DF   |
+
+<div style="text-align: center">
+<p>Fonte: Artur Vinicius</p>
+</div>
+
 ## 3. First Thing First
+
+![First-Thing-First - Página1-1](https://user-images.githubusercontent.com/58870950/207165650-d0b9d37e-0be8-4c2d-9c4f-4bd5dd980952.png)
 
 ## 4. Referências
 
@@ -35,3 +51,4 @@ Esse processo é realizado através de 7 passos descritos a seguir:
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 30/11/2022 | 30/11/2022 | Criando arquivo da técnica FTF de priorização de requisitos | Artur Vinicius | Rodolfo Cabral |
+| 2.0    | 12/12/2022 | 12/12/2022 | Adicionado a tabela da técnica FTF de priorização de requisitos | Artur Vinicius | Rodolfo Cabral |
