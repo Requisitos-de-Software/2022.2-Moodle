@@ -11,9 +11,8 @@ theme:
     primary: orange
     accent: orange
   features:
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
+  - navigation.tabs
+  
 nav:
   - Inicio: index.md
   - Apresentações: apresentacoes.md
@@ -33,3 +32,5 @@ nav:
     - StoryTelling: Elicitacao/storytelling.md
     - Introspecção: Elicitacao/introspeccao.md
     - Observação: Elicitacao/observacao_etnografia.md
+  - Modelagem:
+    - Especificação Suplementar: Modelagem/suplementar.md
