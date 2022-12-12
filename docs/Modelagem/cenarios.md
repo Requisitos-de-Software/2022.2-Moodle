@@ -183,12 +183,6 @@ Existem cinco formas para a descrição de cenários:
 </figcaption> 
 
 
-<figcaption align='center'>
-    <b>Tabela cenário 11</b>
-        <br><small>Autor: Marcos Vinícius</small>
-</figcaption> 
-
-
 ### Cenário 10
 
 |Cenário 10||
