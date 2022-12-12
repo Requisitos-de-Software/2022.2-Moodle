@@ -168,17 +168,23 @@ Existem cinco formas para a descrição de cenários:
 
 ### Cenário 9
 
-|Cenário 09||
+|Cenário 9||
 |:----:|:----------|
-|<b>Objetivo</b>| - Recuperar a senha | 
-|<b>Contexto</b>| - Local: Tela de login <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Fazer uma prova | 
+|<b>Contexto</b>| - Local: Página da disciplina <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, acesso à uma disciplina <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
-|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "esqueci a senha"</br>- Usuário entra no seu email</br>- Usuário clica no email recebido </br>- Usuário digita a sua nova senha </br>- Usuário clica em confirmar |
+|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet <br> - Não estar cadastrado em uma disciplina |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na disciplina</br>- Usuário entra na atividade</br>- Usuário responde as questões </br>- Usuário clica em enviar respostas </br>- Usuário clica em confirmar |
 
 <figcaption align='center'>
     <b>Tabela cenário 9</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption> 
+
+
+<figcaption align='center'>
+    <b>Tabela cenário 11</b>
         <br><small>Autor: Marcos Vinícius</small>
 </figcaption> 
 
@@ -187,12 +193,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 10||
 |:----:|:----------|
-|<b>Objetivo</b>| - Fazer uma prova | 
-|<b>Contexto</b>| - Local: Página da disciplina <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, acesso à uma disciplina <br>|
+|<b>Objetivo</b>| - Cadastrar evento no calendário | 
+|<b>Contexto</b>| - Local: Tela do calendário <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
-|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet <br> - Não estar cadastrado em uma disciplina |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na disciplina</br>- Usuário entra na atividade</br>- Usuário responde as questões </br>- Usuário clica em enviar respostas </br>- Usuário clica em confirmar |
+|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no ícone do calendário no canto inferior direito</br>- Usuário clica no dia que deseja </br>- Usuário clica no ícone "+" no canto inferior direito </br>- Usuário preenche com as informações do evento </br>- Usuário clica em confirmar |
 
 <figcaption align='center'>
     <b>Tabela cenário 10</b>
@@ -204,12 +210,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 11||
 |:----:|:----------|
-|<b>Objetivo</b>| - Recuperar a senha | 
-|<b>Contexto</b>| - Local: Tela de login <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Enviar mensagem para um professor | 
+|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "esqueci a senha"</br>- Usuário entra no seu email</br>- Usuário clica no email recebido </br>- Usuário digita a sua nova senha </br>- Usuário clica em confirmar |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no segundo ícone do canto inferior </br>- Usuário clica na lupa</br>- Usuário digita o nome do professor </br>- Usuário clica no professor pretendido </br>- Usuário digita sua mensagem <br> - Usuário clica em enviar |
 
 <figcaption align='center'>
     <b>Tabela cenário 11</b>
@@ -221,12 +227,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 12||
 |:----:|:----------|
-|<b>Objetivo</b>| - Cadastrar evento no calendário | 
-|<b>Contexto</b>| - Local: Tela do calendário <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Acessar o blog do site| 
+|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no ícone do calendário no canto inferior direito</br>- Usuário clica no dia que deseja </br>- Usuário clica no ícone "+" no canto inferior direito </br>- Usuário preenche com as informações do evento </br>- Usuário clica em confirmar |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no "..." do canto inferior direito</br>- Usuário clica na opção blog do site|
 
 <figcaption align='center'>
     <b>Tabela cenário 12</b>
@@ -238,12 +244,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 13||
 |:----:|:----------|
-|<b>Objetivo</b>| - Enviar mensagem para um professor | 
+|<b>Objetivo</b>| - Alterar o tamanho da fonte das letras | 
 |<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no segundo ícone do canto inferior </br>- Usuário clica na lupa</br>- Usuário digita o nome do professor </br>- Usuário clica no professor pretendido </br>- Usuário digita sua mensagem <br> - Usuário clica em enviar |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito</br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário seleciona o tamanho do texto desejado |
 
 <figcaption align='center'>
     <b>Tabela cenário 13</b>
@@ -255,12 +261,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 14||
 |:----:|:----------|
-|<b>Objetivo</b>| - Acessar o blog do site| 
-|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Alterar para o tema escuro | 
+|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica no "..." do canto inferior direito</br>- Usuário clica na opção blog do site|
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário clica em esquema de cores </br>- Usuário clica na opção desejada |
 
 <figcaption align='center'>
     <b>Tabela cenário 14</b>
@@ -272,12 +278,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 15||
 |:----:|:----------|
-|<b>Objetivo</b>| - Alterar o tamanho da fonte das letras | 
+|<b>Objetivo</b>| - Alterar o idioma | 
 |<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito</br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário seleciona o tamanho do texto desejado |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do sistema </br>- Usuário clica em geral </br>- Usuário clica no idioma </br>- Usuário seleciona o idioma desejado |
 
 <figcaption align='center'>
     <b>Tabela cenário 15</b>
@@ -289,12 +295,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 16||
 |:----:|:----------|
-|<b>Objetivo</b>| - Alterar para o tema escuro | 
-|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Visualizar os emblemas conquistados | 
+|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário clica em esquema de cores </br>- Usuário clica na opção desejada |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na sua imagem de perfil </br>- Usuário clica no ícone emblemas |
 
 <figcaption align='center'>
     <b>Tabela cenário 16</b>
@@ -306,12 +312,12 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 17||
 |:----:|:----------|
-|<b>Objetivo</b>| - Alterar o idioma | 
-|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
+|<b>Objetivo</b>| - Visualizar as notas | 
+|<b>Contexto</b>| - Local: Tela inicial<br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
 |<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
 |<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do sistema </br>- Usuário clica em geral </br>- Usuário clica no idioma </br>- Usuário seleciona o idioma desejado |
+|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na foto de perfil do canto superior direito </br>- Usuário clica em notas </br>- Usuário clica na disciplina que quer ver as notas |
 
 <figcaption align='center'>
     <b>Tabela cenário 17</b>
@@ -323,40 +329,6 @@ Existem cinco formas para a descrição de cenários:
 
 |Cenário 18||
 |:----:|:----------|
-|<b>Objetivo</b>| - Visualizar os emblemas conquistados | 
-|<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
-|<b>Atores</b>| - Alunos/Usuário | 
-|<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
-|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na sua imagem de perfil </br>- Usuário clica no ícone emblemas |
-
-<figcaption align='center'>
-    <b>Tabela cenário 18</b>
-        <br><small>Autor: Marcos Vinícius</small>
-</figcaption> 
-
-
-### Cenário 19
-
-|Cenário 19||
-|:----:|:----------|
-|<b>Objetivo</b>| - Visualizar as notas | 
-|<b>Contexto</b>| - Local: Tela inicial<br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
-|<b>Atores</b>| - Alunos/Usuário | 
-|<b>Recursos</b>| - Smartphone, internet e o aplicativo | 
-|<b>Exceção</b>| - Smartphone para de funcionar</br>- Sem acesso à internet |
-|<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na foto de perfil do canto superior direito </br>- Usuário clica em notas </br>- Usuário clica na disciplina que quer ver as notas |
-
-<figcaption align='center'>
-    <b>Tabela cenário 19</b>
-        <br><small>Autor: Marcos Vinícius</small>
-</figcaption> 
-
-
-### Cenário 20
-
-|Cenário 20||
-|:----:|:----------|
 |<b>Objetivo</b>| - Configurar as notificações desejadas | 
 |<b>Contexto</b>| - Local: Tela inicial <br> - Tempo: 3 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br>|
 |<b>Atores</b>| - Alunos/Usuário | 
@@ -365,7 +337,7 @@ Existem cinco formas para a descrição de cenários:
 |<b>Episódios</b>| - Usuário abre o aplicativo </br>- Usuário clica na sua foto de perfil do canto superior direito </br>- Usuário clica na opção preferências </br>- Usuário clica na opção notificações </br>- Usuário faz sua configuração desejada |
 
 <figcaption align='center'>
-    <b>Tabela cenário 20</b>
+    <b>Tabela cenário 18</b>
         <br><small>Autor: Marcos Vinícius</small>
 </figcaption> 
 
@@ -383,3 +355,4 @@ Existem cinco formas para a descrição de cenários:
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 09/12/2022 | 11/12/2022 | Criação da página Cenários e os 2 primeiros cenários | Rodolfo Cabral Neves | Marcos Vinícius |
 | 1.1    | 10/12/2022 | 11/12/2022 | Adição de 18 cenários, referências e histórico de versão | Marcos Vinícius| Rodolfo Cabral Neves |
+| 1.2    | 11/12/2022 | 12/12/2022 | Remoção de 2 cenários repetidos | Marcos Vinícius| Rodolfo Cabral Neves |
