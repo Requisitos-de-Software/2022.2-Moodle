@@ -10,15 +10,26 @@
 </p>
 
 ## 2. Participantes
-*    Arthur Vinicius
+*    Artur Vinicius
 *    Pablo Christianno
 
 ## 3. Diagrama UML de Casos de Uso
+
+### 3.1 Diagrama de Casos para o Aluno
 
 ![imagem](../Assets/modelagem/Use_case.jpeg)
 
 <center>
 <h6 aling = 'center'>Figura 1: Diagrama de Caso de Uso</h6>
+<h6 aling = 'center'>Fonte: Elaboração Própria</h6>
+</center>
+
+## 3.2 Diagrama UML de Casos de Uso para o Professor
+
+![Casos De Uso Moodle Professor](https://user-images.githubusercontent.com/58870950/207181428-b9fdc92d-0fd0-427e-a3b2-74e7693c6d97.png)
+
+<center>
+<h6 aling = 'center'>Figura 2: Diagrama de Caso de Uso</h6>
 <h6 aling = 'center'>Fonte: Elaboração Própria</h6>
 </center>
 
@@ -89,4 +100,5 @@ https://edisciplinas.usp.br/pluginfile.php/3720765/course/section/857581/Aula02_
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
-| 1.0    | 10/12/2022 | 10/12/2022 | Estruturação e criação da página | Pablo Christianno e Arthur Vinicius | Delziron Braz |
+| 1.0    | 10/12/2022 | 10/12/2022 | Estruturação e criação da página | Pablo Christianno e Artur Vinicius | Delziron Braz |
+| 1.1    | 12/12/2022 | 12/12/2022 | Adicionado o diagrama de caso de uso para o professor e, acrescentando legenda para os diagramas | Pablo Christianno e Artur Vinicius | Delziron Braz |
