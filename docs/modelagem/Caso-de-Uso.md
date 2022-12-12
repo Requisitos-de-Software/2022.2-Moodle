@@ -15,23 +15,34 @@
 
 ## 3. Diagrama UML de Casos de Uso
 
-### 3.1 Diagrama de Casos para o Aluno
+## 3.1 Elementos do Diagrama de Casos de Uso
 
-![imagem](../Assets/modelagem/Use_case.jpeg)
+![imagem](../Assets/modelagem/Legenda-diagrama.jpeg)
 
 <center>
-<h6 aling = 'center'>Figura 1: Diagrama de Caso de Uso</h6>
+<h6 aling = 'center'>Figura 1: Elementos dos Diagramas de Casos de Uso</h6>
 <h6 aling = 'center'>Fonte: Elaboração Própria</h6>
 </center>
 
-## 3.2 Diagrama UML de Casos de Uso para o Professor
 
-![Casos De Uso Moodle Professor](https://user-images.githubusercontent.com/58870950/207181428-b9fdc92d-0fd0-427e-a3b2-74e7693c6d97.png)
+### 3.2 Diagrama de Casos para o Aluno
+
+![imagem](../Assets/modelagem/Use_case.jpeg)
 
 <center>
 <h6 aling = 'center'>Figura 2: Diagrama de Caso de Uso</h6>
 <h6 aling = 'center'>Fonte: Elaboração Própria</h6>
 </center>
+
+## 3.3 Diagrama UML de Casos de Uso para o Professor
+
+![Casos De Uso Moodle Professor](https://user-images.githubusercontent.com/58870950/207181428-b9fdc92d-0fd0-427e-a3b2-74e7693c6d97.png)
+
+<center>
+<h6 aling = 'center'>Figura 3: Diagrama de Caso de Uso</h6>
+<h6 aling = 'center'>Fonte: Elaboração Própria</h6>
+</center>
+
 
 ## 4. Especificação dos Casos de Uso
 
@@ -93,8 +104,9 @@
 </center>
  
 ## 5. Referências
-https://www.devmedia.com.br/especificacao-de-casos-de-uso-na-pratica/18427
-https://edisciplinas.usp.br/pluginfile.php/3720765/course/section/857581/Aula02_CasosDeUso.pdf
+SADA, Rodrigo. Artigo Invista em você! Saiba como a DevMedia pode ajudar sua carreira. Especificação de Casos de Uso na Prática. Devmidia, 2010. Disponível em: https://www.devmedia.com.br/especificacao-de-casos-de-uso-na-pratica/18427. Acesso em: 09 dez. 2022.
+
+NAKAGAWA, Elisa. Casos de Uso e Diagrama de Casos de Uso. Disponivel em: <https://edisciplinas.usp.br/pluginfile.php/3720765/course/section/857581/Aula02_CasosDeUso.pdf>. Acesso em: 09 dez. 2022.
 
 ## 6. Histórico de Versionamento
 
