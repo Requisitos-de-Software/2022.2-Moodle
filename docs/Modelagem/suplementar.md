@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 <p align="justify"> &emsp;&emsp;
-    "<i>As Especificações Complementares capturam os requisitos do sistema que não são prontamente capturados nos casos de uso do modelo de caso de uso. Entre os requisitos estão incluídos:</i>"[1]
+    "<i>As Especificações Complementares capturam os requisitos do sistema que não são prontamente capturados nos casos de uso do modelo de caso de uso.</i>"[1]
 </p>
 
 ## 2. Metodologia FURBS
@@ -17,7 +17,7 @@
     <i>"Representa todo aspecto funcional do software, ou seja seus requisitos. É uma categoria com diversas subcategorias que variam de acordo com a aplicação. Sua medição considera, principalmente, o cumprimento dos requesitos especificados."</i>[3]
 </p>
 
-* A lista dos requisitos pode ser encontrada em [Elicitação de Requeisitos](../Elicitacao/elicitacao_de_requisitos.md)
+* A lista dos requisitos pode ser encontrada em [Elicitação de Requisitos](../Elicitacao/elicitacao_de_requisitos.md)
 
 ### 2.2 Usability (Usabilidade)
 
@@ -64,7 +64,7 @@
 * **O app deve ser eficiente**
 
 <p align="justify"> &emsp;&emsp;
-    O sistema indispensavelmente deve ser ser rápido e otimizado, para melhor desempenho na realização de tarefas.
+    O sistema indispensavelmente deve ser rápido e otimizado, para melhor desempenho na realização de tarefas.
 </p>
 
 ### 2.5 Supportability (Suportabilidade)
@@ -80,19 +80,18 @@
 </p>
 
 ## 3. Referências
-[1] Centro de Informática da UFPE. **Artefato: Especificações Suplementares** - Acesso dia 09 de Dezembro de 2022. Disponível em: [Artefato: Especificações Suplementares](https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html#:~:text=Artefato%3A%20Especifica%C3%A7%C3%B5es%20Suplementares&text=Esse%20artefato%20captura%20os%20requisitos,especifica%C3%A7%C3%B5es%20de%20casos%20de%20uso.)
+>[1] Centro de Informática da UFPE. **Artefato: Especificações Suplementares** - Acesso dia 09 de Dezembro de 2022. Disponível em: [Artefato: Especificações Suplementares](https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html#:~:text=Artefato%3A%20Especifica%C3%A7%C3%B5es%20Suplementares&text=Esse%20artefato%20captura%20os%20requisitos,especifica%C3%A7%C3%B5es%20de%20casos%20de%20uso.)
 
-[2] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
+>[2] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
 
-[3] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
+>[3] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
 
-[4] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
+>[4] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
 
-[5] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
+>[5] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
 
-[6] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
-
-## 5.Histórico de versão
+>[6] QualidadeBR. **Teste & Qualidade de Software**. Acesso dia 09 de Dezembro de 2022 - Disponível em: [FURPS+](https://qualidadebr.wordpress.com/2008/07/10/furps/)
+## 4.Histórico de versão
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|

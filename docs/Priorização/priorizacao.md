@@ -1,13 +1,16 @@
 # Priorização de requisitos do aplicativo Moodle
 
-Foi utilizada a técnica de escala de tês níveis para a priorização de requisitos. Esta escala consiste em categorizar os requisitos em três níveis, cujas definições e descrições se seguem:
+## 1.Introdução
 
+<p align="justify"> &emsp;&emsp;
+    Foi utilizada a técnica de escala de tês níveis para a priorização de requisitos. Esta escala consiste em categorizar os requisitos em três níveis, cujas definições e descrições se seguem:
+</p>
 
 * **Alta prioridade:** é um requisito que é simultâneamente importantee (os clientes necessitam da funcionalidade) e urgente (os cliente necessitam da funcionaldidade na próxima release).
 * **Média prioridade:** é um requisito importante (os clientes necessitam da funcionalidade) mas não urgente.
 * **Baixa prioridade:** é um requisito que não é nem importante nem urgente (os clientes conseguem viver sem essa funcionalidade se for ncessária).
 
-### Tabela de Requisitos Funcionais
+### 1.1 Tabela de Requisitos Funcionais
 
 | Número | Requisito                                                   | Prioridade     |
 | :------: | ----------------------------------------------------------- | :----------: |
@@ -36,12 +39,12 @@ Foi utilizada a técnica de escala de tês níveis para a priorização de requi
 | RF23 | O aluno deve ser capaz de listar as notas das atividades | Baixa |
 | RF24 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | Baixa |
 
+<figcaption align='center'>
+    <b>Tabela 01: Requisitos Funcionais</b>
+        <br><small>Autor: Artur Vinicius</small>
+</figcaption> 
 
-
-
-
-
-### Tabela de Requisitos Não Funcionais
+### 1.2 Tabela de Requisitos Não Funcionais
 
 | Número | Requisito                                                   | Prioridade     |
 | :------: | ----------------------------------------------------------- | :----------: |
@@ -49,3 +52,14 @@ Foi utilizada a técnica de escala de tês níveis para a priorização de requi
 | RNF03 | O aluno deve permanecer logado no app até fazer logout | Alta |
 | RNF02 | O sistema tem que ser disponibilizado como app mobile | Média |
 | RNF04 | O sistema deve notificar tarefas que estão perto do vencimento | Baixa |
+
+<figcaption align='center'>
+    <b>Tabela 02: Requisitos Não Funcionais</b>
+        <br><small>Autor: Artur Vinicius</small>
+</figcaption> 
+
+## 2. Versionamento
+
+| Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
+|--------|------|------|-----------|-------|---------|
+| 1.0    | 30/11/2022 | 30/11/2022 | Adição técnica In or Out de priorização de requisitos | Artur Vinicius | Rodolfo Cabral |

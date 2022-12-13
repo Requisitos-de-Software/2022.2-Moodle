@@ -2,25 +2,33 @@
 
 ## 1. Introdução
 
-Priorização de requisitos é um processo realizado após elicitar os requisitos, com o intuito de organizar o escopo do projeto e definir um ponto de partida de forma a gerar valor ao cliente desde o inicio do desenvolvimento.
-Nessa seção vai ser apresentado a técnica In or Out de priorização de requisitos.
+<p align="justify"> &emsp;&emsp;
+    Priorização de requisitos é um processo realizado após elicitar os requisitos, com o intuito de organizar o escopo do projeto e definir um ponto de partida de forma a gerar valor ao cliente desde o inicio do desenvolvimento. Nessa seção vai ser apresentado a técnica In or Out de priorização de requisitos.
+</p>
 
 ## 2. Metodologia
-In or Out é um dos metódos mais simples que consistes em uma decisão binária com relação a cada requisito se ele entra ou sai. Essa decisão é feita por release definindo quais são os requsitos que serão implementados por release.
 
-A priorização foi realizada com o aulixio de um usuário da plataforma fazendo o papel de cliente, onde foi apresentado os requisitos elicitado, e o cliente foi indicando se deveria entrar ou sair conforme manda o método. 
+<p align="justify"> &emsp;&emsp;
+    In or Out é um dos metódos mais simples que consistes em uma decisão binária com relação a cada requisito se ele entra ou sai. Essa decisão é feita por release definindo quais são os requsitos que serão implementados por release.
+</p>
 
-<div style="text-align: center">
-<p>Tabela 1: Dados do usuário</p>
-</div>
+<p align="justify"> &emsp;&emsp;
+    A priorização foi realizada com o aulixio de um usuário da plataforma fazendo o papel de cliente, onde foi apresentado os requisitos elicitado, e o cliente foi indicando se deveria entrar ou sair conforme manda o método. 
+</p>
+
+
+<center>
 
 | Nome            | Idade   | Ocupação  | Cidade/Estado |
-| --------------- | ------- | --------- | ------------- |
+| :---------------: | :-------: | :---------: | :-------------: |
 | Lucas Oliveira | 24 anos | Estudante | Brasília/DF   |
 
-<div style="text-align: center">
-<p>Fonte: Artur Vinicius</p>
-</div>
+</center>
+
+<figcaption align='center'>
+    <b>Tabela 01: Dados do usuário</b>
+        <br><small>Autor: Artur Vinicius</small>
+</figcaption> 
 
 ## 3. In or Out
 
@@ -95,12 +103,23 @@ A priorização foi realizada com o aulixio de um usuário da plataforma fazendo
 | RF66 | O professor deve ser capaz de criar restrições de envio para as atividades | Storytelling | Out |
 | RF67 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | Storytelling | Out |
 
+<figcaption align='center'>
+    <b>Tabela 02: Requisitos Funcionais</b>
+        <br><small>Autor: Artur Vinicius</small>
+</figcaption> 
+
 ### 3.2 Requisitos Não Funcionais
 | ID  | Requisito | Técnica | Prioridade |
 | :-: | :-------- | :-----: | :--------: |
 | RNF01 | O aluno somente poderá vincular o sistema com sua instituição de ensino através de um endereço eletrônico | Observação | Out |
 | RNF02 | O sistema tem que ser disponibilizado como app mobile | Storytelling | In |
 | RNF03 | O aluno deve permanecer logado no app até fazer logout | Storytelling | In |
+
+<figcaption align='center'>
+    <b>Tabela 03: Requisitos Não Funcionais</b>
+        <br><small>Autor: Artur Vinicius</small>
+</figcaption> 
+
 
 ## 4. Referências
 

@@ -27,10 +27,15 @@ nav:
     - Aplicativos avaliados: Pre_Rastreabilidade/apps_avaliados.md
     - RichPicture: Pre_Rastreabilidade/rich_picture.md
   - Elicitação:
+    - Introdução: Elicitacao/elicitacao_de_requisitos.md
     - Personas: Elicitacao/personas.md
-    - Elicitação de Requisitos: Elicitacao/elicitacao_de_requisitos.md
     - StoryTelling: Elicitacao/storytelling.md
     - Introspecção: Elicitacao/introspeccao.md
     - Observação: Elicitacao/observacao_etnografia.md
+  - Priorização:
+    - Introdução: Priorização/priorizacao.md
+    - First Things First: Priorização/First-Things-First.md
+    - In or Out: Priorização/In-or-Out.md
   - Modelagem:
+    - Cenários: Modelagem/cenarios.md
     - Especificação Suplementar: Modelagem/suplementar.md

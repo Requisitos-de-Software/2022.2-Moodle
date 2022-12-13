@@ -6,6 +6,8 @@
 
 ## 2. Rich picture dos apps avaliados
 
+<center>
+
 | Nome do integrante | Nome do app          |
 | ------------------ | -------------------- |
 | Artur Vinicius     | MedSUS               |
@@ -15,10 +17,9 @@
 | Pablo Christiano   | CNH Digital          |
 | Rodolfo Cabral     | Meu imposto de renda |
 
+</center>
 
 ### 2.1 Rich picture Artur Vinicius
-
-<center>
 
 ![](https://user-images.githubusercontent.com/79341819/203165139-1359f522-da42-480e-a5dd-acb58ed916b6.png)
 
@@ -40,7 +41,9 @@
 ![S](https://user-images.githubusercontent.com/79341819/203165123-ebba0d2e-fbf2-4e29-8bf6-505279e0fc41.png)
 
 *Figura 3: Richpicture do integrante Delziron Braz*   
-<small>Fonte: Autoria Própia</small></center>
+<small>Fonte: Autoria Própia</small>
+
+</center>
 
 ### 2.4 Rich picture Marcos Vinícius
 
@@ -74,11 +77,11 @@
 <p align = "justify"> &emsp;&emsp; Após a realização de cada rich picture individual, o time se reuniu para discurtir o app que seria escolhido para o projeto. Após a reunião do dia 16/11/2022, diante dos parametros de familiaridade com as funcionalidade por parte da equipe, facilidade para encontrar o publico alvo e ser um aplicativo governamental. O time decidiu optar por não seguir com nenhuma dos apps que foram realizados os rich pictures anteriores e assim escolher o app Moodle para ser desenvolvido ao longo do projeto.</p>
 
 ## 4. Referências
-- [1] "Introducing Rich Pictures - Picture Drawing Guidelines" - Software Development Project
+>[1] "Introducing Rich Pictures - Picture Drawing Guidelines" - Software Development Project
 
-- [2] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
+>[2] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
 
-- [3] [Apresentação da aula de requisitos-  Pré-rastreabilidade -Rich Picture Aula 04](https://aprender3.unb.br/pluginfile.php/2307459/mod_resource/content/4/Requisitos%20-%20Aula%2004%20-%20Parte%202%20RichPicture.pdf)
+>[3] [Apresentação da aula de requisitos-  Pré-rastreabilidade -Rich Picture Aula 04](https://aprender3.unb.br/pluginfile.php/2307459/mod_resource/content/4/Requisitos%20-%20Aula%2004%20-%20Parte%202%20RichPicture.pdf)
   
 ## 5. Versionamento
 
