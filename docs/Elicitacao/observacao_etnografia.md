@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-<p align= justify> &emsp;&emsp; 
+<p aling= justify> &emsp;&emsp; 
     A observação consiste na compreensão das interações entre pessoas, instituições, sistemas e ambiente, é observado então as tarefas cotidianas da partes interessadas. Como principal vantagem temos que é uma técnica que tem uma melhor visão prática, realista e confiável do negócio. 
 </p>
 
@@ -72,7 +72,7 @@
 
 - [2] Observação direta. **REtraining Requirements Engineering**. Disponível em: <<https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta/>>. Acesso em: 23 nov. 2022.
 
-## 6.Histórico de versão
+## 6. Histórico de versão
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
