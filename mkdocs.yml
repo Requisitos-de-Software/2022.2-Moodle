@@ -38,4 +38,5 @@ nav:
     - In or Out: Priorização/In-or-Out.md
   - Modelagem:
     - Cenários: Modelagem/cenarios.md
+    - Casos de Uso: Modelagem/caso-de-uso.md
     - Especificação Suplementar: Modelagem/suplementar.md

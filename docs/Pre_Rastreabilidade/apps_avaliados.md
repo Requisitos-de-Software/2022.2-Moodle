@@ -45,6 +45,15 @@
 
 </center>
 
+<center>
+
+![Legenda](../Assets/RichPicture/Legenda.png)
+
+*Figura 1: Richpicture do integrante Delziron Braz*   
+<small>Fonte: Autoria Própia</small>
+
+</center>
+
 ### 2.4 Rich picture Marcos Vinícius
 
 <center>
