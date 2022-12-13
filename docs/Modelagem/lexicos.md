@@ -241,6 +241,8 @@
 
 ## 4. Referências
 
-- Léxico Aplicado da Linguagem (Resumo). Disponível em: <http://www-di.inf.puc-rio.br/~julio/lal.pdf> Acesso em 12/12/2022.
-- Pagina de léxicos ingresso.com. Disponível em: <https://requisitos-de-software.github.io/2021.1-Ingresso.com/modelagem/lexicos> Acesso em 12/12/2022.
-- Pagina de léxicos noruh. Disponível em <https://requisitos-de-software.github.io/2022.1-Noruh/modelagem/lexicos/> Acesso em 12/12/2022.
+>Léxico Aplicado da Linguagem (Resumo). Disponível em: <http://www-di.inf.puc-rio.br/~julio/lal.pdf> Acesso em 12/12/2022.
+
+>Pagina de léxicos ingresso.com. Disponível em: <https://requisitos-de-software.github.io/2021.1-Ingresso.com/modelagem/lexicos> Acesso em 12/12/2022.
+
+>Pagina de léxicos noruh. Disponível em <https://requisitos-de-software.github.io/2022.1-Noruh/modelagem/lexicos/> Acesso em 12/12/2022.
