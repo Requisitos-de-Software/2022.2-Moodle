@@ -1,0 +1,2112 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://Requisitos-de-Software.github.io/2022.2-Moodle/Modelagem/cenarios/">
+      
+      <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Cenários - Modular Object-Oriented Dynamic Learning Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenarios" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-header__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Modular Object-Oriented Dynamic Learning Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../apresentacoes/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Elicitacao/elicitacao_de_requisitos/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-tabs__link">
+        Priorização
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Modular Object-Oriented Dynamic Learning Environment" class="md-nav__button md-logo" aria-label="Modular Object-Oriented Dynamic Learning Environment" data-md-component="logo">
+      
+  <img src="https://user-images.githubusercontent.com/79341819/202909824-0650cfef-d62b-46bb-8517-131ff9d71817.png" alt="logo">
+
+    </a>
+    Modular Object-Oriented Dynamic Learning Environment
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_reunioes/" class="md-nav__link">
+        Cronograma de reuniões
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_atividades/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        Gerenciamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/metodologia/" class="md-nav__link">
+        Medotologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/reunioes/" class="md-nav__link">
+        Reuniões
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/apps_avaliados/" class="md-nav__link">
+        Aplicativos avaliados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pre_Rastreabilidade/rich_picture/" class="md-nav__link">
+        RichPicture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/elicitacao_de_requisitos/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/storytelling/" class="md-nav__link">
+        StoryTelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/observacao_etnografia/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/First-Things-First/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/In-or-Out/" class="md-nav__link">
+        In or Out
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cenários
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cenários
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-modelos-de-cenario" class="md-nav__link">
+    1.1  Modelos de cenário
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1  Modelos de cenário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-a-utilizada-foi" class="md-nav__link">
+    1.1.1 A utilizada foi:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2cenarios" class="md-nav__link">
+    2.Cenários
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1" class="md-nav__link">
+    Cenário 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2" class="md-nav__link">
+    Cenário 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3" class="md-nav__link">
+    Cenário 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4" class="md-nav__link">
+    Cenário 4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5" class="md-nav__link">
+    Cenário 5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6" class="md-nav__link">
+    Cenário 6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7" class="md-nav__link">
+    Cenário 7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8" class="md-nav__link">
+    Cenário 8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9" class="md-nav__link">
+    Cenário 9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10" class="md-nav__link">
+    Cenário 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11" class="md-nav__link">
+    Cenário 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12" class="md-nav__link">
+    Cenário 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13" class="md-nav__link">
+    Cenário 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14" class="md-nav__link">
+    Cenário 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15" class="md-nav__link">
+    Cenário 15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16" class="md-nav__link">
+    Cenário 16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17" class="md-nav__link">
+    Cenário 17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18" class="md-nav__link">
+    Cenário 18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3referencias" class="md-nav__link">
+    3.Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4historico-de-versao" class="md-nav__link">
+    4.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caso-de-uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-modelos-de-cenario" class="md-nav__link">
+    1.1  Modelos de cenário
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1  Modelos de cenário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-a-utilizada-foi" class="md-nav__link">
+    1.1.1 A utilizada foi:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2cenarios" class="md-nav__link">
+    2.Cenários
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1" class="md-nav__link">
+    Cenário 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2" class="md-nav__link">
+    Cenário 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3" class="md-nav__link">
+    Cenário 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4" class="md-nav__link">
+    Cenário 4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5" class="md-nav__link">
+    Cenário 5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6" class="md-nav__link">
+    Cenário 6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7" class="md-nav__link">
+    Cenário 7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8" class="md-nav__link">
+    Cenário 8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9" class="md-nav__link">
+    Cenário 9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10" class="md-nav__link">
+    Cenário 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11" class="md-nav__link">
+    Cenário 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12" class="md-nav__link">
+    Cenário 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13" class="md-nav__link">
+    Cenário 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14" class="md-nav__link">
+    Cenário 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15" class="md-nav__link">
+    Cenário 15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16" class="md-nav__link">
+    Cenário 16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17" class="md-nav__link">
+    Cenário 17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18" class="md-nav__link">
+    Cenário 18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3referencias" class="md-nav__link">
+    3.Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4historico-de-versao" class="md-nav__link">
+    4.Histórico de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="cenarios">Cenários</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Cenários são considerados descrições evolutivas de situações num ambiente, sendo compostos por um conjunto ordenado de interações entre seus
+participantes. Os mesmos têm sido amplamente utilizados no processo de elicitação dos
+requisitos de sistemas de software. Neste contexto, cenários são utilizados para
+descrever as situações de uso do sistema pelos seus usuários e os relacionamentos
+entre o sistema em desenvolvimento e outros sistemas externos, auxiliando no
+entendimento e na descoberta de novos requisitos.</p>
+<h3 id="11-modelos-de-cenario">1.1  Modelos de cenário</h3>
+<p>Existem cinco formas para a descrição de cenários:
+ * Texto narrativo
+ * Texto estruturado
+ * Diagramas
+ * Imagens
+ * Animações ou simulações</p>
+<h4 id="111-a-utilizada-foi">1.1.1 A utilizada foi:</h4>
+<table>
+<thead>
+<tr>
+<th align="center">CENÁRIO X:</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Título:</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Objetivo:</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Contexto:</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Recursos:</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Atores:</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Episódios:</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2cenarios">2.Cenários</h2>
+<h3 id="cenario-1">Cenário 1</h3>
+<table>
+<thead>
+<tr>
+<th align="center">CENÁRIO 01</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Título:</b></td>
+<td align="left">- Entrega de tarefa</td>
+</tr>
+<tr>
+<td align="center"><b>Objetivo:</b></td>
+<td align="left">Entregar um exercício na platforma</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto:</b></td>
+<td align="left">Quando o professor deixa exercícios</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos:</b></td>
+<td align="left">Documento que contém as respostas dos exercícios</td>
+</tr>
+<tr>
+<td align="center"><b>Atores:</b></td>
+<td align="left">Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios:</b></td>
+<td align="left">- Usuário faz login na plataforma. <br> - Usuário abre o painel da plataforma <br> - Usuário seleciona a tarefa para enviar<br> - Usuário clica no botão de enviar a tarefa <br> - Usuário faz upload do documento <br> - Usuário clica em submeter para confirmar o envio do exercício.</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 1</b>
+        <br><small>Autor: Rodolfo Cabral Neves</small>
+</figcaption>
+
+<h3 id="cenario-2">Cenário 2</h3>
+<table>
+<thead>
+<tr>
+<th align="center">CENÁRIO 02</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></b>Título:</b></td>
+<td align="left">- Download do material do professor</td>
+</tr>
+<tr>
+<td align="center"></b>Objetivo:</b></td>
+<td align="left">- Realizar o download do material disponibilizado pelo professor</td>
+</tr>
+<tr>
+<td align="center"></b>Contexto:</b></td>
+<td align="left">Quando Usuário pretende estudar um determinado tópico</td>
+</tr>
+<tr>
+<td align="center"></b>Recursos:</b></td>
+<td align="left">Nenhum</td>
+</tr>
+<tr>
+<td align="center"></b>Atores:</b></td>
+<td align="left">Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"></b>Episódios:</b></td>
+<td align="left">- Usuário faz login na plataforma;<br>- Usuário abre o painel da plataforma<br>- Usuário seleciona a matéria;<br>- Usuário seleciona o tópico ou o módulo da matéria<br>- O Usuário clica no material para realizar o download</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 2</b>
+        <br><small>Autor: Rodolfo Cabral Neves</small>
+</figcaption>
+
+<h3 id="cenario-3">Cenário 3</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 03</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Escolher a sua universidade</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Logo ao iniciar o aplicativo pela primeira vez <br> - Tempo: 2 min <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário copia o link do site de atividades de sua universidade</br>- Usuário cola o link do site de atividades de sua universidade.</br>- Usuário preenche a tela de login com sua identificação</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 3</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-4">Cenário 4</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 04</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Se cadastrar em uma disciplina</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Lupa ao lado direito superior da tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, disponibilidade à senha de acesso da disciplina <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet <br> - Não possuir a senha de acesso à disciplina</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica no botão da busca no canto superior direito</br>- Usuário digita o código ou nome da disciplina</br>- Usuário seleciona a disciplina desejada</br>- Usuário digita a senha de acesso</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 4</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-5">Cenário 5</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 05</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Cadastrar nova pergunta em um fórum</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial de uma disciplina <br> - Tempo: 3 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, acesso à disciplina <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet <br> - Não possuir  acesso à disciplina</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na disciplina desejada</br>- Usuário entra no fórum desejado</br>- Usuário clica na opção "cadastrar novo tópico" </br>- Usuário digita oque deseja na caixa de texto </br>- Usuário clica em "publicar novo tópico"</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 5</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-6">Cenário 6</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 06</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Recuperar a senha</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela de login <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na opção "esqueci a senha"</br>- Usuário entra no seu email</br>- Usuário clica no email recebido </br>- Usuário digita a sua nova senha </br>- Usuário clica em confirmar</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 6</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-7">Cenário 7</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 07</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Alterar a imagem de perfil</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica no ícone da foto de perfil no canto superior direito</br>- Usuário clica no seu nome</br>- Usuário clica no lápis abaixo da sua foto de perfil </br>- Usuário escolhe sua nova foto de perfil</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 7</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-8">Cenário 8</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 08</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Enviar uma atividade atrasada</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial de uma disciplina <br> - Tempo: 3 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, tempo de envio da atividade esgotado <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na disciplina</br>- Usuário clica na atividade atrasada</br>- Usuário seleciona o arquivo que deseja enviar </br>- Usuário clica em confirmar envio</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 8</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-9">Cenário 9</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 9</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Fazer uma prova</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Página da disciplina <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet, acesso à uma disciplina <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet <br> - Não estar cadastrado em uma disciplina</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na disciplina</br>- Usuário entra na atividade</br>- Usuário responde as questões </br>- Usuário clica em enviar respostas </br>- Usuário clica em confirmar</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 9</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-10">Cenário 10</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 10</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Cadastrar evento no calendário</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela do calendário <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica no ícone do calendário no canto inferior direito</br>- Usuário clica no dia que deseja </br>- Usuário clica no ícone "+" no canto inferior direito </br>- Usuário preenche com as informações do evento </br>- Usuário clica em confirmar</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 10</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-11">Cenário 11</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 11</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Enviar mensagem para um professor</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica no segundo ícone do canto inferior </br>- Usuário clica na lupa</br>- Usuário digita o nome do professor </br>- Usuário clica no professor pretendido </br>- Usuário digita sua mensagem <br> - Usuário clica em enviar</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 11</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-12">Cenário 12</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 12</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Acessar o blog do site</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica no "..." do canto inferior direito</br>- Usuário clica na opção blog do site</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 12</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-13">Cenário 13</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 13</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Alterar o tamanho da fonte das letras</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito</br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário seleciona o tamanho do texto desejado</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 13</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-14">Cenário 14</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 14</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Alterar para o tema escuro</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do aplicativo </br>- Usuário clica em geral </br>- Usuário clica em esquema de cores </br>- Usuário clica na opção desejada</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 14</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-15">Cenário 15</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 15</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Alterar o idioma</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na opção "..." no canto inferior direito </br>- Usuário clica em configurações do sistema </br>- Usuário clica em geral </br>- Usuário clica no idioma </br>- Usuário seleciona o idioma desejado</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 15</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-16">Cenário 16</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 16</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Visualizar os emblemas conquistados</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 1 minuto <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na sua imagem de perfil </br>- Usuário clica no ícone emblemas</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 16</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-17">Cenário 17</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 17</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Visualizar as notas</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial<br> - Tempo: 2 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na foto de perfil do canto superior direito </br>- Usuário clica em notas </br>- Usuário clica na disciplina que quer ver as notas</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 17</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h3 id="cenario-18">Cenário 18</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenário 18</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><b>Objetivo</b></td>
+<td align="left">- Configurar as notificações desejadas</td>
+</tr>
+<tr>
+<td align="center"><b>Contexto</b></td>
+<td align="left">- Local: Tela inicial <br> - Tempo: 3 minutos <br> - Pré-condição: Aplicativo aberto, acesso à internet <br></td>
+</tr>
+<tr>
+<td align="center"><b>Atores</b></td>
+<td align="left">- Alunos/Usuário</td>
+</tr>
+<tr>
+<td align="center"><b>Recursos</b></td>
+<td align="left">- Smartphone, internet e o aplicativo</td>
+</tr>
+<tr>
+<td align="center"><b>Exceção</b></td>
+<td align="left">- Smartphone para de funcionar</br>- Sem acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><b>Episódios</b></td>
+<td align="left">- Usuário abre o aplicativo </br>- Usuário clica na sua foto de perfil do canto superior direito </br>- Usuário clica na opção preferências </br>- Usuário clica na opção notificações </br>- Usuário faz sua configuração desejada</td>
+</tr>
+</tbody>
+</table>
+<figcaption align='center'>
+    <b>Tabela cenário 18</b>
+        <br><small>Autor: Marcos Vinícius</small>
+</figcaption>
+
+<h2 id="3referencias">3.Referências</h2>
+<ul>
+<li>
+<p><a href="https://requisitos-de-software.github.io/2021.2-Tembici/modelagem/cenarios/">Documento de Cenário do grupo Tembici</a></p>
+</li>
+<li>
+<p><a href="https://requisitos-de-software.github.io/2022.1-Noruh/modelagem/cenarios/">Documento de Cenário do grupo Noruh</a></p>
+</li>
+</ul>
+<h2 id="4historico-de-versao">4.Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data da realização</th>
+<th>Data prevista revisão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>09/12/2022</td>
+<td>11/12/2022</td>
+<td>Criação da página Cenários e os 2 primeiros cenários</td>
+<td>Rodolfo Cabral Neves</td>
+<td>Marcos Vinícius</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>10/12/2022</td>
+<td>11/12/2022</td>
+<td>Adição de 18 cenários, referências e histórico de versão</td>
+<td>Marcos Vinícius</td>
+<td>Rodolfo Cabral Neves</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>11/12/2022</td>
+<td>12/12/2022</td>
+<td>Remoção de 2 cenários repetidos</td>
+<td>Marcos Vinícius</td>
+<td>Rodolfo Cabral Neves</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../../Prioriza%C3%A7%C3%A3o/In-or-Out/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: In or Out" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              In or Out
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../caso-de-uso/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Casos de Uso" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Casos de Uso
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
