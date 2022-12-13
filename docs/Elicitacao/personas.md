@@ -18,7 +18,7 @@
 
 ### 2.1 Persona 1
 
-![imagem](../../Assets/personas/Persona1.png)
+![imagem](../Assets/personas/Persona1.png)
 
 <center>
     *Figura 1: Primeira persona, primária*
@@ -30,7 +30,7 @@
 
 ### 2.2 Persona 2
 
-![imagem](../../Assets/personas/Persona2.png)
+![imagem](../Assets/personas/Persona2.png)
 
 <center>
     *Figura 2: Segunda persona, primária*
@@ -42,7 +42,7 @@
 
 ### 2.3 Persona 3
 
-![persona3](../../Assets/personas/Persona3.png)
+![persona3](../Assets/personas/Persona3.png)
 
 <center>
     *Figura 3: Terceira persona, secundária*
@@ -54,7 +54,7 @@
 
 ### 2.4 Antipersona
 
-![imagem](../../Assets/personas/Persona4.png)
+![imagem](../Assets/personas/Persona4.png)
 
 <center>
     *Figura 4: Quarta persona, antipersona*
