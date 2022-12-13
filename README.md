@@ -1,5 +1,5 @@
 
-![Moodle](/docs/img/Moodle.png "Moodle")
+![Moodle](/docs/img/moodlelogo.png "Moodle")
 
 ## Sobre o Projeto.
 Repositório destinado ao desenvolvimento do trabalho da disciplina Requisitos de Software na Universidade de Brasília - Faculdade do Gama (UnB - FGA). Nesse repositório será armazenado e apresentado todos os artefatos e processos realizado durante a disciplina. O aplicativo que será utilizado para esse estudo é o Moodle.  
