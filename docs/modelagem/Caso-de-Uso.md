@@ -102,6 +102,63 @@
 <h6 aling = 'center'>tabela 3: Especificação de Cadastro em Curso</h6>
 <h6 aling = 'center'>Fonte: Elaboração Própria</h6>
 </center>
+
+#### UC04 
+
+| <b>UC04</b> | <b>Informações</b> |
+|:---------------------:|----------------------------|
+| Descrição         | O <b>Aluno</b> pode acessar um curso |
+| Ator              | <b>Aluno</b> |
+| Pré-condições     | Acesso à internet e está logado |
+| frequência de uso | Eventual |
+| Ação              | O <b>Aluno</b> acessar um curso |
+| Fluxo Principal   | <b>FP01</b>: Fluxo para acessar um curso</br>1. Ator clica na aba Painel na parte superior.</br>2. O ator procura pelo nome do curso que ele deseja acessar.</br>3. O ator clica no banner com o nome do curso que ele é cadastrado e deseja acessar.<br>4. O sistema direciona o ator para a página do curso.</br>|
+| Fluxo Alternativo | <b>FA01</b>: Fluxo para acessar um curso</br>1. Ator clica na aba Painel na parte superior.</br>2. O ator procura pelo nome do curso que ele deseja acessar.</br>3. O ator clica no banner com o nome do curso que ele deseja acessar, porém não é cadastrado.<br>4. O sistema direciona o ator para a página de cadastrado do curso.</br> |
+| Pós-Condição      | O Ator terá acesso ao conteúdo do curso|
+| Data de Criação   | 12/12/2022 |
+
+<center>
+<h6 aling = 'center'>tabela 4: Especificação de acesso a um Curso</h6>
+<h6 aling = 'center'>Fonte: Elaboração Própria</h6>
+</center>
+
+#### UC05 
+
+| <b>UC05</b> | <b>Informações</b> |
+|:---------------------:|----------------------------|
+| Descrição         | O <b>Aluno</b> pode visualizar suas notas |
+| Ator              | <b>Aluno</b> |
+| Pré-condições     | Acesso à internet e está logado |
+| frequência de uso | Eventual |
+| Ação              | O <b>Aluno</b> visualizar suas notas |
+| Fluxo Principal   | <b>FP01</b>: Fluxo para visualizar suas notas</br>1. Ator clica no icone de perfil no parte superior direita.</br>2. O ator seleciona a opção Notas.</br>3. O ator escolhe qual curso ele deseja ver as notas.<br>4. O ator clica na opção total do curso no centro a baixo do nome do curso.</br>5. O ator tem acesso a suas notas do curso escolhido.</br>|
+| Fluxo Alternativo | <b>FA01</b>: Fluxo para visualizar suas notas</br>1. Ator clica no icone dfe perfil no parte superior direita.</br>2. O ator seleciona a opção Notas.</br>3. O ator escolhe qual curso ele deseja ver as notas.<br>4. O ator não é cadastrado em nenhum curso.</br>|
+| Pós-Condição      | O Ator terá acesso a suas notas do curso|
+| Data de Criação   | 12/12/2022 |
+
+<center>
+<h6 aling = 'center'>tabela 5: Especificação de visualização de Notas</h6>
+<h6 aling = 'center'>Fonte: Elaboração Própria</h6>
+</center>
+
+#### UC06
+
+| <b>UC06</b> | <b>Informações</b> |
+|:---------------------:|----------------------------|
+| Descrição         | O <b>Aluno</b> pode visualizar seus contatos |
+| Ator              | <b>Aluno</b> |
+| Pré-condições     | Acesso à internet e está logado |
+| frequência de uso | Eventual |
+| Ação              | O <b>Aluno</b> visualizar seus contatos |
+| Fluxo Principal   | <b>FP01</b>: Fluxo para visualizar seus contatos</br>1. Ator clica no icone de balão de conversa no parte inferior.</br>2. O ator seleciona a opção contatos.</br>3. O ator tem acesso ao seus contatos.<br>|
+| Fluxo Alternativo | <b>FA01</b>: Fluxo para visualizar seus contatos</br>1. Ator clica no icone de balão de conversa no parte inferior.</br>2. O ator seleciona a opção contatos.</br>3. O ator não tem nenhum contato adicionado.<br>|
+| Pós-Condição      | O Ator terá acesso aos seus contatos|
+| Data de Criação   | 12/12/2022 |
+ 
+ <center>
+<h6 aling = 'center'>tabela 6: Especificação de ver contatos</h6>
+<h6 aling = 'center'>Fonte: Elaboração Própria</h6>
+</center>
  
 ## 5. Referências
 SADA, Rodrigo. Artigo Invista em você! Saiba como a DevMedia pode ajudar sua carreira. Especificação de Casos de Uso na Prática. Devmidia, 2010. Disponível em: https://www.devmedia.com.br/especificacao-de-casos-de-uso-na-pratica/18427. Acesso em: 09 dez. 2022.
@@ -113,4 +170,4 @@ NAKAGAWA, Elisa. Casos de Uso e Diagrama de Casos de Uso. Disponivel em: <https:
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 10/12/2022 | 10/12/2022 | Estruturação e criação da página | Pablo Christianno e Artur Vinicius | Delziron Braz |
-| 1.1    | 12/12/2022 | 12/12/2022 | Adicionado o diagrama de caso de uso para o professor e, acrescentando legenda para os diagramas | Pablo Christianno e Artur Vinicius | Delziron Braz |
+| 2.0    | 12/12/2022 | 12/12/2022 | Adicionado o diagrama de caso de uso para o professor, acrescentando legenda para os diagramas, e adicionando especificação dos casos de uso | Pablo Christianno e Artur Vinicius | Delziron Braz |
