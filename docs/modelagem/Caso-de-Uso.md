@@ -50,11 +50,11 @@
 
 | <b>UC01</b> | <b>Informações</b> |
 |:---------------------:|----------------------------|
-| Descrição         | O <b>Aluno</b> deve ser capaz de sincronizar o app com sua plataforma de ensino |
-| Ator              | <b>Aluno</b> |
+| Descrição         | O <b>Usuário</b> deve ser capaz de sincronizar o app com sua plataforma de ensino |
+| Ator              | <b>Usuário</b> |
 | Pré-condições     | Acesso à internet |
 | frequência de uso | Eventual |
-| Ação              | O <b>Aluno</b> acessar sua plataforma de ensino |
+| Ação              | O <b>Usuário</b> acessar sua plataforma de ensino |
 | Fluxo Principal   | <b>FP01</b>: Fluxo para fazer a Sincronização com o app</br>1. O ator entra no aplicativo.</br>2. Sistema exibe um campo para inserir endereço eletrônico e uma opção para sincronizar por QrCode.</br>3. Ator insere endereço eletrônico de sua plataforma de ensino.<br>4. Sistema faz a sincronização entre o app e a plataforma.  |
 | Fluxo Alternativo | <b>FA01</b>: Fluxo para fazer a Sincronização com o app</br>1. O ator entra no aplicativo.</br>2. Sistema exibe um campo para inserir endereço eletrônico e uma opção para sincronizar por QrCode.</br>1. Ator escolhe sincronizar por QrCode.<br>4. Sistema abre o scaner de QrCode.</br>5. Ator aponta a camera do aparelho para o QrCode.</br>6. Sistema faz a sincronização entre o app e a plataforma. |
 | Pós-Condição      | O Ator poderá acessar opção de login |
@@ -69,12 +69,12 @@
 
 | <b>UC02</b> | <b>Informações</b> |
 |:---------------------:|----------------------------|
-| Descrição         | O <b>Aluno</b> realiza login |
-| Ator              | <b>Aluno</b> |
+| Descrição         | O <b>Usuário</b> realiza login |
+| Ator              | <b>Usuário</b> |
 | Pré-condições     | Acesso à internet, app está sincronizado e possuir conta |
 | frequência de uso | Eventual |
-| Ação              | O <b>Aluno</b> entrar na sua conta |
-| Fluxo Principal   | <b>FP01</b>: Fluxo para fazer login</br>1. O ator entra no aplicativo.</br>2. O ator sincroniza o app com sua plataforma de ensino.</br>3. Sistema exibe dois campos, um de identificação e outro de senha.<br>4. Ator insere seus dados de login.</br>5. Ator aperta no botão de entrar.</br>5. Sistema Verifica dados. |
+| Ação              | O <b>Usuário</b> entrar na sua conta |
+| Fluxo Principal   | <b>FP01</b>: Fluxo para fazer login</br>1. O ator entra no aplicativo.</br>2. O ator sincroniza o app com sua plataforma de ensino.</br>3. Sistema exibe dois campos, um de identificação e outro de senha.<br>4. Ator insere seus dados de login.</br>5. Ator aperta no botão de entrar.</br>6. Sistema Verifica dados. |
 | Fluxo Alternativo | <b>FA01</b>: Fluxo para fazer login</br>1. O ator entra no aplicativo.</br>2. O ator sincroniza o app com sua plataforma de ensino.</br>3. Sistema exibe dois campos, um de identificação e outro de senha.<br>4. Ator insere seus dados de login errôneos.</br>5. Ator aperta no botão de entrar.</br>6. Sistema Verifica dados.</br>7. Sistema apresenta erro de login. |
 | Pós-Condição      | O Ator terá acesso as funcionalidades de um usuário logado no sistema |
 | Data de Criação   | 10/12/2022 |
