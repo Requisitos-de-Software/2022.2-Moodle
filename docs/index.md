@@ -1,7 +1,8 @@
-# INICIO
+# INÍCIO
 
 <center>
-![logomoodle](https://user-images.githubusercontent.com/79341819/202910667-cc9fde0e-a707-4f27-8758-a37a1d2d4774.png)
+
+![logomoodle](./Assets/inicio/logo.png)
 
 *Figura 1: Logotipo moodle*   
 <small>Fonte: https://worknow.com.br/explorando-o-moodle/</small></center>
@@ -31,9 +32,9 @@
 
 ## 4. Referências
 
-Link para a pagina da comunidade do app moodle: <https://moodle.org/> (Acesso 20 de novembro de 2022).
+>Link para a pagina da comunidade do app moodle: <https://moodle.org/> (Acesso 20 de novembro de 2022).
 
-Link para a pagina de desenvolvimento do app moodle: <https://moodledev.io/> (Acesso 20 de novembro de 2022).
+>Link para a pagina de desenvolvimento do app moodle: <https://moodledev.io/> (Acesso 20 de novembro de 2022).
 
 ## 5. Versionamento
 

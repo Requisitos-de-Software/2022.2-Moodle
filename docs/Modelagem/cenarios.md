@@ -337,9 +337,9 @@ Existem cinco formas para a descrição de cenários:
 
 ## 3.Referências
 
-- [Documento de Cenário do grupo Tembici](https://requisitos-de-software.github.io/2021.2-Tembici/modelagem/cenarios/)
+>[Documento de Cenário do grupo Tembici](https://requisitos-de-software.github.io/2021.2-Tembici/modelagem/cenarios/)
 
-- [Documento de Cenário do grupo Noruh](https://requisitos-de-software.github.io/2022.1-Noruh/modelagem/cenarios/)
+>[Documento de Cenário do grupo Noruh](https://requisitos-de-software.github.io/2022.1-Noruh/modelagem/cenarios/)
 
 
 

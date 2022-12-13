@@ -3,10 +3,12 @@
 ## 1. Definição
 
 <p align = "justify"> &emsp;&emsp; 
-    Introspecção se baseia em imaginar que tipo de sistema eu iria querer se eu
-    estivesse executando esta tarefa, utilizando este equipamento, entre outros. Ou
-    seja, imaginar que propriedades um sistema deveria possuir de forma a obter
-    sucesso. 
+    "<i>
+        Introspecção se baseia em imaginar que tipo de sistema eu iria querer se eu
+        estivesse executando esta tarefa, utilizando este equipamento, entre outros. Ou
+        seja, imaginar que propriedades um sistema deveria possuir de forma a obter
+        sucesso. 
+    </i>"[1]
 </p>
 
 ## 2. Metodologia
@@ -74,7 +76,7 @@
 
 ## 4. Referências
 
-[1] Maxwell - Elicitação de Requisitos. Disponível em: <https://www.maxwell.vrac.puc-rio.br/15760/15760_3.PDF>
+>[1] Maxwell - Elicitação de Requisitos. Disponível em: <https://www.maxwell.vrac.puc-rio.br/15760/15760_3.PDF>
 
 ## 5.Histórico de versão
 

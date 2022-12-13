@@ -68,9 +68,9 @@
 </center>
 
 ## 5. Referências
-- [1] VAZQUEZ, Carlos; SIMÕES, Guilherme. **Engenharia de Requisitos: software orientado ao negócio**. Brasport, 2016.
+>[1] VAZQUEZ, Carlos; SIMÕES, Guilherme. **Engenharia de Requisitos: software orientado ao negócio**. Brasport, 2016.
 
-- [2] Observação direta. **REtraining Requirements Engineering**. Disponível em: <<https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta/>>. Acesso em: 23 nov. 2022.
+>[2] Observação direta. **REtraining Requirements Engineering**. Disponível em: <<https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta/>>. Acesso em: 23 nov. 2022.
 
 ## 6. Histórico de versão
 

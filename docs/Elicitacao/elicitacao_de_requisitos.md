@@ -21,7 +21,7 @@
 
 ## 4. Referências
 
-[1] Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: <http://www.computer.org/web/swebok/v3>
+>[1] Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: <http://www.computer.org/web/swebok/v3>
 
 ## 5.Histórico de versão
 

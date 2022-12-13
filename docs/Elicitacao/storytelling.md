@@ -100,9 +100,9 @@
 
 ## 6. Referências
 
-[1] Serrano; Milene, Serrano; Mauricio - Requisitos aula 07. Disponível em: <https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>
+>[1] Serrano; Milene, Serrano; Mauricio - Requisitos aula 07. Disponível em: <https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>
 
-[2] Ferrari; Priscila - Como usar storytelling em projetos ?. Disponível em: <https://programathor.com.br/blog/storytelling/> 
+>[2] Ferrari; Priscila - Como usar storytelling em projetos ?. Disponível em: <https://programathor.com.br/blog/storytelling/> 
 
 ## 7.Histórico de versão
 

@@ -135,7 +135,7 @@ Ponto de controle do projeto etapa final: Projeto final
 
 ## 3. Referências
 
-Link para o plano de ensino: <https://github.com/Requisitos-de-Software/2022.2-Moodle/files/10050686/Plano_de_Ensino.RE.202202.Turma.2.-.Plano_de_Ensino.RE.202202.Turma.2.pdf> (Acesso em 20 de novembro de 2022).   
+>Link para o plano de ensino: <https://github.com/Requisitos-de-Software/2022.2-Moodle/files/10050686/Plano_de_Ensino.RE.202202.Turma.2.-.Plano_de_Ensino.RE.202202.Turma.2.pdf> (Acesso em 20 de novembro de 2022).   
 
 ## 4. Versionamento
 

@@ -54,7 +54,7 @@
 
 ## 4. Referências
 
-- BARBOSA, Simone; SILVA, Bruno. Interação Humano Computador. Rio de Janeiro. Elsevier Editora Ltda. 2010
+>BARBOSA, Simone; SILVA, Bruno. Interação Humano Computador. Rio de Janeiro. Elsevier Editora Ltda. 2010
 ## 5. Versionamento
 | Versão | Data da realização | Data prevista revisão | Descrição                           | Autor     | Revisor        |
 | ------ | ------------------ | --------------------- | ----------------------------------- | --------- | -------------- |

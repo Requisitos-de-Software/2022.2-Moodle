@@ -12,9 +12,9 @@ theme:
     accent: orange
   features:
   - navigation.tabs
-  
+  - navigation.tabs.sticky
 nav:
-  - Inicio: index.md
+  - Início: index.md
   - Apresentações: apresentacoes.md
   - Planejamento:
     - Cronograma de reuniões: Planejamento/cronograma_reunioes.md

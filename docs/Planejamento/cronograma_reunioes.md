@@ -89,7 +89,7 @@
 
 ## 5. Referências
 
-Link para estudo sobre heatmap: <https://neilpatel.com/br/blog/heatmap-o-que-e/> (Acesso em 20 de novembro de 2022).
+>ink para estudo sobre heatmap: <https://neilpatel.com/br/blog/heatmap-o-que-e/> (Acesso em 20 de novembro de 2022).
 
 ## 6. Versionamento
 

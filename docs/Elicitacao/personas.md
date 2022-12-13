@@ -65,9 +65,9 @@
 </center>
 ## 3.Referências
 
-- [1] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. Interação Humano-Computador e Experiência do usuário. Autopublicação. 2021.
+>[1] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. Interação Humano-Computador e Experiência do usuário. Autopublicação. 2021.
 
-- [2] This Person Does Not Exist. Disponível em: https://thispersondoesnotexist.com/. Acesso em: 27 de nov. de 2022.
+>[2] This Person Does Not Exist. Disponível em: https://thispersondoesnotexist.com/. Acesso em: 27 de nov. de 2022.
 
 
 

@@ -30,11 +30,11 @@ Abaixo, estão sendo expostos os rich pictures, em duas versões, a primeira fei
 </figcaption> </center>
 
 ## 3.Referências
-- [1] "Introducing Rich Pictures - Picture Drawing Guidelines" - Software Development Project
+>[1] "Introducing Rich Pictures - Picture Drawing Guidelines" - Software Development Project
 
-- [2] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
+>[2] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
 
-- [3] [Apresentação da aula de requisitos-  Pré-rastreabilidade -Rich Picture Aula 04](https://aprender3.unb.br/pluginfile.php/2307459/mod_resource/content/4/Requisitos%20-%20Aula%2004%20-%20Parte%202%20RichPicture.pdf)
+>[3] [Apresentação da aula de requisitos-  Pré-rastreabilidade -Rich Picture Aula 04](https://aprender3.unb.br/pluginfile.php/2307459/mod_resource/content/4/Requisitos%20-%20Aula%2004%20-%20Parte%202%20RichPicture.pdf)
 
 ## 4.Histórico de versão
 
