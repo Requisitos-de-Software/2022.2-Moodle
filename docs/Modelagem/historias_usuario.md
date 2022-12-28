@@ -26,8 +26,8 @@
 | Épico | Descrição | Funcionalidades |
 | ------| --------- | -------- |
 | E01 - Login | Engloba toda as funcionalidades ligadas a login e logout | -> Login <br/> -> Logout  |
-| E02 - Perfil | Abrange toda a parte de informações do usuário e configurações da aplicação. | -> Perfil <br/> -> [Preferências]()  | 
-| E03 - Disciplina | Inclui todas as funcionalidades ligadas à [disciplina](). | -> Atividade <br/> -> Busca <br/> -> Listagem <br/> -> Alunos  |
+| E02 - Perfil | Abrange toda a parte de informações do usuário e configurações da aplicação. | -> Perfil <br/> -> [Preferências](../Modelagem/lexicos.md#preferencias)  | 
+| E03 - Disciplina | Inclui todas as funcionalidades ligadas à disciplina. | -> Atividade <br/> -> Busca <br/> -> Listagem <br/> -> Alunos  |
 | E04 - Mensagens | Reúne todas as funcionalidades relacionadas à mensagens. | -> Mensagem <br/> -> Fórum <br/> -> Notificações  |
 | E05 - Calendário | Todas as funcionalidades que tem relação com o calendário. | -> Evento <br/> -> Configuração|
 

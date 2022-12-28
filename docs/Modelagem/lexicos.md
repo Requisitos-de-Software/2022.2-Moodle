@@ -98,7 +98,7 @@
 
 </center>
 
-### Léxico 06: Preferências
+### Léxico 06: Preferências <div id="preferencias" />
 
 <center>
 
@@ -278,7 +278,7 @@
 
 </center>
 
-### Léxico 18: Novo evento
+### Léxico 18: Novo evento <div id="novo-evento" />
 
 <center>
 
@@ -352,6 +352,7 @@
 <figcaption>Tabela 23: Linha do tempo.</figcaption>
 
 </center>
+
 ### Léxico 23: Curso disponiveis
 
 <center>

@@ -14,6 +14,7 @@
 
 * Pablo Christianno
 * Delziron Braz
+
 ## 4. StoryTelling
 
 ### 4.1 Alexandre Oliveira
@@ -71,9 +72,9 @@
 | ST01 | O aluno deve ser capaz de logar no sistema | RF |
 | ST02 | O aluno deve ser capaz de encontrar por cursos que esteja matriculado | RF |
 | ST03 | O aluno deve baixar arquivo disponível no curso | RF |
-| ST04 | O sistema deve notificar tarefas que estão perto do vencimento | RN |
+| ST04 | O sistema deve notificar tarefas que estão perto do vencimento | RF |
 | ST05 | O sistema deve mostrar os cursos mais recentes primeiro | RF |
-| ST06 | O professor deve ser capaz de disponibilizar materiais do curso | RF |
+| ST06 | O professor deve ser capaz de disponibilizar materiais(arquivos) no curso | RF |
 | ST07 | O aluno deve ser capaz de enviar mensagem para outro aluno | RF |
 | ST08 | O professor deve ser capaz de organizar o curso em módulos | RF |
 | ST09 | O aluno deve ser capaz de visualizar as próximas tarefas do curso | RF |
@@ -81,10 +82,10 @@
 | ST11 | O aluno deve ser capaz de se cadastrar na plataforma | RF |
 | ST12 | O professor deve ser capaz de cadastrar alunos na disciplina | RF |
 | ST13 | O professor deve ser capaz de cadastrar uma disciplina | RF |
-| ST14 | O aluno deve ser capaz cadastrar uma pergunta no forúm | RF |
-| ST15 | O aluno deve ser capaz de cadastrar uma resposta no forúm | RF |
-| ST16 | O professor deve ser capaz de cadastrar uma pergunta no forúm | RF |
-| ST17 | O professor deve ser capaz de cadastrar uma resposta no forúm | RF |
+| ST14 | O aluno deve ser capaz cadastrar uma pergunta no fórum | RF |
+| ST15 | O aluno deve ser capaz de cadastrar uma resposta no fórum | RF |
+| ST16 | O professor deve ser capaz de cadastrar uma pergunta no fórum | RF |
+| ST17 | O professor deve ser capaz de cadastrar uma resposta no fórum | RF |
 | ST18 | O professor deve ser capaz de cadastrar atividades na disciplina | RF |
 | ST19 | O professor deve ser capaz de criar restrições de tempo para as atividades | RF |
 | ST20 | O professor deve ser capaz de criar restrições de entrega para as atividades | RF |
