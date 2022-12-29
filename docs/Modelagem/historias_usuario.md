@@ -28,9 +28,8 @@
 | ------| --------- | -------- |
 | E01 - Login | Engloba toda as funcionalidades ligadas a login e logout | -> Login <br/> -> Logout  |
 | E02 - Perfil | Abrange toda a parte de informações do usuário e configurações da aplicação. | -> Perfil <br/> -> [Preferências](../Modelagem/lexicos.md#preferencias)  | 
-| E03 - Disciplina | Inclui todas as funcionalidades ligadas à disciplina. | -> Gerenciar  <br/> -> Atividade |
-| E04 - Mensagens | Reúne todas as funcionalidades relacionadas à mensagens. | -> Mensagem <br/> -> Fórum <br/> -> Notificações  |
-| E05 - Calendário | Todas as funcionalidades que tem relação com o calendário. | -> Evento <br/> -> Configuração|
+| E03 - Disciplina | Inclui todas as funcionalidades ligadas à disciplina. | -> Gerenciar  <br/> -> Atividade <br/> Evento |
+| E04 - Mensagens | Reúne todas as funcionalidades relacionadas à mensagens. | -> Mensagem <br/> -> Fórum <br/> -> Notificações |
 
 ## 4. Funcionalidades
 
@@ -246,7 +245,20 @@
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
-### Funcionalidade 08 - Fórum
+### Funcionalidade 08 - Evento
+
+| ID | HU24  |
+|-----|--------|
+| Nome | Visualizar próximos eventos de um curso |
+| Descrição | Eu, como aluno, desejo visualizar próximos eventos de um curso, para estar ciente e me preparar para os mesmos. |
+| Critérios de Aceitação |  -> visualizar todos os próximos eventos de um curso <br/> -> Visualizar a data de cada evento, se houver |
+| Rastreabilidade | RF55 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 24 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+### Funcionalidade 09 - Fórum
 
 | ID | HU19  |
 |-----|--------|
@@ -281,7 +293,7 @@
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
-### Funcionalidade 09 - Notificações
+### Funcionalidade 10 - Notificações
 
 | ID | HU22  |
 |-----|--------|
@@ -305,18 +317,6 @@
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
-### Funcionalidade 10 - Evento
-
-| ID | HU24  |
-|-----|--------|
-| Nome | Visualizar próximos eventos de um curso |
-| Descrição | Eu, como aluno, desejo visualizar próximos eventos de um curso, para estar ciente e me preparar para os mesmos. |
-| Critérios de Aceitação |  -> visualizar todos os próximos eventos de um curso <br/> -> Visualizar a data de cada evento, se houver |
-| Rastreabilidade | RF55 |
-<figcaption align='center'>
-    <b>Tabela história de usuário 24 </b>
-        <br><small>Autor: Pablo Christianno</small>
-</figcaption>
 
 ## 5. Referências
 
