@@ -246,4 +246,5 @@
 |--------|------|------|-----------|-------|---------|
 | 1.0    | 27/12/2022 | 01/01/2023 | Criação da página e adição da introdução | Marcos Vinícius | Pablo |
 | 1.1    | 28/12/2022 | 01/01/2023 | Adição dos épicos e estrutura das histórias | Marcos Vinícius | Pablo |
+| 1.2    | 28/12/2022 | 01/01/2023 | Adição de 17 histórias de usuário | Marcos Vinícius | Pablo |
 
