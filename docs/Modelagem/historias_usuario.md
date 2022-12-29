@@ -233,6 +233,90 @@
         <br><small>Autor: Marcos Vinícius</small>
 </figcaption>
 
+### Funcionalidade 07 - Mensagem
+
+| ID | HU18  |
+|-----|--------|
+| Nome | Enviar mensagem direta |
+| Descrição | Eu, como aluno/professor, desejo enviar mensagem direta a outro usuário, para poder me comunicar de forma privada dentro do aplicativo. |
+| Critérios de Aceitação |  -> Ser possível enviar mensagem para qualquer usuário acessível |
+| Rastreabilidade | RF30 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 18</b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+### Funcionalidade 08 - Fórum
+
+| ID | HU19  |
+|-----|--------|
+| Nome | Criar Fórum |
+| Descrição | Eu, como professor, desejo criar um fórum, para que os alunos possam contribuir em dúvidas de outros alunos. |
+| Critérios de Aceitação |  -> Ser possível criar um fórum dentro do ambiente de um curso |
+| Rastreabilidade | RF17 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 17 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+| ID | HU20  |
+|-----|--------|
+| Nome | Cadastrar pergunta no Fórum |
+| Descrição | Eu, como aluno/professor, desejo cadastrar uma pergunta no fórum, para que outros usuários possa respondê-la. |
+| Critérios de Aceitação |  -> Ser possível adicionar um tópico de discussão <br/> -> Existir um campo para cadastrar o título da pergunta  |
+| Rastreabilidade | RF18 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 20 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+| ID | HU21  |
+|-----|--------|
+| Nome | Responder pergunta no fórum |
+| Descrição | Eu, como aluno/professor, desejo responder uma pergunta no fórum, para auxiliar o usuário que a enviou. |
+| Critérios de Aceitação |  -> Ser escolher uma pergunta específica <br/> -> ser possível editar minha mensagem antes de enviá-la <br/> -> ser possível inerir um arquivo na resposta |
+| Rastreabilidade | RF20, RF21 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 21 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+### Funcionalidade 09 - Notificações
+
+| ID | HU22  |
+|-----|--------|
+| Nome | Receber notificação de perguntas cadastradas em um fórum |
+| Descrição | Eu, como aluno/professor, desejo receber notificação quando uma nova pergunta for cadastrada em um fórum, para saber rapidamente que há uma nova pergunta no fórum. |
+| Critérios de Aceitação |  -> Notificação ser recebida <br/> -> Ser possível saber o que está sendo notificado |
+| Rastreabilidade | RF27 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 22 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+| ID | HU23  |
+|-----|--------|
+| Nome | Receber notificação de atividades próximas ao prazo de vencimento |
+| Descrição | Eu, como aluno, desejo receber notificação quando uma atividade estiver próxima do seu prazo de vencimento, para relembrar de enviar a atividade. |
+| Critérios de Aceitação |  -> Notificação ser recebida <br/> -> Ser possível saber o que está sendo notificado |
+| Rastreabilidade | RF43 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 23 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+### Funcionalidade 10 - Evento
+
+| ID | HU24  |
+|-----|--------|
+| Nome | Visualizar próximos eventos de um curso |
+| Descrição | Eu, como aluno, desejo visualizar próximos eventos de um curso, para estar ciente e me preparar para os mesmos. |
+| Critérios de Aceitação |  -> visualizar todos os próximos eventos de um curso <br/> -> Visualizar a data de cada evento, se houver |
+| Rastreabilidade | RF55 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 24 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
 
 ## 5. Referências
 
@@ -244,7 +328,7 @@
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
-| 1.0    | 27/12/2022 | 01/01/2023 | Criação da página e adição da introdução | Marcos Vinícius | Pablo |
-| 1.1    | 28/12/2022 | 01/01/2023 | Adição dos épicos e estrutura das histórias | Marcos Vinícius | Pablo |
-| 1.2    | 28/12/2022 | 01/01/2023 | Adição de 17 histórias de usuário | Marcos Vinícius | Pablo |
-
+| 1.0    | 27/12/2022 | 01/01/2023 | Criação da página e adição da introdução | Marcos Vinícius | Pablo Christianno |
+| 1.1    | 28/12/2022 | 01/01/2023 | Adição dos épicos e estrutura das histórias | Marcos Vinícius | Pablo Christianno |
+| 1.2    | 28/12/2022 | 01/01/2023 | Adição de 17 histórias de usuário | Marcos Vinícius | Pablo Christianno |
+| 1.3    | 29/12/2022 | 01/01/2023 | Adição de 7 histórias de usuário | Pablo Christianno | Marcos Vinícius |
