@@ -20,7 +20,7 @@
 | OP | Observação passiva |
 | ST | Storytelling |
 
-### 3.2 Requisitos Funcionais
+### 3.2 Requisitos Funcionais <div id="requisitos" />
 
 | ID | Descrição | Origem |
 |:--:|:---------:|:------:|
@@ -86,7 +86,8 @@
 | RF60 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | ST24 |
 | RF61 | O professor deve ser capaz de disponibilizar materiais(arquivos) no curso | ST06 |
 | RF62 | O professor deve ser capaz de cadastrar alunos na disciplina | ST12 |
- RF63 | O professor deve ser capaz de organizar o curso em módulos | ST08 |
+| RF63 | O professor deve ser capaz de organizar o curso em módulos | ST08 |
+| RF64 | O aluno deve ser capaz de configurar as preferências do aplicativo | ST26 |
 
 ### 3.3 Requisitos Não-Funcionais
 

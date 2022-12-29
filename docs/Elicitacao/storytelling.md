@@ -94,6 +94,7 @@
 | ST23 | O aluno deve ser capaz de listar as notas das atividades | RF |
 | ST24 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | RF |
 | ST25 | O aluno deve permanecer logado no app até fazer logout | RNF |
+| ST26 | O aluno deve ser capaz de configurar as preferências do aplicativo | RF |
 
 <center>
     *Tabela 01 - Elicitação de Requisitos usando StoryTelling*
