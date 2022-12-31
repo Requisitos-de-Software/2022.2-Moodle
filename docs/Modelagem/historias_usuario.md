@@ -180,7 +180,7 @@
 | ID | HU13  |
 |-----|--------|
 | Nome | Cadastrar atividade |
-| Descrição | Eu, como professor, cadastrar atividades para avaliar meus [alunos](../Modelagem/lexicos.md#aluno) de alguma maneira. |
+| Descrição | Eu, como professor, desejo cadastrar atividades para avaliar meus [alunos](../Modelagem/lexicos.md#aluno) de alguma maneira. |
 | Critérios de Aceitação |  -> Ser possível criar restrições de acesso <br/> -> Ser possível criar limite de tentativa <br/> -> Ser possível criar limite de data de envio |
 | Rastreabilidade | RF05, RF14, RF15, RF16 |
 <figcaption align='center'>
@@ -247,36 +247,25 @@
 
 ### Funcionalidade 08 - Evento
 
-| ID | HU24  |
+| ID | HU19  |
 |-----|--------|
 | Nome | Visualizar próximos eventos de um [curso](../Modelagem/lexicos.md#curso) |
 | Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno), desejo visualizar próximos eventos de um [curso](../Modelagem/lexicos.md#curso), para estar ciente e me preparar para os mesmos. |
 | Critérios de Aceitação |  -> visualizar todos os próximos eventos de um [curso](../Modelagem/lexicos.md#curso) <br/> -> Visualizar a data de cada evento, se houver |
 | Rastreabilidade | RF55 |
 <figcaption align='center'>
-    <b>Tabela história de usuário 24 </b>
+    <b>Tabela história de usuário 19 </b>
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
 ### Funcionalidade 09 - Fórum
 
-| ID | HU19  |
+| ID | HU20  |
 |-----|--------|
 | Nome | Criar Fórum |
 | Descrição | Eu, como professor, desejo criar um fórum, para que os [alunos](../Modelagem/lexicos.md#aluno) possam contribuir em dúvidas de outros [alunos](../Modelagem/lexicos.md#aluno). |
 | Critérios de Aceitação |  -> Ser possível criar um fórum dentro do ambiente de um [curso](../Modelagem/lexicos.md#curso) |
 | Rastreabilidade | RF17 |
-<figcaption align='center'>
-    <b>Tabela história de usuário 17 </b>
-        <br><small>Autor: Pablo Christianno</small>
-</figcaption>
-
-| ID | HU20  |
-|-----|--------|
-| Nome | Cadastrar pergunta no Fórum |
-| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo cadastrar uma pergunta no fórum, para que outros usuários possa respondê-la. |
-| Critérios de Aceitação |  -> Ser possível adicionar um tópico de discussão <br/> -> Existir um campo para cadastrar o título da pergunta  |
-| Rastreabilidade | RF18 |
 <figcaption align='center'>
     <b>Tabela história de usuário 20 </b>
         <br><small>Autor: Pablo Christianno</small>
@@ -284,47 +273,61 @@
 
 | ID | HU21  |
 |-----|--------|
-| Nome | Responder pergunta no fórum |
-| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo responder uma pergunta no fórum, para auxiliar o usuário que a enviou. |
-| Critérios de Aceitação |  -> Ser escolher uma pergunta específica <br/> -> ser possível editar minha [mensagem](../Modelagem/lexicos.md#mensagens) antes de enviá-la <br/> -> ser possível inerir um [arquivo](../Modelagem/lexicos.md#arquivos) na resposta |
-| Rastreabilidade | RF20, RF21 |
+| Nome | Cadastrar pergunta no Fórum |
+| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo cadastrar uma pergunta no fórum, para que outros usuários possam respondê-la. |
+| Critérios de Aceitação |  -> Ser possível adicionar um tópico de discussão <br/> -> Existir um campo para cadastrar o título da pergunta  |
+| Rastreabilidade | RF18 |
 <figcaption align='center'>
     <b>Tabela história de usuário 21 </b>
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
-### Funcionalidade 10 - [Notificações](../Modelagem/lexicos.md#notificacao)
-
 | ID | HU22  |
 |-----|--------|
-| Nome | [Receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) de perguntas cadastradas em um fórum |
-| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo [receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) quando uma nova pergunta for cadastrada em um fórum, para saber rapidamente que há uma nova pergunta no fórum. |
-| Critérios de Aceitação |  -> [Notificação](../Modelagem/lexicos.md#notificacao) ser recebida <br/> -> Ser possível saber o que está sendo notificado |
-| Rastreabilidade | RF27 |
+| Nome | Responder pergunta no fórum |
+| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo responder uma pergunta no fórum, para auxiliar o usuário que a enviou. |
+| Critérios de Aceitação |  -> Ser escolher uma pergunta específica <br/> -> ser possível editar minha [mensagem](../Modelagem/lexicos.md#mensagens) antes de enviá-la <br/> -> ser possível inerir um [arquivo](../Modelagem/lexicos.md#arquivos) na resposta |
+| Rastreabilidade | RF20, RF21 |
 <figcaption align='center'>
     <b>Tabela história de usuário 22 </b>
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
+### Funcionalidade 10 - [Notificações](../Modelagem/lexicos.md#notificacao)
+
 | ID | HU23  |
+|-----|--------|
+| Nome | [Receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) de perguntas cadastradas em um fórum |
+| Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno)/professor, desejo [receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) quando uma nova pergunta for cadastrada em um fórum, para saber rapidamente que há uma nova atualização no fórum. |
+| Critérios de Aceitação |  -> [Notificação](../Modelagem/lexicos.md#notificacao) ser recebida <br/> -> Ser possível saber o que está sendo notificado |
+| Rastreabilidade | RF27 |
+<figcaption align='center'>
+    <b>Tabela história de usuário 23 </b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption>
+
+| ID | HU24  |
 |-----|--------|
 | Nome | [Receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) de atividades próximas ao prazo de vencimento |
 | Descrição | Eu, como [aluno](../Modelagem/lexicos.md#aluno), desejo [receber](../Modelagem/lexicos.md#receber) [notificação](../Modelagem/lexicos.md#notificacao) quando uma atividade estiver próxima do seu prazo de vencimento, para relembrar de [enviar](../Modelagem/lexicos.md#enviar) a atividade. |
 | Critérios de Aceitação |  -> [Notificação](../Modelagem/lexicos.md#notificacao) ser recebida <br/> -> Ser possível saber o que está sendo notificado |
 | Rastreabilidade | RF43 |
 <figcaption align='center'>
-    <b>Tabela história de usuário 23 </b>
+    <b>Tabela história de usuário 24 </b>
         <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
+## 5. Validação
 
-## 5. Referências
+&emsp;&emsp; Como a participação do usuário para validação das histórias de usuário é de vital importância, realizamos uma reunião com um usuário real para validação das histórias, segue o link da gravação da reunião: https://www.youtube.com/watch?v=zIeljXjUQ4w
+
+## 6. Referências
 
 - https://aprender3.unb.br/pluginfile.php/2307525/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf
 
 - https://www.atlassian.com/br/agile/project-management/user-stories
 
-## 6.Histórico de versão
+## 7.Histórico de versão
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
@@ -332,4 +335,4 @@
 | 1.1    | 28/12/2022 | 01/01/2023 | Adição dos épicos e estrutura das histórias | Marcos Vinícius | Pablo Christianno |
 | 1.2    | 28/12/2022 | 01/01/2023 | Adição de 17 histórias de usuário | Marcos Vinícius | Pablo Christianno |
 | 1.3    | 29/12/2022 | 01/01/2023 | Adição de 7 histórias de usuário | Pablo Christianno | Marcos Vinícius |
-| 1.4    | 31/12/2022 | 01/01/2023 | Adição de hiperlinks | Marcos Vinícius | Pablo Christianno |
+| 1.4    | 31/12/2022 | 01/01/2023 | Adição de hiperlinks, correções e seção validação | Marcos Vinícius | Pablo Christianno |
