@@ -6,7 +6,7 @@
 
 ## 2. Metodologia
 
-&emsp;&emsp; Como o número de requisitos elicitados foi bastante extenso, achamos interessante a criação desta página para organizá-los em uma única tabela, que irá conter um identificador, os requisitos e a origem dos mesmos.
+&emsp;&emsp; Como o número de requisitos elicitados foi bastante extenso, achamos interessante a criação desta página para organizá-los em uma única tabela, que irá conter um identificador, os requisitos e a rastreabilidade dos mesmos.
 
 ## 3. Tabelas
 
