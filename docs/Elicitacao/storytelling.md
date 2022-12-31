@@ -48,7 +48,7 @@
 </p>
 
 <p align="justify"> &emsp;&emsp; 
-    Ao entrar na faculdade, Fernanda se depara com uma lista de disciplinas, e diversas atividades apresentadas a ela no plano de ensino por seus(as) professores(as), como também a apresentação da plataforma Aprender3, onde seus professores colocavam as atividades para que os alunos terem acesso, alguns de seus professores já a cadastrava manualmente na disciplina dentro da plataforma Aprender3, mas já outros disponivilizavam apenas a senha de acesso à disciplina, nesse caso, Fernanda era a responsável por se cadastrar.
+    Ao entrar na faculdade, Fernanda se depara com uma lista de disciplinas, e diversas atividades apresentadas a ela no plano de ensino por seus(as) professores(as), como também a apresentação da plataforma Aprender3, onde seus professores colocavam as atividades para que os alunos terem acesso, alguns de seus professores já a cadastrava manualmente na disciplina dentro da plataforma Aprender3, mas já outros disponibilizavam apenas a senha de acesso à disciplina, nesse caso, Fernanda era a responsável por se cadastrar.
 </p>
 
 <p align="justify"> &emsp;&emsp; 
@@ -56,7 +56,7 @@
 </p>
 
 <p align="justify"> &emsp;&emsp; 
-    Fernanda não tem notebook, então quando tinha que acessar o Aprender3, usava seu celular, o que ela achava extremamente incomodo, pois a interface não a deixava confortável. Fernanda queria um app próprio para que tudo fosse pensado de maneira voltada ao usuário mobile, pois, quando ela queria responder ou fazer alguma pergunta nos forúns das disciplinas enquanto estudava, o fluxo que ela tinha que percorrer era muito grande e os componentes não facilitavam a vizualização, o que fazia sempre ser necessário a ampliação de tela, mas não só isso.
+    Fernanda não tem notebook, então quando tinha que acessar o Aprender3, usava seu celular, o que ela achava extremamente incomodo, pois a interface não a deixava confortável. Fernanda queria um app próprio para que tudo fosse pensado de maneira voltada ao usuário mobile, pois, quando ela queria responder ou fazer alguma pergunta nos fóruns das disciplinas enquanto estudava, o fluxo que ela tinha que percorrer era muito grande e os componentes não facilitavam a visualização, o que fazia sempre ser necessário a ampliação de tela, mas não só isso.
 </p>
 
 ## 5. Resultados
@@ -69,37 +69,36 @@
 
 | ID | Requisitos | Tipo |
 |:----:|:-----------:|:-----------:|
-| ST01 | O aluno deve ser capaz de logar no sistema | RF |
-| ST02 | O aluno deve ser capaz de encontrar por cursos que esteja matriculado | RF |
-| ST03 | O aluno deve baixar arquivo disponível no curso | RF |
-| ST04 | O sistema deve notificar tarefas que estão perto do vencimento | RF |
-| ST05 | O sistema deve mostrar os cursos mais recentes primeiro | RF |
-| ST06 | O professor deve ser capaz de disponibilizar materiais(arquivos) no curso | RF |
-| ST07 | O aluno deve ser capaz de enviar mensagem para outro aluno | RF |
-| ST08 | O professor deve ser capaz de organizar o curso em módulos | RF |
-| ST09 | O aluno deve ser capaz de visualizar as próximas tarefas do curso | RF |
-| ST10 | O aluno deve ser capaz de visualizar a data das tarefas de um curso | RF |
-| ST11 | O aluno deve ser capaz de se cadastrar na plataforma | RF |
-| ST12 | O professor deve ser capaz de cadastrar alunos na disciplina | RF |
-| ST13 | O professor deve ser capaz de cadastrar uma disciplina | RF |
-| ST14 | O aluno deve ser capaz cadastrar uma pergunta no fórum | RF |
-| ST15 | O aluno deve ser capaz de cadastrar uma resposta no fórum | RF |
-| ST16 | O professor deve ser capaz de cadastrar uma pergunta no fórum | RF |
-| ST17 | O professor deve ser capaz de cadastrar uma resposta no fórum | RF |
-| ST18 | O professor deve ser capaz de cadastrar atividades na disciplina | RF |
-| ST19 | O professor deve ser capaz de criar restrições de tempo para as atividades | RF |
-| ST20 | O professor deve ser capaz de criar restrições de entrega para as atividades | RF |
-| ST21 | O professor deve ser capaz de criar restrições de envio para as atividades | RF |
-| ST22 | O sistema tem que ser disponibilizado como app mobile | RNF |
-| ST23 | O aluno deve ser capaz de listar as notas das atividades | RF |
-| ST24 | O aluno deve ser capaz de fazer a revisão da atividade finalizada | RF |
-| ST25 | O aluno deve permanecer logado no app até fazer logout | RNF |
-| ST26 | O aluno deve ser capaz de configurar as preferências do aplicativo | RF |
+| ST01 <div id="ST01" /> | O aluno deve ser capaz de logar no sistema | RF |
+| ST02 <div id="ST02" /> | O aluno deve ser capaz de encontrar por cursos que esteja matriculado | RF |
+| ST03 <div id="ST03" /> | O aluno deve baixar arquivo disponível no curso | RF |
+| ST04 <div id="ST04" /> | O sistema deve notificar tarefas que estão perto do vencimento | RF |
+| ST05 <div id="ST05" /> | O sistema deve mostrar os cursos mais recentes primeiro | RF |
+| ST06 <div id="ST06" /> | O professor deve ser capaz de disponibilizar materiais(arquivos) no curso | RF |
+| ST07 <div id="ST07" /> | O aluno deve ser capaz de enviar mensagem para outro aluno | RF |
+| ST08 <div id="ST08" /> | O professor deve ser capaz de organizar o curso em módulos | RF |
+| ST09 <div id="ST09" /> | O aluno deve ser capaz de visualizar as próximas tarefas do curso | RF |
+| ST10 <div id="ST10" /> | O aluno deve ser capaz de visualizar a data das tarefas de um curso | RF |
+| ST11 <div id="ST11" /> | O aluno deve ser capaz de se cadastrar na plataforma | RF |
+| ST12 <div id="ST12" /> | O professor deve ser capaz de cadastrar alunos na disciplina | RF |
+| ST13 <div id="ST13" /> | O professor deve ser capaz de cadastrar uma disciplina | RF |
+| ST14 <div id="ST14" /> | O aluno deve ser capaz cadastrar uma pergunta no fórum | RF |
+| ST15 <div id="ST15" /> | O aluno deve ser capaz de cadastrar uma resposta no fórum | RF |
+| ST16 <div id="ST16" /> | O professor deve ser capaz de cadastrar uma pergunta no fórum | RF |
+| ST17 <div id="ST17" /> | O professor deve ser capaz de cadastrar uma resposta no fórum | RF |
+| ST18 <div id="ST18" /> | O professor deve ser capaz de cadastrar atividades na disciplina | RF |
+| ST19 <div id="ST19" /> | O professor deve ser capaz de criar restrições de tempo para as atividades | RF |
+| ST20 <div id="ST20" /> | O professor deve ser capaz de criar restrições de entrega para as atividades | RF |
+| ST21 <div id="ST21" /> | O professor deve ser capaz de criar restrições de envio para as atividades | RF |
+| ST22 <div id="ST22" /> | O sistema tem que ser disponibilizado como app mobile | RNF |
+| ST23 <div id="ST23" /> | O aluno deve ser capaz de listar as notas das atividades | RF |
+| ST24 <div id="ST24" /> | O aluno deve ser capaz de fazer a revisão da atividade finalizada | RF |
+| ST25 <div id="ST25" /> | O aluno deve permanecer logado no app até fazer logout | RNF |
+| ST26 <div id="ST26" /> | O aluno deve ser capaz de configurar as preferências do aplicativo | RF |
 
 <center>
     *Tabela 01 - Elicitação de Requisitos usando StoryTelling*
 </center>
-
 ## 6. Referências
 
 >[1] Serrano; Milene, Serrano; Mauricio - Requisitos aula 07. Disponível em: <https://aprender3.unb.br/pluginfile.php/2307479/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>
