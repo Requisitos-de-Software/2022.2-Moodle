@@ -2,7 +2,13 @@
 
 ## 1. Introdução
 
-<p align = "justify"> &emsp;&emsp; Uma história do usuário é uma explicação informal e geral sobre um recurso de software escrita a partir da perspectiva do usuário final. Seu objetivo é articular como um recurso de software pode gerar valor para o cliente.</p>
+### Oque é uma história de usuário?
+
+<p align = "justify"> &emsp;&emsp; Uma história do usuário é uma descrição curta e informal em linguagem simples sobre um recurso de software escrita a partir da perspectiva do usuário final. Seu objetivo é articular como um recurso de software pode gerar valor para o cliente.</p>
+
+### Por qual motivo usar histórias de usuário?
+
+<p align = "justify"> &emsp;&emsp; Com histórias de usuários, você coloca os usuários no centro da conversa em torno do que adicionar ou alterar em um produto de software, além de dar a uma equipe de desenvolvimento o contexto e o porquê do que eles estão desenvolvendo.</p>
 
 
 ## 2. Metodologia
@@ -16,7 +22,6 @@
 | Critérios de Aceitação | Critérios complementares que servirão como suporte em uma futura validação da história.|
 | Rastreabilidade | Quais [requisitos](../Elicitacao/requisitos.md#requisitos) deram origem para a história.| 
 
-&emsp;&emsp; Para a validação das Histórias de Usuário, foi realizada uma reunião com um usuário real. </p>
 
 ## 3. Épicos
 
