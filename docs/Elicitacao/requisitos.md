@@ -22,7 +22,7 @@
 
 ### 3.2 Requisitos Funcionais <div id="requisitos" />
 
-| ID | Descrição | Origem |
+| ID | Descrição | Rastreabilidade |
 |:--:|:---------:|:------:|
 | RF01 | O sistema deve permitir cadastrar um aluno | IT01, ST11 |
 | RF02 | O sistema deve permitir cadastrar um professor | IT02 |
