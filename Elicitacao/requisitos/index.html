@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://Requisitos-de-Software.github.io/2022.2-Moodle/Elicitacao/questionario/">
+        <link rel="canonical" href="https://Requisitos-de-Software.github.io/2022.2-Moodle/Elicitacao/requisitos/">
       
       <link rel="icon" href="https://user-images.githubusercontent.com/79341819/202906275-e2771845-ba44-470d-81cd-0270bf5444f1.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>Questionário - Modular Object-Oriented Dynamic Learning Environment</title>
+        <title>Requisitos Elicitados - Modular Object-Oriented Dynamic Learning Environment</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#questionario" class="md-skip">
+        <a href="#requisitos" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Questionário
+              Requisitos Elicitados
             
           </span>
         </div>
@@ -610,6 +610,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -622,12 +636,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Questionário
+          Requisitos Elicitados
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Questionário
+        Requisitos Elicitados
       </a>
       
         
@@ -653,16 +667,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-questoes" class="md-nav__link">
-    2. Questões
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-requisitos-levantados-e-perfil-de-usuario" class="md-nav__link">
-    3. Requisitos levantados e perfil de usuário
+  <a href="#3-tabelas" class="md-nav__link">
+    3. Tabelas
   </a>
+  
+    <nav class="md-nav" aria-label="3. Tabelas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-legenda" class="md-nav__link">
+    3.1 Legenda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-requisitos-funcionais" class="md-nav__link">
+    3.2 Requisitos Funcionais 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-requisitos-nao-funcionais" class="md-nav__link">
+    3.3 Requisitos Não-Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -674,8 +715,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-versionamento" class="md-nav__link">
-    5. Versionamento
+  <a href="#5-historico-de-versionamento" class="md-nav__link">
+    5. Histórico de Versionamento
   </a>
   
 </li>
@@ -684,20 +725,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../requisitos/" class="md-nav__link">
-        Requisitos Elicitados
-      </a>
     </li>
   
 
@@ -923,16 +950,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-questoes" class="md-nav__link">
-    2. Questões
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-requisitos-levantados-e-perfil-de-usuario" class="md-nav__link">
-    3. Requisitos levantados e perfil de usuário
+  <a href="#3-tabelas" class="md-nav__link">
+    3. Tabelas
   </a>
+  
+    <nav class="md-nav" aria-label="3. Tabelas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-legenda" class="md-nav__link">
+    3.1 Legenda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-requisitos-funcionais" class="md-nav__link">
+    3.2 Requisitos Funcionais 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-requisitos-nao-funcionais" class="md-nav__link">
+    3.3 Requisitos Não-Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -944,8 +998,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-versionamento" class="md-nav__link">
-    5. Versionamento
+  <a href="#5-historico-de-versionamento" class="md-nav__link">
+    5. Histórico de Versionamento
   </a>
   
 </li>
@@ -965,152 +1019,447 @@
                   
 
 
-<h1 id="questionario">Questionário</h1>
+<h1 id="requisitos">Requisitos</h1>
 <h2 id="1-introducao">1. Introdução</h2>
-<p align = "justify"> &emsp;&emsp; O questionário é conhecido como uma técnica simples para definir um perfil de usuário e para elicitação de requisitos tendo em vista que são realizadas algumas perguntas ao público em geral e listados os dados após suas respostas, possuindo fácil análise e um bom resultado. As respostas listadas no nosso questionário nos ajudaram a definir o público alvo do aplicativo, quais são as motivações para a utilização do aplicativo entre outras coisas apenas com dados quantitativos. A participação do público foi essencial para a compreensão de como o aplicativo é utilizado e quando é utilizado.</p>
-
-<h2 id="2-questoes">2. Questões</h2>
+<p>&emsp;&emsp; Para facilitar a consulta aos requisitos elicitados, usaremos essa página para reunir todos os requisitos elicitados, além de excluir aqueles que são duplicados.</p>
+<h2 id="2-metodologia">2. Metodologia</h2>
+<p>&emsp;&emsp; Como o número de requisitos elicitados foi bastante extenso, achamos interessante a criação desta página para organizá-los em uma única tabela, que irá conter um identificador, os requisitos e a rastreabilidade dos mesmos.</p>
+<h2 id="3-tabelas">3. Tabelas</h2>
+<h3 id="31-legenda">3.1 Legenda</h3>
 <table>
 <thead>
 <tr>
-<th>Perguntas</th>
-<th>Descrição</th>
+<th>Código</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931156-f50dd1cc-ac74-4b1b-a699-acfe13c03930.png" alt="drawing" width="4000"/></td>
-<td>A primeira pergunta teve como objetivo filtrar se o usuário ja teve algum tipo de contato com o ambiente moodle</td>
+<td>RF</td>
+<td>Requisito Funcional</td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931170-bdaaba80-96b0-4bbe-ba60-e30f91e3c69f.png" alt="drawing" width="4000"/></td>
-<td>Na segunda pergunta tinhamos como objetivo saber qual a idade dos usuários. E com ela, pudemos confirmar que o app é mais popular entre jovens de 19 a 30 anos.</td>
+<td>RNF</td>
+<td>Requisito Não-Funcional</td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931177-09c40a61-e520-4525-8bd0-b56f10b7e8ed.png" alt="drawing" width="4000"/></td>
-<td>Na terceira pergunta o objetivo era saber qual grau de escolaridade do usuário, obtendo uma maiora de estudades de ensino superior incompleto</td>
+<td>IT</td>
+<td>Introspecção</td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931183-96f2020c-db76-445e-96b1-887b21e161ee.png" alt="drawing" width="4000"/></td>
-<td>Na quarta pergunta queriamos entender por quanto tempo o usuário utilizava apps para seu auxilio</td>
+<td>OP</td>
+<td>Observação passiva</td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931186-b7726d11-2f40-4532-a1ee-a90a7c8148c9.png" alt="drawing" width="4000"/></td>
-<td>Na quinta queriamos filtrar os usuário que ja utilizaram o app moodle ou não</td>
+<td>ST</td>
+<td>Storytelling</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-requisitos-funcionais">3.2 Requisitos Funcionais <div id="requisitos" /></h3>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Descrição</th>
+<th align="center">Rastreabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">:--:</td>
+<td align="center">:---------:</td>
+<td align="center">:------:</td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931189-54e4d20d-9b1b-45db-a19a-2a38d203fef3.png" alt="drawing" width="4000"/></td>
-<td>Na sexta, queriamos saber com que frequencia eles utilizavam o app moodle</td>
+<td align="center">RF01</td>
+<td align="center">O sistema deve permitir cadastrar um aluno</td>
+<td align="center"><a href="../introspeccao/#I01">IT01</a>, <a href="../storytelling/#ST11">ST11</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931195-96980a1f-b662-4cf3-b179-56b18945ed5b.png" alt="drawing" width="4000"/></td>
-<td>Na sétima, queriamos entender as motivações que levaram o usuário a utilizar o app moodle</td>
+<td align="center">RF02</td>
+<td align="center">O sistema deve permitir cadastrar um professor</td>
+<td align="center"><a href="../introspeccao/#I02">IT02</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931200-87a850a0-e645-43ca-8e9d-43bf7e479974.png" alt="drawing" width="4000"/></td>
-<td>Na oitava, buscamos entender quais seriam as funcionalidades mais familiares ao usuário</td>
+<td align="center">RF03</td>
+<td align="center">O sistema deve permitir cadastrar uma disciplina</td>
+<td align="center"><a href="../introspeccao/#I03">IT03</a>, <a href="../storytelling/#ST13">ST13</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931202-0f8d46b8-56d8-407d-84d4-41371a005f77.png" alt="drawing" width="4000"/></td>
-<td>Na nona, buscamos entender quais seriam as funcionalidades menos familiares ao usuário</td>
+<td align="center">RF04</td>
+<td align="center">O sistema deve permitir cadastrar login e senha para entrar nas disciplinas</td>
+<td align="center"><a href="../introspeccao/#I04">IT04</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931209-52ea4cf6-ccac-47e9-ade1-a7f94383eb2d.png" alt="drawing" width="4000"/></td>
-<td>Na decima, buscava-se entender qual grau de satisfação do usuário acerca das funcionalidades do app</td>
+<td align="center">RF05</td>
+<td align="center">O sistema deve permitir cadastrar novas atividades</td>
+<td align="center"><a href="../introspeccao/#I05">IT05</a>, <a href="../storytelling/#ST18">ST18</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931212-f12e950f-bee5-4903-a701-1751d79d43bc.png" alt="drawing" width="4000"/></td>
-<td>Na decima primeira, buscava-se entender qual grau de satisfação do usuário acerca da interface grafica e do design do app</td>
+<td align="center">RF06</td>
+<td align="center">O sistema deve permitir listar os alunos cadastrados</td>
+<td align="center"><a href="../introspeccao/#I06">IT06</a>, <a href="../observacao_etnografia/#OP28">OP28</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931217-bb9d69c9-bb13-43c8-bc02-c356c0ff82b1.png" alt="drawing" width="4000"/></td>
-<td>Na decima segunda, buscava-se entender qual grau de satisfação do usuário acerca do app como um todo</td>
+<td align="center">RF07</td>
+<td align="center">O sistema deve permitir listar as disciplinas cadastradas</td>
+<td align="center"><a href="../introspeccao/#I07">IT07</a>, <a href="../storytelling/#ST02">ST02</a></td>
 </tr>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/79341819/204931223-3be6840b-37ef-4acb-802f-a53119e57661.png" alt="drawing" width="4000"/></td>
-<td>Na decima terceira, caso o usuário não utiliza-se o app, tentamos levantar o motivo para tal.</td>
+<td align="center">RF08</td>
+<td align="center">O sistema deve permitir pesquisar por uma disciplina a partir do nome do professor</td>
+<td align="center"><a href="../introspeccao/#I08">IT08</a></td>
+</tr>
+<tr>
+<td align="center">RF09</td>
+<td align="center">O sistema deve permitir pesquisar disciplina por nome</td>
+<td align="center"><a href="../introspeccao/#I09">IT09</a></td>
+</tr>
+<tr>
+<td align="center">RF10</td>
+<td align="center">O sistema deve permitir pesquisar aluno por nome</td>
+<td align="center"><a href="../introspeccao/#I10">IT10</a></td>
+</tr>
+<tr>
+<td align="center">RF11</td>
+<td align="center">O sistema deve permitir a consulta de notas das atividades</td>
+<td align="center"><a href="../introspeccao/#I11">IT11</a>, <a href="../observacao_etnografia/#OP29">OP29</a>, <a href="../storytelling/#ST23">ST23</a></td>
+</tr>
+<tr>
+<td align="center">RF12</td>
+<td align="center">O sistema deve permitir a inserção de arquivos para envio das atividades</td>
+<td align="center"><a href="../introspeccao/#I12">IT12</a>, <a href="../observacao_etnografia/#OP19">OP19</a></td>
+</tr>
+<tr>
+<td align="center">RF13</td>
+<td align="center">O sistema deve permitir retirar um aluno ou todos os alunos da disciplina</td>
+<td align="center"><a href="../introspeccao/#I13">IT13</a></td>
+</tr>
+<tr>
+<td align="center">RF14</td>
+<td align="center">O sistema deve permitir criar restrições de acesso para as atividades</td>
+<td align="center"><a href="../introspeccao/#I14">IT014</a></td>
+</tr>
+<tr>
+<td align="center">RF15</td>
+<td align="center">O sistema deve permitir criar limite de tentativas para as atividades</td>
+<td align="center"><a href="../introspeccao/#I15">IT15</a></td>
+</tr>
+<tr>
+<td align="center">RF16</td>
+<td align="center">O sistema deve permitir criar limite de data de envio para as atividades</td>
+<td align="center"><a href="../introspeccao/#I16">IT16</a></td>
+</tr>
+<tr>
+<td align="center">RF17</td>
+<td align="center">O sistema deve permitir que o professor crie um fórum</td>
+<td align="center"><a href="../introspeccao/#I17">IT17</a></td>
+</tr>
+<tr>
+<td align="center">RF18</td>
+<td align="center">O sistema deve permitir que um aluno/professor cadastre uma pergunta no fórum</td>
+<td align="center"><a href="../introspeccao/#I18">IT18</a>, <a href="../observacao_etnografia/#OP17">OP17</a>, <a href="../storytelling/#ST14">ST14</a>, <a href="../storytelling/#ST16">ST16</a></td>
+</tr>
+<tr>
+<td align="center">RF19</td>
+<td align="center">O sistema deve permitir a inserção de arquivos nas perguntas</td>
+<td align="center"><a href="../introspeccao/#I19">IT19</a></td>
+</tr>
+<tr>
+<td align="center">RF20</td>
+<td align="center">O sistema deve permitir que um aluno/professor cadastre uma resposta no fórum</td>
+<td align="center"><a href="../introspeccao/#I20">IT20</a>, <a href="../observacao_etnografia/#OP18">OP18</a>, <a href="../storytelling/#ST15">ST15</a>, <a href="../storytelling/#ST17">ST17</a></td>
+</tr>
+<tr>
+<td align="center">RF21</td>
+<td align="center">O sistema deve permitir a inserção de arquivos nas respostas do fórum</td>
+<td align="center"><a href="../introspeccao/#I21">IT21</a></td>
+</tr>
+<tr>
+<td align="center">RF22</td>
+<td align="center">O sistema deve permitir alterar respostas/perguntas cadastradas feita pelo mesmo nos fóruns</td>
+<td align="center"><a href="../introspeccao/#I22">IT22</a></td>
+</tr>
+<tr>
+<td align="center">RF23</td>
+<td align="center">O sistema deve permitir o professor a alterar as restrições de data, tentativas e acesso</td>
+<td align="center"><a href="../introspeccao/#I23">IT23</a>, <a href="../storytelling/#ST20">ST20</a>, <a href="../storytelling/#ST21">ST21</a></td>
+</tr>
+<tr>
+<td align="center">RF24</td>
+<td align="center">O sistema deve permitir o professor a alterar o cargo de um aluno inscrito em sua disciplina</td>
+<td align="center"><a href="../introspeccao/#I24">IT24</a></td>
+</tr>
+<tr>
+<td align="center">RF25</td>
+<td align="center">O sistema deve permitir listar as disciplinas que o aluno se cadastrou</td>
+<td align="center"><a href="../introspeccao/#I25">IT25</a></td>
+</tr>
+<tr>
+<td align="center">RF26</td>
+<td align="center">O sistema deve permitir listar as atividades do aluno por data</td>
+<td align="center"><a href="../introspeccao/#I26">IT26</a>, <a href="../storytelling/#ST10">ST10</a></td>
+</tr>
+<tr>
+<td align="center">RF27</td>
+<td align="center">O sistema deve notificar aos usuários cadastrados na disciplina quando uma pergunta no fórum é cadastrada</td>
+<td align="center"><a href="../introspeccao/#I27">IT27</a></td>
+</tr>
+<tr>
+<td align="center">RF28</td>
+<td align="center">O sistema deve permitir fazer alteração nas informações do usuário cadastrado</td>
+<td align="center"><a href="../introspeccao/#I28">IT28</a></td>
+</tr>
+<tr>
+<td align="center">RF29</td>
+<td align="center">O sistema deve permitir que o professor visualize o tempo que os alunos utilizaram para a realização das atividades</td>
+<td align="center"><a href="../introspeccao/#I29">IT29</a></td>
+</tr>
+<tr>
+<td align="center">RF30</td>
+<td align="center">O sistema deve permitir enviar mensagem direta para um aluno/professor</td>
+<td align="center"><a href="../introspeccao/#I30">IT30</a>, <a href="../storytelling/#ST07">ST07</a></td>
+</tr>
+<tr>
+<td align="center">RF31</td>
+<td align="center">O sistema deve permitir o aluno/professor fazer login</td>
+<td align="center"><a href="../introspeccao/#31">IT31</a>, <a href="../observacao_etnografia/#OP02">OP02</a>, <a href="../storytelling/#ST01">ST01</a></td>
+</tr>
+<tr>
+<td align="center">RF32</td>
+<td align="center">O sistema deve permitir o aluno/professor fazer logout</td>
+<td align="center"><a href="../introspeccao/#I32">IT32</a></td>
+</tr>
+<tr>
+<td align="center">RF33</td>
+<td align="center">O aluno deve ser capaz de ver a senha digitada</td>
+<td align="center"><a href="../observacao_etnografia/#OP03">OP03</a></td>
+</tr>
+<tr>
+<td align="center">RF34</td>
+<td align="center">O aluno deve ser capaz de recuperar a senha</td>
+<td align="center"><a href="../observacao_etnografia/#OP04">OP04</a></td>
+</tr>
+<tr>
+<td align="center">RF35</td>
+<td align="center">O sistema deverá emitir um email de recuperação de senha</td>
+<td align="center"><a href="../observacao_etnografia/#OP05">OP05</a></td>
+</tr>
+<tr>
+<td align="center">RF36</td>
+<td align="center">O aluno deve poder visualizar seus dados pessoais</td>
+<td align="center"><a href="../observacao_etnografia/#OP06">OP06</a></td>
+</tr>
+<tr>
+<td align="center">RF37</td>
+<td align="center">O aluno deve ser capaz de alterar sua imagem de perfil</td>
+<td align="center"><a href="../observacao_etnografia/#OP07">OP07</a></td>
+</tr>
+<tr>
+<td align="center">RF38</td>
+<td align="center">O aluno deve ser capaz de visualizar o status de um arquivo enviado</td>
+<td align="center"><a href="../observacao_etnografia/#OP20">OP20</a></td>
+</tr>
+<tr>
+<td align="center">RF39</td>
+<td align="center">O aluno deve ser capaz de pesquisar por cursos disponíveis</td>
+<td align="center"><a href="../observacao_etnografia/#OP08">OP08</a></td>
+</tr>
+<tr>
+<td align="center">RF40</td>
+<td align="center">O aluno deve ser capaz de visualizar o comentários de um arquivo enviado</td>
+<td align="center"><a href="../observacao_etnografia/#OP21">OP21</a></td>
+</tr>
+<tr>
+<td align="center">RF41</td>
+<td align="center">O aluno deve ser capaz de ingressar em um curso utilizando uma chave de acesso</td>
+<td align="center"><a href="../observacao_etnografia/#OP09">OP09</a></td>
+</tr>
+<tr>
+<td align="center">RF42</td>
+<td align="center">O aluno deve ser capaz de ver as restrições de envio de um arquivo</td>
+<td align="center"><a href="../observacao_etnografia/#OP22">OP22</a></td>
+</tr>
+<tr>
+<td align="center">RF43</td>
+<td align="center">O sistema deve emitir notificações ao aluno quando o prazo de alguma atividade estiver próximo</td>
+<td align="center"><a href="../observacao_etnografia/#OP11">OP11</a>, <a href="../storytelling/#ST04">ST04</a></td>
+</tr>
+<tr>
+<td align="center">RF44</td>
+<td align="center">O aluno deve poder baixar diferentes tipos de arquivo disponibilizados pelo professor</td>
+<td align="center"><a href="../observacao_etnografia/#OP23">OP23</a>, <a href="../storytelling/#ST03">ST03</a></td>
+</tr>
+<tr>
+<td align="center">RF45</td>
+<td align="center">O aluno deve ser capaz de marcar atividades como concluída</td>
+<td align="center"><a href="../observacao_etnografia/#OP12">OP12</a></td>
+</tr>
+<tr>
+<td align="center">RF46</td>
+<td align="center">O aluno deve poder visualizar a descrição de cada arquivo</td>
+<td align="center"><a href="../observacao_etnografia/#OP24">OP24</a></td>
+</tr>
+<tr>
+<td align="center">RF47</td>
+<td align="center">O aluno deve poder visualizar seu o progresso do aluno no curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP13">OP13</a></td>
+</tr>
+<tr>
+<td align="center">RF48</td>
+<td align="center">O sistema deve ter diferentes ícones para diferentes tipos de atividades de um curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP25">OP25</a></td>
+</tr>
+<tr>
+<td align="center">RF49</td>
+<td align="center">O aluno deve ser capaz de retroceder e avançar uma seção do curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP14">OP14</a></td>
+</tr>
+<tr>
+<td align="center">RF50</td>
+<td align="center">O sistema deve mostrar o nome das seções anterior e posterior a seção em que o aluno se encontra</td>
+<td align="center"><a href="../observacao_etnografia/#OP15">OP15</a></td>
+</tr>
+<tr>
+<td align="center">RF51</td>
+<td align="center">O sistema deve mostrar o índice do curso completo</td>
+<td align="center"><a href="../observacao_etnografia/#OP16">OP16</a></td>
+</tr>
+<tr>
+<td align="center">RF52</td>
+<td align="center">O sistema deve deixar claro quando o aluno estiver saindo do aplicativo para acessar uma URL no navegador</td>
+<td align="center"><a href="../observacao_etnografia/#OP26">OP26</a></td>
+</tr>
+<tr>
+<td align="center">RF53</td>
+<td align="center">O aluno deve poder arquivar um curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP31">OP31</a></td>
+</tr>
+<tr>
+<td align="center">RF54</td>
+<td align="center">O aluno deve ser capaz de fazer o download de um curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP32">OP22</a></td>
+</tr>
+<tr>
+<td align="center">RF55</td>
+<td align="center">O aluno deve poder ver os próximos eventos de um curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP27">OP27</a>, <a href="../storytelling/#ST09">ST09</a></td>
+</tr>
+<tr>
+<td align="center">RF56</td>
+<td align="center">O aluno deve poder ver informações gerais sobre o curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP33">OP33</a></td>
+</tr>
+<tr>
+<td align="center">RF57</td>
+<td align="center">O aluno deve poder favoritar um curso</td>
+<td align="center"><a href="../observacao_etnografia/#OP30">OP30</a></td>
+</tr>
+<tr>
+<td align="center">RF58</td>
+<td align="center">O professor deve ser capaz de criar restrições de tempo para as atividades</td>
+<td align="center"><a href="../storytelling/#ST19">ST19</a></td>
+</tr>
+<tr>
+<td align="center">RF59</td>
+<td align="center">O sistema deve mostrar os cursos mais recentes primeiro</td>
+<td align="center"><a href="../storytelling/#ST05">ST05</a></td>
+</tr>
+<tr>
+<td align="center">RF60</td>
+<td align="center">O aluno deve ser capaz de fazer a revisão da atividade finalizada</td>
+<td align="center"><a href="../storytelling/#ST24">ST24</a></td>
+</tr>
+<tr>
+<td align="center">RF61</td>
+<td align="center">O professor deve ser capaz de disponibilizar materiais(arquivos) no curso</td>
+<td align="center"><a href="../storytelling/#ST06">ST06</a></td>
+</tr>
+<tr>
+<td align="center">RF62</td>
+<td align="center">O professor deve ser capaz de cadastrar alunos na disciplina</td>
+<td align="center"><a href="../storytelling/#ST12">ST12</a></td>
+</tr>
+<tr>
+<td align="center">RF63</td>
+<td align="center">O professor deve ser capaz de organizar o curso em módulos</td>
+<td align="center"><a href="../storytelling/#ST08">ST08</a></td>
+</tr>
+<tr>
+<td align="center">RF64</td>
+<td align="center">O aluno deve ser capaz de configurar as preferências do aplicativo</td>
+<td align="center"><a href="../storytelling/#ST26">ST26</a></td>
 </tr>
 </tbody>
 </table>
 <figcaption align='center'>
-    <b>Tabela 1: Perguntas levantadas e respostas obtidas</b>
-    <br><small>Fonte: Elaboração Própria</small>
+    <b>Tabela de Requisitos Funcionais</b>
+        <br><small>Autor: Marcos Vinícius e Pablo Christianno</small>
 </figcaption>
 
-<h2 id="3-requisitos-levantados-e-perfil-de-usuario">3. Requisitos levantados e perfil de usuário</h2>
-<p>&emsp;&emsp; Com a análise desse questionário, obtemos 30 respostas e com elas podemos ver que as pessoas entrevistadas tiveram um alto neutro/satisfatório com o app, podemos ver também que cerca de quase metade dos entrevistados não utilizavam o app, muitos por não terem conhecimento da existencia dele. E por fim, podemos traçar o perfil de usuário do app "moodle", que é de um estudade de 19 a 30 anos, cursando o ensino superior, que utiliza de ferramentas para organizar seus cursos e turmas. </p>
-<p>&emsp;&emsp; Dessa forma, a partir das respostas do questionário conseguimos elicitar os seguintes requisitos:</p>
+<h3 id="33-requisitos-nao-funcionais">3.3 Requisitos Não-Funcionais</h3>
 <table>
 <thead>
 <tr>
-<th>ID</th>
-<th>Descrição</th>
-<th>Tipo de Requisito</th>
+<th align="center">ID</th>
+<th align="center">Descrição</th>
+<th align="center">Origem</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Q01</td>
-<td>O usuário deve conseguir consultar cursos</td>
-<td>Funcional</td>
+<td align="center">RNF01</td>
+<td align="center">O app deve ter suporte para aparelhos com sistema IOS e Android</td>
+<td align="center"><a href="../introspeccao/#I33">IT33</a>, <a href="../storytelling/#ST22">ST22</a></td>
 </tr>
 <tr>
-<td>Q02</td>
-<td>O usuário deve conseguir consultar turmas</td>
-<td>Funcional</td>
+<td align="center">RNF02</td>
+<td align="center">O app deve ser eficiente</td>
+<td align="center"><a href="../introspeccao/#I34">IT34</a></td>
 </tr>
 <tr>
-<td>Q03</td>
-<td>O usuário deve conseguir consultar eventos no caléndario</td>
-<td>Funcional</td>
+<td align="center">RNF03</td>
+<td align="center">O sistema deve estar disponível para uso do aluno a qualquer momento</td>
+<td align="center"><a href="../introspeccao/#I35">IT35</a></td>
 </tr>
 <tr>
-<td>Q04</td>
-<td>O usuário deve conseguir enviar e receber mensagens</td>
-<td>Funcional</td>
+<td align="center">RNF04</td>
+<td align="center">O sistema deve manter todos os dados fornecidos pela instituição e pelo professor seguros</td>
+<td align="center"><a href="../introspeccao/#I36">IT36</a></td>
 </tr>
 <tr>
-<td>Q05</td>
-<td>O usuário deve conseguir obter emblemas</td>
-<td>Funcional</td>
+<td align="center">RNF05</td>
+<td align="center">O sistema deve oferecer uma interface intuitiva e adaptável para o usuário.</td>
+<td align="center"><a href="../introspeccao/#I37">IT37</a></td>
 </tr>
 <tr>
-<td>Q06</td>
-<td>O usuário deve conseguir visualizar notas</td>
-<td>Funcional</td>
+<td align="center">RNF06</td>
+<td align="center">O sistema deve apresentar as mesmas telas disponíveis no Aprender3</td>
+<td align="center"><a href="../introspeccao/#I38">IT38</a></td>
 </tr>
 <tr>
-<td>Q07</td>
-<td>O usuário deve conseguir receber notificações</td>
-<td>Funcional</td>
+<td align="center">RNF07</td>
+<td align="center">O aluno somente poderá vincular o sistema com sua instituição de ensino através de um endereço eletrônico</td>
+<td align="center"><a href="../observacao_etnografia/#OP01">OP01</a></td>
 </tr>
 <tr>
-<td>Q08</td>
-<td>O aplicativo deve ser de fácil uso</td>
-<td>Não funcional</td>
-</tr>
-<tr>
-<td>Q09</td>
-<td>O aplicativo deve ter uma interface intuitiva</td>
-<td>Não funcional</td>
-</tr>
-<tr>
-<td>Q10</td>
-<td>O aplicativo deve ter um baixo tempo de resposta, não podendo ultrapassar dois segundos</td>
-<td>Não funcional</td>
+<td align="center">RNF08</td>
+<td align="center">O aluno deve permanecer logado no app até fazer logout</td>
+<td align="center"><a href="../storytelling/#ST25">ST25</a></td>
 </tr>
 </tbody>
 </table>
 <figcaption align='center'>
-    <b>Tabela 2: Requisitos elicitados</b>
-    <br><small>Fonte: Elaboração Própria</small>
+    <b>Tabela de Requisitos Não Funcionais</b>
+        <br><small>Autor: Marcos Vinícius e Pablo Christianno</small>
 </figcaption>
 
 <h2 id="4-referencias">4. Referências</h2>
-<blockquote>
-<p>BARBOSA, Simone; SILVA, Bruno. Interação Humano Computador. Rio de Janeiro. Elsevier Editora Ltda. 2010</p>
-</blockquote>
-<h2 id="5-versionamento">5. Versionamento</h2>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2019.2-Duolingo/elicitacao/RequisitosElicitados/">Documento de Requisitos Elicitados grupo Duolingo</a></li>
+</ul>
+<h2 id="5-historico-de-versionamento">5. Histórico de Versionamento</h2>
 <table>
 <thead>
 <tr>
@@ -1125,27 +1474,11 @@
 <tbody>
 <tr>
 <td>1.0</td>
-<td>30/11/2022</td>
-<td>30/11/2022</td>
-<td>Criação da página questionário</td>
-<td>Davi Lima</td>
-<td>Marcos Vinicius</td>
-</tr>
-<tr>
-<td>1.1</td>
-<td>30/11/2022</td>
-<td>30/11/2022</td>
-<td>Adição da introdução e tópicos</td>
-<td>Davi Lima</td>
-<td>Marcos Vinicius</td>
-</tr>
-<tr>
-<td>1.2</td>
-<td>30/11/2022</td>
-<td>30/11/2022</td>
-<td>Correções pós feedback do professor</td>
-<td>Davi Lima</td>
-<td>Marcos Vinicius</td>
+<td>28/12/2022</td>
+<td>01/01/2023</td>
+<td>Criação da página, introdução, metodologia e tabelas</td>
+<td>Marcos e Pablo</td>
+<td>-</td>
 </tr>
 </tbody>
 </table>
@@ -1169,7 +1502,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
       
         
-        <a href="../observacao_etnografia/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Observação" rel="prev">
+        <a href="../questionario/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Questionário" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1178,20 +1511,20 @@
               <span class="md-footer__direction">
                 Anterior
               </span>
-              Observação
+              Questionário
             </div>
           </div>
         </a>
       
       
         
-        <a href="../requisitos/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Requisitos Elicitados" rel="next">
+        <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Introdução" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Próximo
               </span>
-              Requisitos Elicitados
+              Introdução
             </div>
           </div>
           <div class="md-footer__button md-icon">
