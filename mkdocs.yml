@@ -44,4 +44,5 @@ nav:
     - Especificação Suplementar: Modelagem/suplementar.md
     - Léxicos: Modelagem/lexicos.md
     - Histórias de Usuário: Modelagem/historias_usuario.md
-    - Modelagem/backlog.md
+    - Backlog: Modelagem/backlog.md
+    - NRF Framework: Modelagem/NRFframework.md
