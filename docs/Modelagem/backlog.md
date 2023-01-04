@@ -9,7 +9,8 @@ O Backlog do Produto é uma lista de histórias, ordenada por prioridades. Assim
 <p align = "justify">
 Para desenvolver o backlog do produto foi relacionado o tema, os épicos e as histórias de usuário definido dentro do projeto, assim criando a tabela 1 que demosntrar a ligação entre cadas um deles e apresenta também a rastreabilidade dos requisitos com as história de usuário. 
 Como as histórias de usuário foram validadas com o cliente anteriormente não foi realizado uma validação do backlog.    
-    
+</p>
+
 ## 3. Backlog
 
 <table>
