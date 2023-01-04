@@ -21,7 +21,7 @@ O Backlog do Produto é uma lista de histórias, ordenada por prioridades. Assim
     </thead>
     <tbody>
         <tr>
-        <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="100%">TikTok</td>
+        <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="100%">Moodle</td>
         </tr>
         <tr>
               <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="3">Login</td>
