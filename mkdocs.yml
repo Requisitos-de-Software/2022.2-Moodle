@@ -33,6 +33,7 @@ nav:
     - Introspecção: Elicitacao/introspeccao.md
     - Observação: Elicitacao/observacao_etnografia.md
     - Questionário: Elicitacao/questionario.md
+    - Requisitos Elicitados: Elicitacao/requisitos.md
   - Priorização:
     - Introdução: Priorização/priorizacao.md
     - First Things First: Priorização/First-Things-First.md
@@ -42,3 +43,4 @@ nav:
     - Casos de Uso: Modelagem/caso-de-uso.md
     - Especificação Suplementar: Modelagem/suplementar.md
     - Léxicos: Modelagem/lexicos.md
+    - Histórias de Usuário: Modelagem/historias_usuario.md
