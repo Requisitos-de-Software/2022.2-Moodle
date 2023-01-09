@@ -1,4 +1,4 @@
-# Verificação da entrega 4 do grupo 8 (Fifa+)
+# Verificação da entrega 3 do grupo 8 (Fifa+)
 
 ## 1\. Introdução
 
@@ -22,39 +22,41 @@
 
 | Quesito | Cxx |
 | :------ | :---: |
-| A estrutura do cenário está padronizada? | Sim |
-| O nome do título é auto-explicativo? | Sim |
-| O objetivo foi definido de maneira direta e clara? | Incompleto |
-| O contexto apresenta local? | Não |
-| O contexto apresenta tempo? | Sim |
-| O contexto apresenta pré-condição? | Sim |
-| O contexto apresenta prós-condição? | Sim |
-| Todos os atores foram identificados no cenário | Incompleto |
-| Apresenta todos os recursos necessários? | Sim |
-| Apresenta exceção? | Sim |
-| A exceção é condizente com a realidade? | Não |
-| Os episódios são coerentes? | Sim |
-| Os episódios ajudam a alcançar o objetivo? | Sim |
+| A estrutura do cenário está padronizada? | Sim/Não/Incompleto |
+| O nome do título é auto-explicativo? | Sim/Não/Incompleto |
+| O objetivo foi definido de maneira direta e clara? | Sim/Não/Incompleto |
+| O contexto apresenta local? | Sim/Não/Incompleto |
+| O contexto apresenta tempo? | Sim/Não/Incompleto |
+| O contexto apresenta pré-condição? | Sim/Não/Incompleto |
+| O contexto apresenta prós-condição? | Sim/Não/Incompleto |
+| Todos os atores foram identificados no cenário? | Sim/Não/Incompleto |
+| Apresenta todos os recursos necessários? | Sim/Não/Incompleto |
+| Apresenta exceção? | Sim/Não/Incompleto |
+| A exceção é condizente com a realidade? | Sim/Não/Incompleto |
+| Os episódios são coerentes? | Sim/Não/Incompleto |
+| Os episódios ajudam a alcançar o objetivo? | Sim/Não/Incompleto |
 
-<figcaption align="center"><b>Modelo de tabela para cenários</b>
-<small>Autor: Pablo Christianno</small>
+<figcaption align="center">
+    <b>Modelo de tabela para cenários</b>
+        <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
 | Quesito | Lxx |
 | :-----: | :---: |
-| A estrutura do léxico está padronizada? | Sim |
-| Possui nome e noção coerentes entre si? | Sim |
-| A noção de cada léxico está clara e define o que é o simbolo(denotação)? | Sim |
-| Apresenta classificação correta? | Incompleto |
-| Apresenta impacto coerente | Sim |
-| Os sinônimos quando necessário, estão coerentes? | Sim |
-| possui todas as informações necessárias? | Não |
-| Uso de linguagem compreensível ao público? | Sim |
-| A ortografia está correta? | Não |
-| Possui link com outros léxicos, caso necessário? | Incompleto |
+| A estrutura do léxico está padronizada? | Sim/Não/Incompleto |
+| Possui nome e noção coerentes entre si? | Sim/Não/Incompleto |
+| A noção de cada léxico está clara e define o que é o simbolo(denotação)? | Sim/Não/Incompleto |
+| Apresenta classificação correta? | Sim/Não/Incompleto |
+| Apresenta impacto coerente? | Sim/Não/Incompleto |
+| Os sinônimos quando necessário, estão coerentes? | Sim/Não/Incompleto |
+| possui todas as informações necessárias? | Sim/Não/Incompleto |
+| Uso de linguagem compreensível ao público? | Sim/Não/Incompleto |
+| A ortografia está correta? | Sim/Não/Incompleto |
+| Possui link com outros léxicos, caso necessário? | Sim/Não/Incompleto |
 
-<figcaption align="center"><b>Modelo de tabela para léxicos</b>
-<small>Autor: Pablo Christianno</small>
+<figcaption align="center">
+    <b>Modelo de tabela para léxicos</b>
+        <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
 - Modelo do diagrama de casos de uso:
@@ -63,8 +65,9 @@
 | :------ | :---: |
 | [característica] | [sim/não] |
 
-<figcaption align="center"><b>Modelo do diagrama de casos de uso</b>
-<small>Autor: Rodolfo Neves</small>
+<figcaption align="center">
+    <b>Modelo do diagrama de casos de uso</b>
+        <br><small>Autor: Rodolfo Neves</small>
 </figcaption>
 
 
@@ -74,13 +77,14 @@
 | :------ | :---: |
 | [característica] | [sim/não] |
 
-<figcaption align="center"><b>Modelo da especificação suplementar</b>
-<small>Autor: Rodolfo Neves</small>
+<figcaption align="center">
+    <b>Modelo da especificação suplementar</b>
+        <br><small>Autor: Rodolfo Neves</small>
 </figcaption>
 
 ### 3.3 Execução
 
-#### Artefato verificado 01 - Cenários
+#### Artefato verificado 01 - Cenário
 
 | Quesito | C01 | C02 | C03 | C04 | C05 | C06 | C07 | C08 | C09 | C10 | C11 | C12 | C13 | C14 |
 | :-----: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -98,11 +102,12 @@
 | Os episódios são coerentes? | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | não | Não | Sim | Sim | Sim | Sim | Sim |
 | Os episódios ajudam a alcançar o objetivo? | Sim | Sim | Sim | Sim | Sim | Sim | sim | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim |
 
-<figcaption align="center"><b>Tabela 01 de artefato: Cenário</b>
-<small>Autor: Pablo Christianno</small>
+<figcaption align="center">
+    <b>Tabela 01 de artefato: Cenário</b>
+        <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
-#### Artefato verificado 02 - Léxicos
+#### Artefato verificado 02 - Léxico
 
 | Quesito | L01 | L02 | L03 | L04 | L05 | L06 | L07 | L08 | L09 | L10 | L11 | L12 | L13 | L14 | L15 | L16 | L17 |
 | :-----: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -110,15 +115,16 @@
 | Possui nome e noção coerentes entre si? | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Não | Sim | Sim | Sim | Não | Sim | Sim | não | Sim |
 | A noção de cada léxico está clara e define o que é o simbolo(denotação)? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 | Apresenta classificação correta? | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Não | Sim | Sim | Sim | Sim | Sim | Sim | Não | Sim |
-| Apresenta impacto coerente | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto |
+| Apresenta impacto coerente? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto |
 | Os sinônimos quando necessário, estão coerentes? | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Não | Sim | Sim | Sim | Não | Sim | Sim | Não | Sim |
 | Possui todas as informações necessárias? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 | Uso de linguagem compreensível ao público? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 | A ortografia está correta? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 | Possui link com outros léxicos, caso necessário? | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 
-<figcaption align="center"><b>Tabela 02 de artefato: Léxico</b>
-<small>Autor: Pablo Christianno</small>
+<figcaption align="center">
+    <b>Tabela 02 de artefato: Léxico</b>
+        <br><small>Autor: Pablo Christianno</small>
 </figcaption>
 
 #### Artefato verificado 03 - Diagrama de casos de uso
@@ -135,8 +141,9 @@
 | A caixa de limite do sistema está definido? | Sim |
 | Os casos de uso estão definidos? | Sim |
 
-<figcaption align="center"><b>Tabela 03 de artefato: verificação do diagrama de casos de uso</b>
-<small>Autor: Rodolfo Neves</small>
+<figcaption align="center">
+    <b>Tabela 03 de artefato: verificação do diagrama de casos de uso</b>
+        <br><small>Autor: Rodolfo Neves</small>
 </figcaption>
 
 #### Artefato verificado 04 - Especificação suplementar
@@ -175,8 +182,9 @@
 | A  especificação descreve observações legais, direitos autorais e outras observações ? | Não |
 | A  especificação descreve observações padrões aplicáveis ? | Não |
 
-<figcaption align="center"><b>Modelo da especificação suplementar</b>
-<small>Autor: Rodolfo Neves</small>
+<figcaption align="center">
+    <b>Modelo da especificação suplementar</b>
+        <br><small>Autor: Rodolfo Neves</small>
 </figcaption>
 
 ## 4\. Referências
