@@ -13,15 +13,15 @@
 ## 3. Execução
 
 ### 3.1 Planejamento
-&emsp;&emsp; Para os cenários foi feito um check list para avaliar cada um dos cenários elaborados avaliando em "sim", quando o quesito é atendido, "não" para quando o quesito não é atendido e "incompleto", para quanto o quesito não é atendido totalmente ou de forma correta.
+&emsp;&emsp; Para os cenários e Léxicos foi feito um check list para avaliar cada um dos cenários e Léxicos elaborados avaliando em "sim", quando o quesito é atendido, "não" para quando o quesito não é atendido e "incompleto", para quanto o quesito não é atendido totalmente ou de forma correta.
 
 ### 3.2 Preparação
 &emsp;&emsp; - Modelo das tabelas:
 
 | Quesito | Cxx |
 |:---------------------|:---:|
-| A estrutura dos cenários está padronizada? | Sim |
-| O nomes dos títulos são auto-explicativo? | Sim |
+| A estrutura do cenário está padronizada? | Sim |
+| O nome do título é auto-explicativo? | Sim |
 | O objetivo foi definido de maneira direta e clara? | Incompleto |
 | O contexto apresenta local? | Não |
 | O contexto apresenta tempo? | Sim |
@@ -39,6 +39,24 @@
         <br><small>Autor: Pablo Christianno</small>
 </figcaption> 
 
+| Quesito | Lxx |
+|:----------------------------------------------------:|:---:|
+| A estrutura do léxico está padronizada? | Sim | 
+| Possui nome e noção coerentes entre si? | Sim | 
+| A noção de cada léxico está clara e define o que é o simbolo(denotação)? | Sim |
+| Apresenta classificação correta?| Incompleto |
+| Apresenta impacto coerente | Sim | 
+| Os sinônimos quando necessário, estão coerentes? | Sim |
+| possui todas as informações necessárias? | Não |
+| Uso de linguagem compreensível ao público? | Sim |
+| A ortografia está correta? | Não |
+| Possui link com outros léxicos, caso necessário? | Incompleto |
+
+<figcaption align='center'>
+    <b>Modelo de tabela para léxicos</b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption> 
+
 ### 3.3 Execução
 
 #### Artefato verificado 01 - Cenários
@@ -46,7 +64,7 @@
 | Quesito | C01 | C02 | C03 | C04 | C05 | C06 | C07 | C08 | C09 | C10 | C11 | C12 | C13 | C14 |
 |:----------------------------------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | A estrutura do cenário está padronizada? | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto | Incompleto |
-| O nomes dos títulos são auto-explicativo? | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | 
+| O nomes do título é auto-explicativo? | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | Não | 
 | O objetivo foi definido de maneira direta e clara? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto | Incompleto | Sim | Sim | Sim | Incompleto | Sim |
 | O contexto apresenta local? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
 | O contexto apresenta tempo? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
@@ -64,11 +82,34 @@
         <br><small>Autor: Pablo Christianno</small>
 </figcaption> 
 
+#### Artefato verificado 02 - Léxicos
+
+| Quesito | L01 | L02 | L03 | L04 | L05 | L06 | L07 | L08 | L09 | L10 | L11 | L12 | L13 | L14 | L15 | L16 | L17 |
+|:----------------------------------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| A estrutura do léxico está padronizada? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+| Possui nome e noção coerentes entre si? | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Não | Sim | Sim | Sim | Não | Sim | Sim | não | Sim |
+| A noção de cada léxico está clara e define o que é o simbolo(denotação)? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+| Apresenta classificação correta?| Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Não | Sim | Sim | Sim | Sim | Sim | Sim | Não | Sim |
+| Apresenta impacto coerente | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Sim | Sim | Sim | Incompleto |
+| Os sinônimos quando necessário, estão coerentes? | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Não | Sim | Sim | Sim | Não | Sim | Sim | Não | Sim |
+| Possui todas as informações necessárias? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+| Uso de linguagem compreensível ao público? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+| A ortografia está correta? | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+| Possui link com outros léxicos, caso necessário? | Sim | Sim | Sim | Sim | Sim | Incompleto | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim |
+
+
+<figcaption align='center'>
+    <b>Tabela 02 de artefato: Léxico</b>
+        <br><small>Autor: Pablo Christianno</small>
+</figcaption> 
+
 ## 4. Referências
 
 - [Aula 05 - Verificação e Validação - Univesp](https://www.youtube.com/watch?v=1Y-1zz6rZxo&t=22s) 
 - [GitHub - 2021.1-Ingresso.com - verificação - cenários](https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/blob/main/docs/verificacao/cenarios.md)
 - [GitHub - 2019.2-Duolingo - verificação - inspeção cenários](https://github.com/Requisitos-de-Software/2019.2-Duolingo/blob/master/docs/analise/verificacao/inspecaoCenario.md)
+- [GitHub - 2021.1-Ingresso.com - verificação - léxicos](https://github.com/Requisitos-de-Software/2021.1-Ingresso.com/blob/main/docs/verificacao/lexicos.md)
+- [GitHub - 2021.1-DisneyPlus - verificação - léxicos](https://github.com/Requisitos-de-Software/2021.1-DisneyPlus/blob/main/docs/analise/verificacao/lexicos.md)
 
 ## 5. Histórico de versão
 
