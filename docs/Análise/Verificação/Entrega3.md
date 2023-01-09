@@ -37,7 +37,7 @@
 <figcaption align='center'>
     <b>Modelo de tabela para cenários</b>
         <br><small>Autor: Pablo Christianno</small>
-</figcaption> 
+</figcaption>
 
 | Quesito | Lxx |
 |:----------------------------------------------------:|:---:|
@@ -56,6 +56,27 @@
     <b>Modelo de tabela para léxicos</b>
         <br><small>Autor: Pablo Christianno</small>
 </figcaption> 
+
+
+&emsp;&emsp; - Modelo do diagrama de casos de uso:
+
+| Quesito | Dxx |
+|:---------------------|:---:|
+| Os atores estão presentes ? | Sim |
+| O sistema está devidamente definido? | Sim |
+| As metas estão devidamente definidas? | Sim |
+| As notações cumprem os padrões de um diagrama UML? | Sim |
+| Os relacionamentos estão devidamente estabelecidos? | Sim |
+| A caixa de limite do sistema está definido? | Sim |
+| Os casos de uso estão definidos? | Sim |
+
+<figcaption align='center'>
+    <b>Modelo do diagrama de casos de uso</b>
+    <br><small>Autor: Rodolfo Neves</small>
+</figcaption>
+
+
+
 
 ### 3.3 Execução
 
