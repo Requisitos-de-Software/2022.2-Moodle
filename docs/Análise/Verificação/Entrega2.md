@@ -121,6 +121,34 @@
         <br><small>Autor: Artur Vinicius</small>
 </figcaption> 
 
+#### Artefato verificado 04 - Técnicas de Elicitação
+
+<p align = "justify"> &emsp;&emsp; Levando em consideração as 4 técnicas de elicitação adotadas pelo grupo, o checklist abaixo foi elaborado buscando oferecer uma verificação dos artefatos para uma possivel melhoria dos mesmos. </p>
+
+| ID | Quesito | Cumpre | Comentários |
+|----|--------|--------|-------------|
+| 01 | Histórico de versão padronizado? | Parcialmente | O artefato de instropecção apenas possui introdução |
+| 02 | O(s) autor(es) e o(s) revisor(es) do artefato? | Parcialmente | O artefato de instropecção apenas possui introdução |
+| 03 | As referências bibliográficas e/ou bibliografia | Parcialmente | O artefato de instropecção apenas possui introdução |
+| 04 | As tabelas e/ou imagens possuem legenda e fonte e elas chamadas dentro dos texto? | Sim | - |
+| 05 | Um texto fazendo uma introdução dos artefatos? | Sim | - |
+| 06 | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto?  | Parcialmente | Há um cronograma, porém não foi envolvido um cliente ou pernsona durante a elicitação |
+| 07 | No mínimo três técnicas de elicitação foram utilizadas?                                                                        | Sim | - |
+| 08 | A participação do cliente e/ou persona na elicitação de requisitos?  | Não | - |
+| 09 | A gravação e o(s) registro(s) da elicitação dos requisitos (pré-rastreabilidade)?  | Não | - |
+| 10 | Os requisitos elicitados são rastreaveis?  | Sim | - |
+| 11 | Foi elaborada uma tabela com os resultados da elicitação?  | Sim | - |
+| 12 | Cada requisito da tabela de resultados possui um identificador?  | Sim | - |
+| 13 | É possivel diferenciar os tipos de requisitos elicitados?  | Sim | - |
+| 14 | É possivel identificar qual técnica foi utilizada para a elicitação do requisito?  | Sim | - |
+
+<figcaption align='center'>
+    <b>Tabela 01 do artefato: Técnicas de Elicitação</b>
+        <br><small>Autor: Davi Lima</small>
+</figcaption> 
+
+
+
 ## 4. Referências
 
 - [Aula 05 - Verificação e Validação - Univesp](https://www.youtube.com/watch?v=1Y-1zz6rZxo&t=22s) 
@@ -131,4 +159,5 @@
 
 | Versão | Data da realização | Data prevista revisão | Descrição | Autor | Revisor |
 |--------|------|------|-----------|-------|---------|
-| 1.0    | 09/01/2023 | 09/01/2023 | Criação da página e adição da introdução, metodologia, e adição das tabelas do perfil de Usuario, das personas e das técnicas de priorização  | Artur Vinicius | Davi Silva |
+| 1.0    | 09/01/2023 | 09/01/2023 | Criação da página e adição da introdução, metodologia, e adição das tabelas do perfil de Usuario, das personas e das técnicas de priorização  | Artur Vinicius | Davi Lima |
+| 1.1    | 09/01/2023 | 09/01/2023 | Adição das técnicas de elicitação  | Davi Lima | Artur Vinicius |
